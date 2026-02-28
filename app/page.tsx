@@ -1,7 +1,11 @@
 "use client"
 
 import Image from "next/image"
-import { Droplet, Flame, Globe, Settings, ShieldCheck, MapPin, Wrench } from "lucide-react"
+import Link from "next/link"
+import {
+  Droplet, Flame, Globe, Settings, ShieldCheck, MapPin, Wrench,
+  Activity, Cpu, Power, ChevronRight, ArrowRight
+} from "lucide-react"
 
 export default function LandingPage() {
   return (
@@ -194,6 +198,53 @@ export default function LandingPage() {
               </p>
             </div>
 
+          </div>
+        </div>
+      </section>
+      {/* Mini Product Quick Access Section */}
+      <section className="bg-slate-900 py-24 relative overflow-hidden">
+        {/* Background Decorative Element */}
+        <div className="absolute top-0 right-0 w-1/3 h-full bg-orange-500/5 -skew-x-12 translate-x-1/2"></div>
+
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+            <div className="text-left">
+              <h2 className="text-orange-500 font-black text-sm tracking-[0.3em] uppercase mb-4">Nuestro Portafolio</h2>
+              <h3 className="text-3xl md:text-5xl font-black text-white uppercase tracking-tight leading-none">
+                SUMINISTROS <span className="text-slate-400">TÉCNICOS</span> <br /> ESPECIALIZADOS
+              </h3>
+            </div>
+            <Link
+              href="/productos"
+              className="group flex items-center gap-3 bg-white/5 border border-white/10 text-white px-8 py-4 rounded-2xl font-black text-xs hover:bg-orange-600 transition-all hover:border-orange-600"
+            >
+              VER TODO EL CATÁLOGO <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+            </Link>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6">
+            {[
+              { id: "instrumentos-campo", title: "Instrumentación", icon: <Activity className="w-6 h-6" />, count: "50+ Equipos" },
+              { id: "sistemas-control", title: "Sistemas Control", icon: <Cpu className="w-6 h-6" />, count: "DCS, PLC, SIS" },
+              { id: "elementos-finales", title: "Válvulas & Act.", icon: <Power className="w-6 h-6" />, count: "Alta Presión" },
+              { id: "equipos-auxiliares", title: "Equipos Aux.", icon: <ShieldCheck className="w-6 h-6" />, count: "Soporte Total" },
+              { id: "servicios", title: "Servicios I&C", icon: <Wrench className="w-6 h-6" />, count: "Ingeniería" },
+            ].map((prod) => (
+              <Link
+                key={prod.id}
+                href={`/productos#${prod.id}`}
+                className="bg-white/5 border border-white/10 p-8 rounded-[2rem] hover:bg-white hover:border-white group transition-all duration-500"
+              >
+                <div className="w-14 h-14 bg-orange-500/10 rounded-2xl flex items-center justify-center text-orange-500 mb-6 group-hover:bg-orange-500 group-hover:text-white transition-all duration-500">
+                  {prod.icon}
+                </div>
+                <h4 className="text-white group-hover:text-slate-900 font-black text-lg mb-2 tracking-tight transition-colors">{prod.title}</h4>
+                <div className="flex items-center justify-between">
+                  <span className="text-slate-500 text-[10px] font-bold uppercase tracking-widest">{prod.count}</span>
+                  <ChevronRight className="w-4 h-4 text-orange-500 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all" />
+                </div>
+              </Link>
+            ))}
           </div>
         </div>
       </section>

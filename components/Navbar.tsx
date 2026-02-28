@@ -15,9 +15,10 @@ const categories = [
 
 export default function Navbar() {
     const [isDropdownOpen, setIsDropdownOpen] = useState(false)
+    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
     const dropdownRef = useRef<HTMLDivElement>(null)
 
-    // Close dropdown when clicking outside
+    // Close dropdowns when clicking outside
     useEffect(() => {
         function handleClickOutside(event: MouseEvent) {
             if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
@@ -27,6 +28,23 @@ export default function Navbar() {
         document.addEventListener("mousedown", handleClickOutside)
         return () => document.removeEventListener("mousedown", handleClickOutside)
     }, [])
+
+    // Prevent scroll when mobile menu is open
+    useEffect(() => {
+        if (isMobileMenuOpen) {
+            document.body.style.overflow = "hidden"
+        } else {
+            document.body.style.overflow = "unset"
+        }
+    }, [isMobileMenuOpen])
+
+    const navLinks = [
+        { title: "Inicio", href: "/" },
+        { title: "Servicios", href: "/servicios" },
+        { title: "Sectores", href: "/sectores" },
+        { title: "Nosotros", href: "/nosotros" },
+        { title: "Contacto", href: "/contacto" },
+    ]
 
     return (
         <nav className="fixed top-0 w-full z-50 bg-white/95 backdrop-blur-md shadow-sm border-b border-slate-100">
@@ -44,6 +62,7 @@ export default function Navbar() {
                         </div>
                     </Link>
 
+                    {/* DESKTOP MENU */}
                     <div className="hidden md:flex items-center space-x-8 text-xs font-black tracking-widest text-slate-600">
                         <Link href="/" className="hover:text-orange-500 transition-colors uppercase">Inicio</Link>
 
@@ -104,8 +123,60 @@ export default function Navbar() {
                         </Link>
                     </div>
 
+                    {/* MOBILE TOGGLE */}
                     <div className="md:hidden">
-                        <AlignJustify className="w-7 h-7 text-slate-600" />
+                        <button
+                            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+                            className="p-2 text-slate-600 hover:text-orange-500 transition-colors"
+                        >
+                            <AlignJustify className={`w-8 h-8 transition-transform duration-300 ${isMobileMenuOpen ? 'rotate-90 text-orange-500' : ''}`} />
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            {/* MOBILE MENU OVERLAY */}
+            <div className={`fixed inset-0 top-20 bg-white z-[100] md:hidden transition-all duration-300 transform ${isMobileMenuOpen ? 'translate-x-0 opacity-100' : 'translate-x-full opacity-0'}`}>
+                <div className="flex flex-col h-full p-6 space-y-6 overflow-y-auto">
+                    <div className="grid grid-cols-1 gap-4">
+                        {navLinks.map((link) => (
+                            <Link
+                                key={link.title}
+                                href={link.href}
+                                onClick={() => setIsMobileMenuOpen(false)}
+                                className="text-2xl font-black text-slate-900 uppercase tracking-tight py-4 border-b border-slate-50 flex items-center justify-between group"
+                            >
+                                {link.title}
+                                <ArrowRight className="w-6 h-6 text-slate-200 group-hover:text-orange-500 transition-colors" />
+                            </Link>
+                        ))}
+
+                        <div className="pt-6">
+                            <h4 className="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-6">Nuestros Productos</h4>
+                            <div className="grid grid-cols-1 gap-3">
+                                {categories.map((cat) => (
+                                    <Link
+                                        key={cat.title}
+                                        href={cat.href}
+                                        onClick={() => setIsMobileMenuOpen(false)}
+                                        className="flex items-center gap-4 p-4 bg-slate-50 rounded-2xl border border-slate-100"
+                                    >
+                                        <div className="text-orange-500">{cat.icon}</div>
+                                        <span className="text-sm font-bold text-slate-700">{cat.title}</span>
+                                    </Link>
+                                ))}
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="mt-auto pt-8">
+                        <Link
+                            href="/contacto"
+                            onClick={() => setIsMobileMenuOpen(false)}
+                            className="flex items-center justify-center w-full py-5 bg-orange-500 text-white rounded-2xl font-black text-xs tracking-widest shadow-xl shadow-orange-500/20 active:scale-95 transition-all uppercase"
+                        >
+                            Solicitar Cotización
+                        </Link>
                     </div>
                 </div>
             </div>

@@ -52,7 +52,7 @@ export default function Navbar() {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full">
                     <div className="flex justify-between items-center h-full">
                         <Link href="/" className="flex items-center group relative z-[110]">
-                            <div className="relative w-52 h-12 md:w-56 md:h-14">
+                            <div className="relative w-64 h-14 md:w-80 md:h-18 transition-transform hover:scale-[1.02]">
                                 <Image
                                     src="/logo.png"
                                     alt="Ilimita2 Logo"

@@ -1,5 +1,6 @@
 "use client"
 
+import Link from "next/link"
 import Image from "next/image"
 import { Shield, Users, Target, Award, Rocket, CheckCircle2 } from "lucide-react"
 
@@ -80,9 +81,9 @@ export default function NosotrosPage() {
                             ))}
                         </div>
                         <div className="pt-8">
-                            <button className="bg-orange-500 text-white px-12 py-5 rounded-2xl font-black text-xs tracking-widest uppercase shadow-2xl shadow-orange-500/40 hover:-translate-y-1 transition-all">
+                            <Link href="/#alianzas" className="inline-block bg-orange-500 text-white px-12 py-5 rounded-2xl font-black text-xs tracking-widest uppercase shadow-2xl shadow-orange-500/40 hover:-translate-y-1 transition-all">
                                 Conozca Nuestras Alianzas
-                            </button>
+                            </Link>
                         </div>
                     </div>
                 </div>

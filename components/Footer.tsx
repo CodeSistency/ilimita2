@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Settings } from "lucide-react"
+import Image from "next/image"
 
 export default function Footer() {
     return (
@@ -7,9 +7,15 @@ export default function Footer() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
                     <div className="col-span-1 md:col-span-1">
-                        <div className="flex items-center gap-2 mb-6">
-                            <Settings className="w-8 h-8 text-orange-500" />
-                            <span className="text-xl font-black text-white">ilimita2</span>
+                        <div className="mb-8 p-3.5 bg-white rounded-xl inline-flex items-center justify-center shadow-xl shadow-black/20">
+                            <div className="relative w-36 h-9">
+                                <Image
+                                    src="/logo.png"
+                                    alt="Ilimita2 Logo"
+                                    fill
+                                    className="object-contain"
+                                />
+                            </div>
                         </div>
                         <p className="text-slate-400 text-sm leading-relaxed mb-6">
                             Suministro confiable y servicios especializados para la industria petrolera e industrial en Venezuela.

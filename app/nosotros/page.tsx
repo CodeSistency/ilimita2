@@ -1,93 +1,201 @@
 "use client"
 
-import Link from "next/link"
 import Image from "next/image"
-import { Shield, Users, Target, Award, Rocket, CheckCircle2 } from "lucide-react"
+import Link from "next/link"
+import {
+  CheckCircle2,
+  Compass,
+  Factory,
+  Gauge,
+  Globe2,
+  HardHat,
+  Layers3,
+  ShieldCheck,
+  Truck,
+} from "lucide-react"
+
+const propuestaValor = [
+  "Procura nacional bajo normativas COVENIN.",
+  "Procura internacional con identificación directa de fabricantes OEM.",
+  "Gestión logística nacional e internacional.",
+  "Manejo de carga proyecto y sobredimensionada.",
+  "Nacionalización y entrega final en instalaciones operativas.",
+]
+
+const alcanceOperativo = [
+  "Estaciones de flujo",
+  "Taladros de perforación",
+  "Refinerías",
+  "Instalaciones petroquímicas",
+  "Infraestructura industrial",
+]
+
+const compromisos = [
+  "Garantizar cumplimiento técnico y normativo.",
+  "Asegurar trazabilidad en la cadena de suministro.",
+  "Optimizar tiempos de entrega.",
+  "Reducir riesgos operativos mediante una gestión estructurada.",
+]
+
+const enfoque = [
+  "Suministro especializado.",
+  "Gestión de procura.",
+  "Logística integrada.",
+  "Soporte técnico en instrumentación y control.",
+]
 
 export default function NosotrosPage() {
-    return (
-        <div className="bg-white pt-24">
-            {/* Intro Section */}
-            <section className="relative h-[60vh] min-h-[500px] flex items-center justify-center overflow-hidden">
-                <Image src="/images/hero_oil_rig_1772216288580.png" alt="Planta Industrial" fill className="object-cover brightness-50" />
-                <div className="relative z-10 max-w-4xl mx-auto px-4 text-center text-white">
-                    <h1 className="text-5xl md:text-7xl font-black mb-8 tracking-tighter uppercase">Nuestra Misión</h1>
-                    <p className="text-xl md:text-2xl font-light text-blue-100 max-w-2xl mx-auto leading-relaxed">
-                        Impulsar la excelencia industrial en Venezuela mediante el suministro de equipos de clase mundial y soporte técnico inigualable.
-                    </p>
-                </div>
-            </section>
-
-            {/* Values Grid */}
-            <section className="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-16">
-                    <div className="text-center group">
-                        <div className="w-20 h-20 mx-auto bg-slate-100 rounded-3xl flex items-center justify-center text-blue-600 mb-8 group-hover:bg-blue-600 group-hover:text-white transition-all duration-500 transform group-hover:-rotate-12">
-                            <Target className="w-10 h-10" />
-                        </div>
-                        <h3 className="text-2xl font-black text-slate-900 mb-4 tracking-tight uppercase">Visión</h3>
-                        <p className="text-slate-500 leading-relaxed text-sm">
-                            Ser el aliado estratégico número uno para el mantenimiento y expansión de la infraestructura energética nacional.
-                        </p>
-                    </div>
-                    <div className="text-center group">
-                        <div className="w-20 h-20 mx-auto bg-slate-100 rounded-3xl flex items-center justify-center text-orange-600 mb-8 group-hover:bg-orange-600 group-hover:text-white transition-all duration-500 transform group-hover:rotate-12">
-                            <Users className="w-10 h-10" />
-                        </div>
-                        <h3 className="text-2xl font-black text-slate-900 mb-4 tracking-tight uppercase">Equipo</h3>
-                        <p className="text-slate-500 leading-relaxed text-sm">
-                            Contamos con expertos certificados en campo, dedicados a resolver los desafíos más complejos de nuestros clientes.
-                        </p>
-                    </div>
-                    <div className="text-center group">
-                        <div className="w-20 h-20 mx-auto bg-slate-100 rounded-3xl flex items-center justify-center text-green-600 mb-8 group-hover:bg-green-600 group-hover:text-white transition-all duration-500 transform group-hover:scale-110">
-                            <Shield className="w-10 h-10" />
-                        </div>
-                        <h3 className="text-2xl font-black text-slate-900 mb-4 tracking-tight uppercase">Compromiso</h3>
-                        <p className="text-slate-500 leading-relaxed text-sm">
-                            La seguridad y la calidad son innegociables. Operamos bajo las normas internacionales más exigentes.
-                        </p>
-                    </div>
-                </div>
-            </section>
-
-            {/* History / Why Us Detail */}
-            <section className="bg-slate-50 py-24 rounded-t-[4rem]">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center gap-20">
-                    <div className="w-full lg:w-1/2">
-                        <div className="relative h-[600px] w-full rounded-[3rem] overflow-hidden shadow-2xl skew-y-3">
-                            <Image src="/images/worker_1772216449416.png" alt="Equipo Humano" fill className="object-cover grayscale hover:grayscale-0 transition-all duration-1000" />
-                            <div className="absolute inset-0 bg-blue-900/40 group-hover:opacity-0 transition-opacity"></div>
-                        </div>
-                    </div>
-                    <div className="w-full lg:w-1/2 space-y-10">
-                        <h2 className="text-4xl lg:text-5xl font-black text-[#0a2640] leading-tight tracking-tight uppercase">
-                            MÁS DE UNA DÉCADA <br /> <span className="text-orange-500">OPTIMIZANDO PROCESOS</span>
-                        </h2>
-                        <p className="text-slate-600 leading-loose text-lg font-light">
-                            En <span className="font-bold text-slate-900">ilimita2</span>, entendemos que el tiempo de inactividad es el mayor enemigo de la rentabilidad. Por eso, hemos perfeccionado una cadena de suministro que conecta a los fabricantes globales con la realidad operativa venezolana.
-                        </p>
-                        <div className="space-y-6">
-                            {[
-                                "Certificación de Calidad API/ASME.",
-                                "Soporte post-venta 24/7 en sitio.",
-                                "Gestión técnica de logística internacional.",
-                                "Personal con amplia experiencia en PDVSA y siderúrgicas."
-                            ].map((item, i) => (
-                                <div key={i} className="flex items-center gap-4 group">
-                                    <CheckCircle2 className="text-green-500 w-6 h-6 group-hover:scale-125 transition-transform" />
-                                    <span className="text-lg font-bold text-slate-700 tracking-tight">{item}</span>
-                                </div>
-                            ))}
-                        </div>
-                        <div className="pt-8">
-                            <Link href="/#alianzas" className="inline-block bg-orange-500 text-white px-12 py-5 rounded-2xl font-black text-xs tracking-widest uppercase shadow-2xl shadow-orange-500/40 hover:-translate-y-1 transition-all">
-                                Conozca Nuestras Alianzas
-                            </Link>
-                        </div>
-                    </div>
-                </div>
-            </section>
+  return (
+    <div className="bg-[#f6f8fb] pt-24 text-slate-900">
+      <section className="relative isolate overflow-hidden">
+        <div className="absolute inset-0">
+          <Image
+            src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.28.jpeg"
+            alt="Infraestructura petrolera e industrial"
+            fill
+            className="object-cover"
+            priority
+          />
+          <div className="absolute inset-0 bg-gradient-to-br from-[#071a2d]/95 via-[#0b2f4c]/85 to-[#0b2f4c]/60" />
         </div>
-    )
+
+        <div className="relative mx-auto grid max-w-7xl gap-10 px-4 py-24 sm:px-6 lg:grid-cols-[1.2fr_0.8fr] lg:px-8 lg:py-28">
+          <div>
+            <p className="mb-4 inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-xs font-bold tracking-[0.2em] text-blue-100 uppercase">
+              <Factory className="h-4 w-4" />
+              Acerca de Nosotros
+            </p>
+            <h1 className="max-w-3xl text-4xl font-black leading-tight tracking-tight text-white md:text-6xl">
+              QUIÉNES SOMOS
+            </h1>
+            <p className="mt-6 max-w-3xl text-base leading-relaxed text-blue-100 md:text-xl">
+              Ilimita2 es una empresa que opera en el oriente del país, orientada a la creación de valor para los
+              sectores petrolero, petroquímico e industrial nacional.
+            </p>
+            <p className="mt-4 max-w-3xl text-sm leading-relaxed text-blue-100/90 md:text-lg">
+              Nuestra actividad se centra en el suministro estratégico de equipos, materiales e infraestructura crítica,
+              garantizando un portafolio de productos de alta calidad mediante una gestión eficiente de procesos y
+              recursos.
+            </p>
+          </div>
+
+          <div className="self-end rounded-3xl border border-white/15 bg-white/10 p-6 backdrop-blur-md">
+            <h2 className="mb-4 text-lg font-black tracking-wide text-white uppercase">Especialización</h2>
+            <p className="text-sm leading-relaxed text-blue-100 md:text-base">
+              Integramos soluciones que abarcan desde instrumentación y sistemas de control, hasta tuberías petroleras,
+              equipos de bombeo, cabillas, suministros eléctricos y seguridad industrial.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
+        <div className="mb-12 flex flex-wrap items-end justify-between gap-6">
+          <div>
+            <p className="text-xs font-bold tracking-[0.2em] text-[#0f3f66] uppercase">Nuestra Propuesta de Valor</p>
+            <h2 className="mt-3 text-3xl font-black tracking-tight text-[#0c2438] md:text-5xl">
+              Gestión integral de adquisición y entrega
+            </h2>
+          </div>
+          <div className="rounded-2xl bg-[#0f3f66] px-5 py-3 text-xs font-bold tracking-wide text-white uppercase">
+            Operación diseñada para entornos críticos
+          </div>
+        </div>
+
+        <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+          {propuestaValor.map((item) => (
+            <article
+              key={item}
+              className="group rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#0f3f66]/40 hover:shadow-xl"
+            >
+              <div className="mb-4 inline-flex rounded-xl bg-[#e9f2f9] p-3 text-[#0f3f66] transition-colors group-hover:bg-[#0f3f66] group-hover:text-white">
+                <Truck className="h-5 w-5" />
+              </div>
+              <p className="text-sm leading-relaxed text-slate-700">{item}</p>
+            </article>
+          ))}
+        </div>
+
+        <div className="mt-8 rounded-3xl border border-[#0f3f66]/20 bg-[#f2f8fc] p-7">
+          <p className="text-sm leading-relaxed text-slate-700 md:text-base">
+            Nuestra operación está diseñada para responder a entornos críticos donde la disponibilidad, trazabilidad y
+            cumplimiento normativo son determinantes.
+          </p>
+        </div>
+      </section>
+
+      <section className="bg-white py-20">
+        <div className="mx-auto grid max-w-7xl gap-10 px-4 sm:px-6 lg:grid-cols-2 lg:gap-16 lg:px-8">
+          <div className="rounded-3xl border border-slate-200 bg-[#f9fbfd] p-8">
+            <div className="mb-6 inline-flex rounded-xl bg-[#0f3f66] p-3 text-white">
+              <Globe2 className="h-6 w-6" />
+            </div>
+            <h3 className="text-2xl font-black tracking-tight text-[#0c2438] md:text-3xl">Alcance Operativo</h3>
+            <p className="mt-3 text-sm text-slate-600 md:text-base">
+              Con cobertura logística nacional y capacidad de gestión internacional.
+            </p>
+            <div className="mt-7 flex flex-wrap gap-3">
+              {alcanceOperativo.map((item) => (
+                <span
+                  key={item}
+                  className="rounded-full border border-[#0f3f66]/25 bg-white px-4 py-2 text-sm font-semibold text-[#0f3f66]"
+                >
+                  {item}
+                </span>
+              ))}
+            </div>
+          </div>
+
+          <div className="rounded-3xl border border-slate-200 bg-[#f9fbfd] p-8">
+            <div className="mb-6 inline-flex rounded-xl bg-[#ef6a2e] p-3 text-white">
+              <ShieldCheck className="h-6 w-6" />
+            </div>
+            <h3 className="text-2xl font-black tracking-tight text-[#0c2438] md:text-3xl">Compromiso</h3>
+            <div className="mt-6 space-y-4">
+              {compromisos.map((item) => (
+                <div key={item} className="flex items-start gap-3">
+                  <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-[#ef6a2e]" />
+                  <p className="text-sm leading-relaxed text-slate-700 md:text-base">{item}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-[#0c2438] py-20 text-white">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="mb-10">
+            <p className="text-xs font-bold tracking-[0.2em] text-orange-200 uppercase">Enfoque Estratégico</p>
+            <h3 className="mt-3 text-3xl font-black tracking-tight md:text-5xl">
+              Estructura integral para infraestructura energética e industrial
+            </h3>
+          </div>
+
+          <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+            {enfoque.map((item, index) => {
+              const icons = [Layers3, Compass, Gauge, HardHat]
+              const Icon = icons[index]
+
+              return (
+                <article key={item} className="rounded-2xl border border-white/15 bg-white/5 p-6 backdrop-blur-sm">
+                  <Icon className="mb-4 h-6 w-6 text-orange-300" />
+                  <p className="text-sm font-semibold leading-relaxed text-blue-100">{item}</p>
+                </article>
+              )
+            })}
+          </div>
+
+          <div className="mt-12">
+            <Link
+              href="/contacto"
+              className="inline-flex items-center gap-2 rounded-2xl bg-[#ef6a2e] px-6 py-4 text-xs font-black tracking-[0.15em] text-white uppercase transition-transform hover:-translate-y-0.5"
+            >
+              Hable con nuestro equipo
+            </Link>
+          </div>
+        </div>
+      </section>
+    </div>
+  )
 }

@@ -3,8 +3,8 @@
 import Image from "next/image"
 import Link from "next/link"
 import {
-  Droplet, Flame, Globe, Settings, ShieldCheck, MapPin, Wrench,
-  Activity, Cpu, Power, ChevronRight, ArrowRight
+  Droplet, Globe, Settings, ShieldCheck, MapPin, Wrench,
+  Activity, Cpu, ChevronRight, ArrowRight
 } from "lucide-react"
 
 export default function LandingPage() {
@@ -15,22 +15,22 @@ export default function LandingPage() {
         {/* Top image collage background */}
         <div className="absolute top-0 left-0 w-full h-[55%] grid grid-cols-4 grid-rows-2">
           <div className="relative row-span-2 col-span-1 border-r-4 border-white">
-            <Image src="/images/hero_oil_rig_1772216288580.png" alt="Oil rig" fill className="object-cover" />
+            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.02.jpeg" alt="Oil rig" fill className="object-cover" />
           </div>
           <div className="relative col-span-1 border-r-4 border-white">
-            <Image src="/images/hero_tanks_1772216325041.png" alt="Tanks" fill className="object-cover" />
+            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.10.jpeg" alt="Tanks" fill className="object-cover" />
           </div>
           <div className="relative col-span-1 border-r-4 border-white">
-            <Image src="/images/hero_instrumentation.png" alt="Industrial Instrumentation" fill className="object-cover" />
+            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.03.jpeg" alt="Industrial Instrumentation" fill className="object-cover" />
           </div>
           <div className="relative col-span-1">
-            <Image src="/images/hero_robotics_1772216348787.png" alt="Robotics" fill className="object-cover" />
+            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.33.jpeg" alt="Robotics" fill className="object-cover" />
           </div>
           <div className="relative row-span-1 col-span-2 border-t-4 border-r-4 border-white">
-            <Image src="/images/hero_pipes_1772216379422.png" alt="Pipes" fill className="object-cover" />
+            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.29.jpeg" alt="Pipes" fill className="object-cover" />
           </div>
           <div className="relative row-span-1 col-span-1 border-t-4 border-white">
-            <Image src="/images/hero_electrical_1772216413692.png" alt="Electrical" fill className="object-cover" />
+            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.14.jpeg" alt="Electrical" fill className="object-cover" />
           </div>
         </div>
 
@@ -65,7 +65,7 @@ export default function LandingPage() {
           <div className="hidden lg:flex w-full lg:w-[40%] justify-end relative h-[450px] z-30 pointer-events-none -mt-12">
             <div className="relative w-[500px] h-[500px]">
               <Image
-                src="/images/worker_1772216449416.png"
+                src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.37.jpeg"
                 alt="Industrial Worker"
                 fill
                 className="object-cover mix-blend-screen opacity-90"
@@ -86,7 +86,7 @@ export default function LandingPage() {
 
           {/* Card 1 */}
           <div className="group relative h-[320px] rounded-2xl overflow-hidden shadow-xl cursor-pointer">
-            <Image src="/images/service_valves_1772216481455.png" alt="Bombas" fill className="object-cover transition-transform duration-700 group-hover:scale-110" />
+            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.40.jpeg" alt="Bombas" fill className="object-cover transition-transform duration-700 group-hover:scale-110" />
             <div className="absolute inset-0 bg-gradient-to-t from-[#012a52] via-[#012a52]/60 to-transparent"></div>
             <div className="absolute inset-0 p-6 flex flex-col justify-between text-white">
               <div className="w-10 h-10 flex items-center justify-center">
@@ -103,7 +103,7 @@ export default function LandingPage() {
 
           {/* Card 2 */}
           <div className="group relative h-[320px] rounded-2xl overflow-hidden shadow-xl cursor-pointer">
-            <Image src="/images/service_safety_1772216523851.png" alt="Seguridad Industrial" fill className="object-cover transition-transform duration-700 group-hover:scale-110" />
+            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.31.jpeg" alt="Seguridad Industrial" fill className="object-cover transition-transform duration-700 group-hover:scale-110" />
             <div className="absolute inset-0 bg-gradient-to-t from-[#012a52] via-[#012a52]/60 to-transparent"></div>
             <div className="absolute inset-0 p-6 flex flex-col justify-between text-white">
               <div className="w-10 h-10 flex items-center justify-center">
@@ -120,7 +120,7 @@ export default function LandingPage() {
 
           {/* Card 3 */}
           <div className="group relative h-[320px] rounded-2xl overflow-hidden shadow-xl cursor-pointer">
-            <Image src="/images/service_instruments_1772216578079.png" alt="Instrumentación" fill className="object-cover transition-transform duration-700 group-hover:scale-110" />
+            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.08.jpeg" alt="Instrumentación" fill className="object-cover transition-transform duration-700 group-hover:scale-110" />
             <div className="absolute inset-0 bg-gradient-to-t from-[#012a52] via-[#012a52]/60 to-transparent"></div>
             <div className="absolute inset-0 p-6 flex flex-col justify-between text-white">
               <div className="w-10 h-10 flex items-center justify-center">
@@ -137,7 +137,7 @@ export default function LandingPage() {
 
           {/* Card 4 - New */}
           <div className="group relative h-[320px] rounded-2xl overflow-hidden shadow-xl cursor-pointer">
-            <Image src="/images/service_pipes.png" alt="Suministro de Tuberías" fill className="object-cover transition-transform duration-700 group-hover:scale-110" />
+            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.22.jpeg" alt="Suministro de Tuberías" fill className="object-cover transition-transform duration-700 group-hover:scale-110" />
             <div className="absolute inset-0 bg-gradient-to-t from-[#012a52] via-[#012a52]/60 to-transparent"></div>
             <div className="absolute inset-0 p-6 flex flex-col justify-between text-white">
               <div className="w-10 h-10 flex items-center justify-center">
@@ -224,15 +224,40 @@ export default function LandingPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6">
             {[
-              { id: "instrumentos-campo", title: "Instrumentación", icon: <Activity className="w-6 h-6" />, count: "50+ Equipos" },
-              { id: "sistemas-control", title: "Sistemas Control", icon: <Cpu className="w-6 h-6" />, count: "DCS, PLC, SIS" },
-              { id: "elementos-finales", title: "Válvulas & Act.", icon: <Power className="w-6 h-6" />, count: "Alta Presión" },
-              { id: "equipos-auxiliares", title: "Equipos Aux.", icon: <ShieldCheck className="w-6 h-6" />, count: "Soporte Total" },
-              { id: "servicios", title: "Servicios I&C", icon: <Wrench className="w-6 h-6" />, count: "Ingeniería" },
+              {
+                href: "/productos/instrumentacion-campo",
+                title: "Instrumentación",
+                icon: <Activity className="w-6 h-6" />,
+                count: "Medición de proceso",
+              },
+              {
+                href: "/productos/equipos-bombeo-valvulas-industriales",
+                title: "Bombeo & Válvulas",
+                icon: <Droplet className="w-6 h-6" />,
+                count: "Fluidos industriales",
+              },
+              {
+                href: "/productos/suministros-electricos-industriales",
+                title: "Suministros Eléct.",
+                icon: <Cpu className="w-6 h-6" />,
+                count: "Energía y control",
+              },
+              {
+                href: "/productos/seguridad-industrial",
+                title: "Seguridad",
+                icon: <ShieldCheck className="w-6 h-6" />,
+                count: "Protección integral",
+              },
+              {
+                href: "/servicios/procura-logistica",
+                title: "Procura & Logística",
+                icon: <Globe className="w-6 h-6" />,
+                count: "Cobertura global",
+              },
             ].map((prod) => (
               <Link
-                key={prod.id}
-                href={`/productos#${prod.id}`}
+                key={prod.href}
+                href={prod.href}
                 className="bg-white/5 border border-white/10 p-8 rounded-[2rem] hover:bg-white hover:border-white group transition-all duration-500"
               >
                 <div className="w-14 h-14 bg-orange-500/10 rounded-2xl flex items-center justify-center text-orange-500 mb-6 group-hover:bg-orange-500 group-hover:text-white transition-all duration-500">

@@ -1,32 +1,32 @@
 "use client"
 
 import Image from "next/image"
-import { Droplet, Flame, Zap, Construction, Globe, Settings } from "lucide-react"
+import { Droplet, Flame, Zap, Construction, Globe } from "lucide-react"
 
 const sectors = [
     {
         title: "Petróleo y Gas",
         desc: "Suministro crítico para perforación, refinación y transporte de hidrocarburos.",
         icon: <Flame className="w-10 h-10" />,
-        image: "/images/hero_oil_rig_1772216288580.png"
+        image: "/venezuela/WhatsApp Image 2026-02-28 at 16.44.36.jpeg"
     },
     {
         title: "Energía y Eléctrico",
         desc: "Componentes para subestaciones y plantas de generación de energía.",
         icon: <Zap className="w-10 h-10" />,
-        image: "/images/hero_electrical_1772216413692.png"
+        image: "/venezuela/WhatsApp Image 2026-02-28 at 16.44.24.jpeg"
     },
     {
         title: "Construcción Pesada",
         desc: "Maquinaria y suministros para grandes obras de infraestructura industrial.",
         icon: <Construction className="w-10 h-10" />,
-        image: "/images/hero_tanks_1772216325041.png"
+        image: "/venezuela/WhatsApp Image 2026-02-28 at 16.44.11.jpeg"
     },
     {
         title: "Tratamiento de Aguas",
         desc: "Soluciones de bombeo y purificación para procesos industriales y municipales.",
         icon: <Droplet className="w-10 h-10" />,
-        image: "/images/hero_pipes_1772216379422.png"
+        image: "/venezuela/WhatsApp Image 2026-02-28 at 16.44.15.jpeg"
     }
 ]
 
@@ -78,7 +78,7 @@ export default function SectoresPage() {
                             CONECTADOS CON LOS MEJORES FABRICANTES DEL MUNDO
                         </h2>
                         <p className="text-slate-500 leading-relaxed mb-10 italic border-l-4 border-orange-500 pl-6">
-                            "Nuestra capacidad de respuesta no tiene límites fronterizos. Importamos tecnología de punta para la industria nacional."
+                            &quot;Nuestra capacidad de respuesta no tiene límites fronterizos. Importamos tecnología de punta para la industria nacional.&quot;
                         </p>
                         <div className="grid grid-cols-2 gap-8">
                             <div>
@@ -92,7 +92,7 @@ export default function SectoresPage() {
                         </div>
                     </div>
                     <div className="w-full lg:w-1/2 relative h-[400px]">
-                        <Image src="/images/hero_robotics_1772216348787.png" alt="Tecnología" fill className="object-cover rounded-[3rem] shadow-lg" />
+                        <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.07.jpeg" alt="Tecnología" fill className="object-cover rounded-[3rem] shadow-lg" />
                     </div>
                 </div>
 

@@ -58,7 +58,7 @@ export default function Navbar() {
                                     src="/logo.png"
                                     alt="Ilimita2 Logo"
                                     fill
-                                    className="object-contain"
+                                    className="object-contain object-left"
                                     priority
                                 />
                             </div>

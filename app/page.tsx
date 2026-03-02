@@ -23,6 +23,21 @@ const fadeUpText: Variants = {
   visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } }
 }
 
+const fadeUpVariant: Variants = {
+  hidden: { opacity: 0, y: 40 },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } }
+}
+
+const slideInLeftVariant: Variants = {
+  hidden: { opacity: 0, x: -40 },
+  visible: { opacity: 1, x: 0, transition: { duration: 0.8, ease: "easeOut" } }
+}
+
+const slideInRightVariant: Variants = {
+  hidden: { opacity: 0, x: 40 },
+  visible: { opacity: 1, x: 0, transition: { duration: 0.8, ease: "easeOut" } }
+}
+
 const staggerText: Variants = {
   hidden: { opacity: 0 },
   visible: { opacity: 1, transition: { staggerChildren: 0.15 } }
@@ -38,33 +53,20 @@ export default function LandingPage() {
 
           {/* Panel 1 (Left Image - Pipeline) */}
           <motion.div
-            initial="hidden" animate="visible" variants={slideInLeft}
+            initial="hidden" animate="visible" variants={slideInLeftVariant}
             className="absolute top-0 left-0 w-full h-full"
             style={{ clipPath: 'polygon(0 0, calc(34% - 4px) 0, calc(42% - 4px) 100%, 0 100%)' }}>
-            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.02.jpeg" alt="Instalación Petrolera" fill className="object-cover" />
-
-            {/* Venezuelan Flag Overlay centered in top-left space */}
-            <div className="absolute top-16 left-6 lg:top-20 lg:left-10 w-14 h-9 lg:w-16 lg:h-11 shadow-2xl z-10 flex flex-col rounded-sm overflow-hidden border border-white/40 rotate-[3deg]">
-              <div className="w-full h-1/3 bg-[#fce300]"></div>
-              <div className="w-full h-1/3 bg-[#0038a8] flex justify-center items-center">
-                <div className="flex gap-[1px] translate-y-[1px]">
-                  {[...Array(8)].map((_, i) => (
-                    <span key={i} className="text-white text-[2px] lg:text-[3px] leading-none">★</span>
-                  ))}
-                </div>
-              </div>
-              <div className="w-full h-1/3 bg-[#ce1126]"></div>
-            </div>
+            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.19.jpeg" alt="Instalación Petrolera" fill className="object-cover" />
           </motion.div>
 
           {/* Panel 2 (Middle Logo) */}
           <div className="absolute top-0 left-0 w-full h-full"
             style={{ clipPath: 'polygon(calc(34% + 4px) 0, calc(66% - 4px) 0, calc(58% - 4px) 100%, calc(42% + 4px) 100%)' }}>
-            {/* Background Image */}
-            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.08.jpeg" alt="Fondo Central" fill className="object-cover" />
+            {/* Background Image - Changed to a different one for testing */}
+            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.18.jpeg" alt="Fondo Central" fill className="object-cover" />
 
-            {/* Centered Radial White Gradient for Logo Readability (Smaller Destello) */}
-            <div className="absolute inset-0 z-10 pointer-events-none bg-[radial-gradient(ellipse_50%_30%_at_50%_48%,rgba(255,255,255,0.95)_0%,rgba(255,255,255,0)_75%)] lg:bg-[radial-gradient(ellipse_45%_25%_at_50%_48%,rgba(255,255,255,0.95)_0%,rgba(255,255,255,0)_75%)]"></div>
+            {/* Centered Radial White Gradient for Logo Readability (Smaller Destello) - Reduced opacity/strength */}
+            <div className="absolute inset-0 z-10 pointer-events-none bg-[radial-gradient(ellipse_40%_25%_at_50%_48%,rgba(255,255,255,0.85)_0%,rgba(255,255,255,0)_75%)] lg:bg-[radial-gradient(ellipse_35%_20%_at_50%_48%,rgba(255,255,255,0.85)_0%,rgba(255,255,255,0)_75%)]"></div>
 
             <div className="relative w-full h-[70%] flex items-center justify-center pt-24 lg:pt-28 z-20">
               <div className="relative w-[50%] lg:w-[45%] h-[80px] lg:h-[100px]">
@@ -78,7 +80,7 @@ export default function LandingPage() {
             initial="hidden" animate="visible" variants={slideInRight}
             className="absolute top-0 left-0 w-full h-full"
             style={{ clipPath: 'polygon(calc(66% + 4px) 0, 100% 0, 100% 100%, calc(58% + 4px) 100%)' }}>
-            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.10.jpeg" alt="Equipos VFD" fill className="object-cover" />
+            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.24.jpeg" alt="Equipos VFD" fill className="object-cover" />
           </motion.div>
         </div>
 
@@ -139,10 +141,19 @@ export default function LandingPage() {
 
       {/* Categories / Services Cards Section */}
       <section className="relative z-40 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-32 mb-10 bg-white/5 p-4 rounded-3xl backdrop-blur-sm">
-        <div className="bg-white p-6 sm:p-10 rounded-3xl shadow-[0_-10px_40px_-15px_rgba(0,0,0,0.3)] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.2 }}
+          variants={{
+            hidden: {},
+            visible: { transition: { staggerChildren: 0.1 } }
+          }}
+          className="bg-white p-6 sm:p-10 rounded-3xl shadow-[0_-10px_40px_-15px_rgba(0,0,0,0.3)] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"
+        >
 
           {/* Card 1 */}
-          <div className="group relative h-[320px] rounded-2xl overflow-hidden shadow-xl cursor-pointer">
+          <motion.div variants={fadeUpVariant} className="group relative h-[320px] rounded-2xl overflow-hidden shadow-xl cursor-pointer">
             <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.40.jpeg" alt="Bombas" fill className="object-cover transition-transform duration-[1500ms] ease-in-out group-hover:scale-[1.05]" />
             <div className="absolute inset-0 bg-gradient-to-t from-[#012a52] via-[#012a52]/60 to-transparent"></div>
             <div className="absolute inset-0 p-6 flex flex-col justify-between text-white">
@@ -156,10 +167,10 @@ export default function LandingPage() {
                 <div className="h-1 w-8 bg-white/50 transition-[width] duration-700 group-hover:w-full"></div>
               </div>
             </div>
-          </div>
+          </motion.div>
 
           {/* Card 2 */}
-          <div className="group relative h-[320px] rounded-2xl overflow-hidden shadow-xl cursor-pointer">
+          <motion.div variants={fadeUpVariant} className="group relative h-[320px] rounded-2xl overflow-hidden shadow-xl cursor-pointer">
             <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.31.jpeg" alt="Seguridad Industrial" fill className="object-cover transition-transform duration-[1500ms] ease-in-out group-hover:scale-[1.05]" />
             <div className="absolute inset-0 bg-gradient-to-t from-[#012a52] via-[#012a52]/60 to-transparent"></div>
             <div className="absolute inset-0 p-6 flex flex-col justify-between text-white">
@@ -173,10 +184,10 @@ export default function LandingPage() {
                 <div className="h-1 w-8 bg-white/50 transition-[width] duration-700 group-hover:w-full"></div>
               </div>
             </div>
-          </div>
+          </motion.div>
 
           {/* Card 3 */}
-          <div className="group relative h-[320px] rounded-2xl overflow-hidden shadow-xl cursor-pointer">
+          <motion.div variants={fadeUpVariant} className="group relative h-[320px] rounded-2xl overflow-hidden shadow-xl cursor-pointer">
             <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.08.jpeg" alt="Instrumentación" fill className="object-cover transition-transform duration-[1500ms] ease-in-out group-hover:scale-[1.05]" />
             <div className="absolute inset-0 bg-gradient-to-t from-[#012a52] via-[#012a52]/60 to-transparent"></div>
             <div className="absolute inset-0 p-6 flex flex-col justify-between text-white">
@@ -190,10 +201,10 @@ export default function LandingPage() {
                 <div className="h-1 w-8 bg-white/50 transition-[width] duration-700 group-hover:w-full"></div>
               </div>
             </div>
-          </div>
+          </motion.div>
 
           {/* Card 4 - New */}
-          <div className="group relative h-[320px] rounded-2xl overflow-hidden shadow-xl cursor-pointer">
+          <motion.div variants={fadeUpVariant} className="group relative h-[320px] rounded-2xl overflow-hidden shadow-xl cursor-pointer">
             <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.22.jpeg" alt="Suministro de Tuberías" fill className="object-cover transition-transform duration-[1500ms] ease-in-out group-hover:scale-[1.05]" />
             <div className="absolute inset-0 bg-gradient-to-t from-[#012a52] via-[#012a52]/60 to-transparent"></div>
             <div className="absolute inset-0 p-6 flex flex-col justify-between text-white">
@@ -207,22 +218,31 @@ export default function LandingPage() {
                 <div className="h-1 w-8 bg-white/50 transition-[width] duration-700 group-hover:w-full"></div>
               </div>
             </div>
-          </div>
+          </motion.div>
 
-        </div>
+        </motion.div>
       </section>
 
       {/* Why Choose Us Section & Contact overlay */}
-      <section className="bg-white pt-16 pb-48 relative rounded-t-[3rem] lg:rounded-t-[4rem] -mt-16 z-30 ring-1 ring-slate-100 shadow-t-xl">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center mb-16">
-          <h3 className="text-3xl md:text-3xl font-black text-slate-800 mb-2">
+      <section className="bg-white pt-16 pb-24 relative rounded-t-[3rem] lg:rounded-t-[4rem] -mt-16 z-30 ring-1 ring-slate-100 shadow-t-xl overflow-hidden">
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.2 }}
+          variants={{
+            hidden: {},
+            visible: { transition: { staggerChildren: 0.15 } }
+          }}
+          className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center mb-16"
+        >
+          <motion.h3 variants={fadeUpVariant} className="text-3xl md:text-3xl font-black text-slate-800 mb-2">
             ¿POR QUÉ ELEGIR <span className="text-orange-500">ILIMITA2?</span>
-          </h3>
-          <div className="w-14 h-1 bg-orange-500 mx-auto mb-16 rounded-full"></div>
+          </motion.h3>
+          <motion.div variants={fadeUpVariant} className="w-14 h-1 bg-orange-500 mx-auto mb-16 rounded-full"></motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
 
-            <div className="flex flex-col items-center">
+            <motion.div variants={fadeUpVariant} className="flex flex-col items-center">
               <div className="w-20 h-20 bg-orange-50 rounded-full flex items-center justify-center text-orange-500 mb-6 relative overflow-hidden group hover:-translate-y-2 transition-transform duration-300">
                 <div className="absolute inset-0 bg-orange-400 translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
                 <ShieldCheck className="w-10 h-10 relative z-10 group-hover:text-white transition-colors duration-300" />
@@ -231,9 +251,9 @@ export default function LandingPage() {
               <p className="text-slate-500 leading-relaxed text-sm max-w-[200px]">
                 Contamos con el suministro de equipos y materiales de las mejores marcas del mundo.
               </p>
-            </div>
+            </motion.div>
 
-            <div className="flex flex-col items-center">
+            <motion.div variants={fadeUpVariant} className="flex flex-col items-center">
               <div className="w-20 h-20 bg-orange-50 rounded-full flex items-center justify-center text-orange-500 mb-6 relative overflow-hidden group hover:-translate-y-2 transition-transform duration-300">
                 <div className="absolute inset-0 bg-orange-400 translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
                 <Settings className="w-10 h-10 relative z-10 group-hover:text-white transition-colors duration-300" />
@@ -242,9 +262,9 @@ export default function LandingPage() {
               <p className="text-slate-500 leading-relaxed text-sm max-w-[200px]">
                 Suministros amplios y personal capacitado para mejorar su producción.
               </p>
-            </div>
+            </motion.div>
 
-            <div className="flex flex-col items-center">
+            <motion.div variants={fadeUpVariant} className="flex flex-col items-center">
               <div className="w-20 h-20 bg-orange-50 rounded-full flex items-center justify-center text-orange-500 mb-6 relative overflow-hidden group hover:-translate-y-2 transition-transform duration-300">
                 <div className="absolute inset-0 bg-orange-400 translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
                 <Globe className="w-10 h-10 relative z-10 group-hover:text-white transition-colors duration-300" />
@@ -253,18 +273,27 @@ export default function LandingPage() {
               <p className="text-slate-500 leading-relaxed text-sm max-w-[200px]">
                 El alcance a nivel nacional es clave para cubrir despachos oportunos en el territorio venezolano.
               </p>
-            </div>
+            </motion.div>
 
           </div>
-        </div>
+        </motion.div>
       </section>
       {/* Mini Product Quick Access Section */}
       <section className="bg-slate-900 py-24 relative overflow-hidden">
         {/* Background Decorative Element */}
         <div className="absolute top-0 right-0 w-1/3 h-full bg-orange-500/5 -skew-x-12 translate-x-1/2"></div>
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.15 }}
+          variants={{
+            hidden: {},
+            visible: { transition: { staggerChildren: 0.1 } }
+          }}
+          className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10"
+        >
+          <motion.div variants={slideInLeftVariant} className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
             <div className="text-left">
               <h2 className="text-orange-500 font-black text-sm tracking-[0.3em] uppercase mb-4">Nuestro Portafolio</h2>
               <h3 className="text-3xl md:text-5xl font-black text-white uppercase tracking-tight leading-none">
@@ -277,7 +306,7 @@ export default function LandingPage() {
             >
               VER TODO EL CATÁLOGO <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Link>
-          </div>
+          </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6">
             {[
@@ -312,34 +341,41 @@ export default function LandingPage() {
                 count: "Cobertura global",
               },
             ].map((prod) => (
-              <Link
-                key={prod.href}
-                href={prod.href}
-                className="group rounded-[2rem] border border-white/10 bg-white/5 p-8 transition-[background-color,border-color,box-shadow] duration-500 hover:border-white hover:bg-white"
-              >
-                <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-2xl bg-orange-500/10 text-orange-500 transition-[background-color,color] duration-500 group-hover:bg-orange-500 group-hover:text-white">
-                  {prod.icon}
-                </div>
-                <h4 className="text-white group-hover:text-slate-900 font-black text-lg mb-2 tracking-tight transition-colors">{prod.title}</h4>
-                <div className="flex items-center justify-between">
-                  <span className="text-slate-500 text-[10px] font-bold uppercase tracking-widest">{prod.count}</span>
-                  <ChevronRight className="h-4 w-4 text-orange-500 opacity-0 transition-[opacity,transform] group-hover:translate-x-1 group-hover:opacity-100" />
-                </div>
-              </Link>
+              <motion.div key={prod.href} variants={fadeUpVariant}>
+                <Link
+                  href={prod.href}
+                  className="group block rounded-[2rem] border border-white/10 bg-white/5 p-8 transition-[background-color,border-color,box-shadow] duration-500 hover:border-white hover:bg-white h-full"
+                >
+                  <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-2xl bg-orange-500/10 text-orange-500 transition-[background-color,color] duration-500 group-hover:bg-orange-500 group-hover:text-white">
+                    {prod.icon}
+                  </div>
+                  <h4 className="text-white group-hover:text-slate-900 font-black text-lg mb-2 tracking-tight transition-colors">{prod.title}</h4>
+                  <div className="flex items-center justify-between mt-auto">
+                    <span className="text-slate-500 text-[10px] font-bold uppercase tracking-widest">{prod.count}</span>
+                    <ChevronRight className="h-4 w-4 text-orange-500 opacity-0 transition-[opacity,transform] group-hover:translate-x-1 group-hover:opacity-100" />
+                  </div>
+                </Link>
+              </motion.div>
             ))}
           </div>
-        </div>
+        </motion.div>
       </section>
 
       {/* Brands Section */}
       <section id="alianzas" className="bg-slate-50 py-24 relative overflow-hidden overflow-x-hidden border-t border-slate-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mb-16">
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.5 }}
+          variants={fadeUpVariant}
+          className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mb-16"
+        >
           <h2 className="text-sm font-bold tracking-widest text-[#012a52] uppercase mb-1">NUESTROS ALIADOS</h2>
           <h3 className="text-3xl md:text-4xl font-black text-slate-800 mb-2">
             MARCAS QUE CONFÍAN EN <span className="text-orange-500">NOSOTROS</span>
           </h3>
           <div className="w-14 h-1 bg-orange-500 mx-auto rounded-full"></div>
-        </div>
+        </motion.div>
 
         {/* Row 1 - Scroll Left */}
         <div className="flex w-[200%] animate-scroll-left whitespace-nowrap mb-8" style={{ width: 'fit-content' }}>
@@ -365,11 +401,19 @@ export default function LandingPage() {
       </section>
 
       {/* Contact Form Section */}
-      <section className="bg-slate-50 relative px-4 sm:px-6 lg:px-8 pb-24 z-40">
-        <div className="max-w-6xl mx-auto rounded-3xl overflow-hidden shadow-2xl flex flex-col md:flex-row bg-[#08223d] border border-white/5">
-
+      <section className="bg-slate-50 relative px-4 sm:px-6 lg:px-8 pb-24 z-40 overflow-hidden">
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.1 }}
+          variants={{
+            hidden: {},
+            visible: { transition: { staggerChildren: 0.1 } }
+          }}
+          className="max-w-6xl mx-auto rounded-3xl overflow-hidden shadow-2xl flex flex-col md:flex-row bg-[#08223d] border border-white/5"
+        >
           {/* Form side */}
-          <div className="w-full md:w-1/2 p-8 lg:p-14 relative bg-[#08223d]">
+          <motion.div variants={slideInLeftVariant} className="w-full md:w-1/2 p-8 lg:p-14 relative bg-[#08223d]">
             <h3 className="text-2xl font-black text-white mb-6 flex items-center gap-3">
               <div className="w-12 h-12 bg-white rounded-lg p-2.5 flex items-center justify-center">
                 <div className="relative w-full h-full">
@@ -395,10 +439,10 @@ export default function LandingPage() {
                 ENVIAR REQUERIMIENTO
               </button>
             </form>
-          </div>
+          </motion.div>
 
           {/* Map side */}
-          <div className="w-full md:w-1/2 bg-[#0a2c4e] relative p-6 lg:p-10 flex flex-col">
+          <motion.div variants={slideInRightVariant} className="w-full md:w-1/2 bg-[#0a2c4e] relative p-6 lg:p-10 flex flex-col">
             <div className="mb-4 flex items-start gap-3 text-blue-100">
               <MapPin className="w-5 h-5 text-orange-500 mt-1 shrink-0" />
               <div>
@@ -418,8 +462,8 @@ export default function LandingPage() {
                 title="Ubicación ILIMITA2 - CC Jardín Plaza Anaco"
               ></iframe>
             </div>
-          </div>
-        </div>
+          </motion.div>
+        </motion.div>
       </section>
     </>
   )

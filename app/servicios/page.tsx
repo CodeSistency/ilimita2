@@ -1,6 +1,7 @@
 "use client"
 
 import Image from "next/image"
+import Link from "next/link"
 import { ChevronRight, Wrench, Shield, Zap, Clock, ShieldCheck, Truck, Globe, MapPin, Package } from "lucide-react"
 import { motion, Variants } from "framer-motion"
 
@@ -120,20 +121,22 @@ export default function ServiciosPage() {
                     className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-5"
                 >
                     {technicalServices.map((service, i) => (
-                        <motion.div variants={fadeInUp} key={i} className="flex flex-col sm:flex-row gap-4 group p-5 rounded-2xl hover:bg-slate-50 transition-colors border border-transparent hover:border-slate-100 shadow-sm hover:shadow-md">
-                            <div className={`flex-shrink-0 w-12 h-12 ${service.color} rounded-xl flex items-center justify-center text-white shadow-md group-hover:scale-105 transition-transform duration-500`}>
-                                <div className="scale-75">{service.icon}</div>
-                            </div>
-                            <div className="pt-0.5 flex flex-col h-full">
-                                <h3 className="text-base font-black text-slate-900 mb-2 tracking-tight uppercase leading-none">{service.title}</h3>
-                                <p className="text-slate-500 text-xs leading-relaxed mb-4 flex-grow">
-                                    {service.desc}
-                                </p>
-                                <button className="flex items-center gap-1.5 text-orange-600 font-black text-[9px] tracking-widest uppercase group/btn mt-auto">
-                                    Más información <ChevronRight className="w-3 h-3 group-hover/btn:translate-x-1 transition-transform" />
-                                </button>
-                            </div>
-                        </motion.div>
+                        <Link href="/contacto" key={i} className="block">
+                            <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row gap-4 group p-5 rounded-2xl cursor-pointer hover:bg-slate-50 transition-colors border border-transparent hover:border-slate-100 shadow-sm hover:shadow-md h-full">
+                                <div className={`flex-shrink-0 w-12 h-12 ${service.color} rounded-xl flex items-center justify-center text-white shadow-md group-hover:scale-105 transition-transform duration-500`}>
+                                    <div className="scale-75">{service.icon}</div>
+                                </div>
+                                <div className="pt-0.5 flex flex-col h-full w-full">
+                                    <h3 className="text-base font-black text-slate-900 mb-2 tracking-tight uppercase leading-none">{service.title}</h3>
+                                    <p className="text-slate-500 text-xs leading-relaxed mb-4 flex-grow">
+                                        {service.desc}
+                                    </p>
+                                    <span className="flex items-center gap-1.5 text-orange-600 font-black text-[9px] tracking-widest uppercase group/btn mt-auto">
+                                        Más información <ChevronRight className="w-3 h-3 group-hover/btn:translate-x-1 transition-transform" />
+                                    </span>
+                                </div>
+                            </motion.div>
+                        </Link>
                     ))}
                 </motion.div>
             </section>
@@ -153,25 +156,27 @@ export default function ServiciosPage() {
                     className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-5"
                 >
                     {logisticsServices.map((service, i) => (
-                        <motion.div variants={fadeInUp} key={i} className="flex flex-col sm:flex-row gap-4 group p-5 rounded-2xl hover:bg-slate-50 transition-colors border border-transparent hover:border-slate-100 shadow-sm hover:shadow-md">
-                            <div className={`flex-shrink-0 w-12 h-12 ${service.color} rounded-xl flex items-center justify-center text-white shadow-md group-hover:scale-105 transition-transform duration-500`}>
-                                <div className="scale-75">{service.icon}</div>
-                            </div>
-                            <div className="pt-0.5 flex-1 flex flex-col h-full">
-                                <h3 className="text-base font-black text-slate-900 mb-2 tracking-tight uppercase leading-none">{service.title}</h3>
-                                <ul className="space-y-2 mt-1 flex-grow mb-4">
-                                    {service.features.map((feature, index) => (
-                                        <li key={index} className="flex items-start gap-2">
-                                            <ChevronRight className="w-3.5 h-3.5 text-orange-500 flex-shrink-0 mt-0.5" />
-                                            <span className="text-slate-600 font-medium text-[11px] leading-relaxed">{feature}</span>
-                                        </li>
-                                    ))}
-                                </ul>
-                                <button className="flex items-center gap-1.5 text-orange-600 font-black text-[9px] tracking-widest uppercase group/btn mt-auto">
-                                    Más información <ChevronRight className="w-3 h-3 group-hover/btn:translate-x-1 transition-transform" />
-                                </button>
-                            </div>
-                        </motion.div>
+                        <Link href="/contacto" key={i} className="block">
+                            <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row gap-4 group p-5 rounded-2xl cursor-pointer hover:bg-slate-50 transition-colors border border-transparent hover:border-slate-100 shadow-sm hover:shadow-md h-full">
+                                <div className={`flex-shrink-0 w-12 h-12 ${service.color} rounded-xl flex items-center justify-center text-white shadow-md group-hover:scale-105 transition-transform duration-500`}>
+                                    <div className="scale-75">{service.icon}</div>
+                                </div>
+                                <div className="pt-0.5 flex-1 flex flex-col h-full w-full">
+                                    <h3 className="text-base font-black text-slate-900 mb-2 tracking-tight uppercase leading-none">{service.title}</h3>
+                                    <ul className="space-y-2 mt-1 flex-grow mb-4">
+                                        {service.features.map((feature, index) => (
+                                            <li key={index} className="flex items-start gap-2">
+                                                <ChevronRight className="w-3.5 h-3.5 text-orange-500 flex-shrink-0 mt-0.5" />
+                                                <span className="text-slate-600 font-medium text-[11px] leading-relaxed">{feature}</span>
+                                            </li>
+                                        ))}
+                                    </ul>
+                                    <span className="flex items-center gap-1.5 text-orange-600 font-black text-[9px] tracking-widest uppercase group/btn mt-auto">
+                                        Más información <ChevronRight className="w-3 h-3 group-hover/btn:translate-x-1 transition-transform" />
+                                    </span>
+                                </div>
+                            </motion.div>
+                        </Link>
                     ))}
                 </motion.div>
             </section>

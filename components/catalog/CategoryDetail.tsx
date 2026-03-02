@@ -1,3 +1,6 @@
+"use client"
+
+import { useState, useEffect } from "react"
 import Link from "next/link"
 import { ArrowLeft, ArrowRight } from "lucide-react"
 
@@ -9,9 +12,10 @@ interface CategoryDetailProps {
 }
 
 export default function CategoryDetail({ category }: CategoryDetailProps) {
+  const [activeSection, setActiveSection] = useState<string>("")
+
   const label = category.domain === "productos" ? "Productos" : "Servicios"
 
-  // Helper to generate IDs for smooth scrolling
   const slugify = (text: string) =>
     text
       .toLowerCase()
@@ -19,6 +23,35 @@ export default function CategoryDetail({ category }: CategoryDetailProps) {
       .replace(/[\u0300-\u036f]/g, "")
       .replace(/[^a-z0-9]+/g, "-")
       .replace(/(^-|-$)/g, "")
+
+  const scrollTo = (id: string) => {
+    const element = document.getElementById(id)
+    if (element) {
+      const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches
+      window.scrollTo({
+        top: element.offsetTop - 140, // offset for the sticky header
+        behavior: prefersReducedMotion ? "auto" : "smooth",
+      })
+    }
+  }
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const sections = category.sections.map(s => document.getElementById(slugify(s.name)))
+      const scrollPosition = window.scrollY + 200
+
+      for (let i = sections.length - 1; i >= 0; i--) {
+        const section = sections[i]
+        if (section && section.offsetTop <= scrollPosition) {
+          setActiveSection(slugify(category.sections[i].name))
+          break
+        }
+      }
+    }
+
+    window.addEventListener("scroll", handleScroll)
+    return () => window.removeEventListener("scroll", handleScroll)
+  }, [category.sections])
 
   return (
     <div className="bg-slate-50 pb-24">
@@ -61,41 +94,63 @@ export default function CategoryDetail({ category }: CategoryDetailProps) {
       </section>
 
       <section className="mx-auto mt-12 max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 items-start gap-12 lg:grid-cols-[280px_1fr]">
+        <div className="flex flex-col lg:flex-row items-start gap-12 relative">
           {/* Sticky Sidebar Navigation (Desktop) */}
-          <aside className="sticky top-24 hidden overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm lg:block">
-            <div className="bg-slate-900 px-6 py-5">
-              <h3 className="text-[11px] font-black uppercase tracking-widest text-white">
+          <aside className="hidden lg:block w-64 flex-shrink-0">
+            <div className="sticky top-[120px] bg-white border border-slate-200 rounded-2xl p-4 shadow-sm space-y-1">
+              <h3 className="text-[10px] text-slate-400 font-extrabold uppercase tracking-widest pl-2 mb-4">
                 En esta categoría
               </h3>
+              <div className="space-y-1 flex flex-col">
+                {category.sections.map((section) => {
+                  const sId = slugify(section.name)
+                  const isActive = activeSection === sId
+                  return (
+                    <button
+                      key={section.name}
+                      onClick={() => scrollTo(sId)}
+                      className={`w-full flex items-center gap-2.5 rounded-xl border border-transparent px-3 py-2.5 text-left transition-[color,background-color,border-color,box-shadow] ${isActive
+                        ? "bg-slate-900 text-white shadow-md border-slate-800"
+                        : "text-slate-500 hover:bg-slate-50 font-bold hover:border-slate-100"
+                        }`}
+                    >
+                      <span className={`flex-shrink-0 ${isActive ? "text-orange-500" : "text-slate-400"}`}>
+                        {renderCategoryIcon({ slug: category.slug, className: "h-4 w-4" })}
+                      </span>
+                      <span className="text-[11px] font-black uppercase tracking-tight leading-tight">
+                        {section.name}
+                      </span>
+                    </button>
+                  )
+                })}
+              </div>
             </div>
-            <nav className="flex flex-col p-3">
-              {category.sections.map((section) => (
-                <a
-                  key={section.name}
-                  href={`#${slugify(section.name)}`}
-                  className="rounded-xl px-4 py-3 text-sm font-bold text-slate-600 transition-colors hover:bg-slate-50 hover:text-orange-600"
-                >
-                  {section.name}
-                </a>
-              ))}
-            </nav>
           </aside>
 
           {/* Catalog Sections Grid */}
-          <div className="space-y-16">
+          <div className="flex-1 space-y-16">
             {/* Mobile Quick Links / Accesos Directos (visible only on mobile) */}
-            <div className="sticky top-16 z-10 -mx-4 mb-4 bg-slate-50/90 px-4 pb-4 pt-8 backdrop-blur-md lg:hidden sm:-mx-6 sm:px-6">
+            <div className="sticky top-16 z-10 -mx-4 mb-4 bg-slate-50/90 px-4 pb-4 pt-4 backdrop-blur-md lg:hidden sm:-mx-6 sm:px-6">
               <nav className="flex gap-2 overflow-x-auto custom-scrollbar">
-                {category.sections.map((section) => (
-                  <a
-                    key={section.name}
-                    href={`#${slugify(section.name)}`}
-                    className="whitespace-nowrap rounded-full border border-slate-200 bg-white px-4 py-2 text-xs font-bold text-slate-600 shadow-sm transition-colors hover:border-orange-200 hover:text-orange-600"
-                  >
-                    {section.name}
-                  </a>
-                ))}
+                {category.sections.map((section) => {
+                  const sId = slugify(section.name)
+                  const isActive = activeSection === sId
+                  return (
+                    <button
+                      key={section.name}
+                      onClick={() => scrollTo(sId)}
+                      className={`whitespace-nowrap flex-shrink-0 flex items-center gap-2 rounded-full border px-4 py-2 text-[10px] font-black uppercase tracking-widest shadow-sm transition-colors ${isActive
+                        ? "bg-slate-900 border-slate-900 text-white"
+                        : "bg-white border-slate-200 text-slate-500 hover:border-slate-300"
+                        }`}
+                    >
+                      <span className={isActive ? "text-orange-500" : "text-slate-400"}>
+                        {renderCategoryIcon({ slug: category.slug, className: "h-4 w-4" })}
+                      </span>
+                      {section.name}
+                    </button>
+                  )
+                })}
               </nav>
             </div>
 
@@ -114,9 +169,10 @@ export default function CategoryDetail({ category }: CategoryDetailProps) {
 
                 <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3">
                   {section.items.map((item) => (
-                    <li
+                    <Link
+                      href="/contacto"
                       key={item}
-                      className="group flex flex-col justify-between overflow-hidden rounded-xl border border-slate-200 bg-white p-4 shadow-sm transition-[transform,border-color,box-shadow] duration-300 hover:-translate-y-1 hover:border-orange-300 hover:shadow-md hover:ring-1 hover:ring-orange-300"
+                      className="group flex flex-col justify-between overflow-hidden rounded-xl border border-slate-200 bg-white p-4 shadow-sm cursor-pointer transition-[transform,border-color,box-shadow] duration-300 hover:-translate-y-1 hover:border-orange-300 hover:shadow-md hover:ring-1 hover:ring-orange-300 block w-full"
                     >
                       <div>
                         <div className="mb-3 inline-flex h-8 w-8 items-center justify-center rounded-lg bg-orange-50 text-orange-600 transition-colors duration-300 group-hover:bg-orange-600 group-hover:text-white">
@@ -130,17 +186,14 @@ export default function CategoryDetail({ category }: CategoryDetailProps) {
                       </div>
 
                       <div className="mt-5 flex items-center justify-between border-t border-slate-100 pt-3">
-                        <Link
-                          href="/contacto"
-                          className="text-[9px] font-black uppercase tracking-widest text-slate-400 transition-colors hover:text-orange-600 group-hover:text-orange-600"
-                        >
+                        <span className="text-[9px] font-black uppercase tracking-widest text-slate-400 transition-colors hover:text-orange-600 group-hover:text-orange-600">
                           Cotizar equipo
-                        </Link>
+                        </span>
                         <div className="flex h-5 w-5 items-center justify-center rounded-full bg-slate-50 transition-colors group-hover:bg-orange-100">
                           <ArrowRight className="h-2.5 w-2.5 text-slate-400 transition-transform group-hover:translate-x-0.5 group-hover:text-orange-600" />
                         </div>
                       </div>
-                    </li>
+                    </Link>
                   ))}
                 </ul>
               </article>
@@ -148,6 +201,16 @@ export default function CategoryDetail({ category }: CategoryDetailProps) {
           </div>
         </div>
       </section>
+
+      <style jsx global>{`
+        .custom-scrollbar::-webkit-scrollbar {
+          display: none;
+        }
+        .custom-scrollbar {
+          -ms-overflow-style: none;
+          scrollbar-width: none;
+        }
+      `}</style>
     </div>
   )
 }

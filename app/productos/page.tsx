@@ -156,27 +156,29 @@ export default function ProductosPage() {
 
                     {/* MOBILE QUICK ACCESS CHIPS */}
                     <div
-                        className={`sticky top-[88px] z-30 bg-slate-50 pt-2 flex gap-2 mb-8 overflow-x-auto pb-4 custom-scrollbar lg:hidden ${hasSearchTerm
-                            ? "pointer-events-none max-h-0 -translate-y-2 opacity-0 mb-0 pb-0"
+                        className={`sticky top-[88px] z-30 -mx-4 px-4 sm:-mx-6 sm:px-6 pt-4 pb-4 mb-8 bg-slate-50/90 backdrop-blur-md lg:hidden transition-all duration-300 ${hasSearchTerm
+                            ? "pointer-events-none max-h-0 -translate-y-2 opacity-0 mb-0 pb-0 pt-0"
                             : "translate-y-0 opacity-100"
                             }`}
                         aria-hidden={hasSearchTerm}
                     >
-                        {categories.map((cat) => (
-                            <button
-                                key={`mob-${cat.id}`}
-                                onClick={() => scrollTo(cat.id)}
-                                className={`flex-shrink-0 flex items-center gap-2 rounded-full border px-4 py-2 text-[10px] font-black uppercase tracking-widest shadow-sm transition-colors ${activeSection === cat.id
-                                    ? "bg-slate-900 border-slate-900 text-white"
-                                    : "bg-white border-slate-200 text-slate-500 hover:border-slate-300"
-                                    }`}
-                            >
-                                <span className={activeSection === cat.id ? "text-orange-500" : "text-slate-400"}>
-                                    {renderCategoryIcon({ slug: cat.slug, className: "h-4 w-4" })}
-                                </span>
-                                {cat.shortTitle || cat.title}
-                            </button>
-                        ))}
+                        <nav className="flex gap-2 overflow-x-auto custom-scrollbar">
+                            {categories.map((cat) => (
+                                <button
+                                    key={`mob-${cat.id}`}
+                                    onClick={() => scrollTo(cat.id)}
+                                    className={`flex-shrink-0 flex items-center gap-2 rounded-full border px-4 py-2 text-[10px] font-black uppercase tracking-widest shadow-sm transition-colors ${activeSection === cat.id
+                                        ? "bg-slate-900 border-slate-900 text-white"
+                                        : "bg-white border-slate-200 text-slate-500 hover:border-slate-300"
+                                        }`}
+                                >
+                                    <span className={activeSection === cat.id ? "text-orange-500" : "text-slate-400"}>
+                                        {renderCategoryIcon({ slug: cat.slug, className: "h-4 w-4" })}
+                                    </span>
+                                    {cat.shortTitle || cat.title}
+                                </button>
+                            ))}
+                        </nav>
                     </div>
 
                     {/* Empty State */}

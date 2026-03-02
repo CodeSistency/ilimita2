@@ -6,6 +6,27 @@ import {
   Droplet, Globe, Settings, ShieldCheck, MapPin, Wrench,
   Activity, Cpu, ChevronRight, ArrowRight
 } from "lucide-react"
+import { motion, Variants } from "framer-motion"
+
+const slideInLeft: Variants = {
+  hidden: { opacity: 0, x: -50 },
+  visible: { opacity: 1, x: 0, transition: { duration: 1.2, ease: "easeOut" } }
+}
+
+const slideInRight: Variants = {
+  hidden: { opacity: 0, x: 50 },
+  visible: { opacity: 1, x: 0, transition: { duration: 1.2, ease: "easeOut" } }
+}
+
+const fadeUpText: Variants = {
+  hidden: { opacity: 0, y: 30 },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } }
+}
+
+const staggerText: Variants = {
+  hidden: { opacity: 0 },
+  visible: { opacity: 1, transition: { staggerChildren: 0.15 } }
+}
 
 export default function LandingPage() {
   return (
@@ -16,7 +37,9 @@ export default function LandingPage() {
         <div className="absolute top-0 left-0 w-full h-[50%] lg:h-[45%] bg-white z-0">
 
           {/* Panel 1 (Left Image - Pipeline) */}
-          <div className="absolute top-0 left-0 w-full h-full"
+          <motion.div
+            initial="hidden" animate="visible" variants={slideInLeft}
+            className="absolute top-0 left-0 w-full h-full"
             style={{ clipPath: 'polygon(0 0, calc(34% - 4px) 0, calc(42% - 4px) 100%, 0 100%)' }}>
             <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.02.jpeg" alt="Instalación Petrolera" fill className="object-cover" />
 
@@ -32,7 +55,7 @@ export default function LandingPage() {
               </div>
               <div className="w-full h-1/3 bg-[#ce1126]"></div>
             </div>
-          </div>
+          </motion.div>
 
           {/* Panel 2 (Middle Logo) */}
           <div className="absolute top-0 left-0 w-full h-full"
@@ -51,10 +74,12 @@ export default function LandingPage() {
           </div>
 
           {/* Panel 3 (Right Image - Equipos VFD) */}
-          <div className="absolute top-0 left-0 w-full h-full"
+          <motion.div
+            initial="hidden" animate="visible" variants={slideInRight}
+            className="absolute top-0 left-0 w-full h-full"
             style={{ clipPath: 'polygon(calc(66% + 4px) 0, 100% 0, 100% 100%, calc(58% + 4px) 100%)' }}>
             <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.10.jpeg" alt="Equipos VFD" fill className="object-cover" />
-          </div>
+          </motion.div>
         </div>
 
         {/* BOTTOM BLUE AREA */}
@@ -89,24 +114,26 @@ export default function LandingPage() {
 
         {/* TEXT CONTENT LAYER */}
         <div className="relative z-20 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex flex-col justify-end pb-16 lg:pb-24 pt-[280px] lg:pt-[300px]">
-          <div className="w-full text-white relative flex flex-col items-center text-center">
-            <h1 className="text-3xl md:text-4xl lg:text-[2.8rem] font-black leading-[1.1] mb-5 tracking-tight drop-shadow-2xl">
+          <motion.div
+            initial="hidden" animate="visible" variants={staggerText}
+            className="w-full text-white relative flex flex-col items-center text-center"
+          >
+            <motion.h1 variants={fadeUpText} className="text-3xl md:text-4xl lg:text-[2.8rem] font-black leading-[1.1] mb-5 tracking-tight drop-shadow-2xl">
               SOLUCIONES INDUSTRIALES <br className="hidden md:block" />
               Y PETROLERAS SIN LÍMITES.
-            </h1>
-            <p className="text-sm md:text-lg text-blue-50/90 font-medium mb-8 max-w-2xl leading-relaxed drop-shadow-md">
+            </motion.h1>
+            <motion.p variants={fadeUpText} className="text-sm md:text-lg text-blue-50/90 font-medium mb-8 max-w-2xl leading-relaxed drop-shadow-md">
               Suministro confiable, servicios especializados para impulsar su producción.
-            </p>
-
-            <div className="flex flex-col sm:flex-row gap-4 relative z-50">
-              <Link href="/productos" className="border-[1.5px] border-blue-400 hover:bg-white hover:text-[#08223d] hover:border-white bg-[#08223d]/20 backdrop-blur-md text-white px-8 py-3 rounded-full font-bold transition-all shadow-lg text-[13px] tracking-widest flex items-center justify-center">
+            </motion.p>
+            <motion.div variants={fadeUpText} className="flex flex-col sm:flex-row gap-4 relative z-50">
+              <Link href="/productos" className="flex items-center justify-center rounded-full border-[1.5px] border-blue-400 bg-[#08223d]/20 px-8 py-3 text-[13px] font-bold tracking-widest text-white shadow-lg backdrop-blur-md transition-[background-color,color,border-color] hover:border-white hover:bg-white hover:text-[#08223d]">
                 EXPLORAR CATÁLOGO
               </Link>
-              <Link href="/servicios" className="bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-400 hover:to-orange-500 text-white px-8 py-3 rounded-full font-bold shadow-xl shadow-orange-500/30 transition-all text-[13px] tracking-widest flex items-center justify-center">
+              <Link href="/servicios" className="flex items-center justify-center rounded-full bg-gradient-to-r from-orange-500 to-orange-600 px-8 py-3 text-[13px] font-bold tracking-widest text-white shadow-xl shadow-orange-500/30 transition-[color,box-shadow] hover:from-orange-400 hover:to-orange-500">
                 CONOZCA NUESTROS SERVICIOS
               </Link>
-            </div>
-          </div>
+            </motion.div>
+          </motion.div>
         </div>
       </section>
 
@@ -116,7 +143,7 @@ export default function LandingPage() {
 
           {/* Card 1 */}
           <div className="group relative h-[320px] rounded-2xl overflow-hidden shadow-xl cursor-pointer">
-            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.40.jpeg" alt="Bombas" fill className="object-cover transition-transform duration-700 group-hover:scale-110" />
+            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.40.jpeg" alt="Bombas" fill className="object-cover transition-transform duration-[1500ms] ease-in-out group-hover:scale-[1.05]" />
             <div className="absolute inset-0 bg-gradient-to-t from-[#012a52] via-[#012a52]/60 to-transparent"></div>
             <div className="absolute inset-0 p-6 flex flex-col justify-between text-white">
               <div className="w-10 h-10 flex items-center justify-center">
@@ -126,14 +153,14 @@ export default function LandingPage() {
                 <h3 className="text-xl font-black leading-tight mb-3 tracking-wide text-blue-50">
                   EQUIPOS DE <br /> BOMBEO Y <br /> VÁLVULAS
                 </h3>
-                <div className="w-8 h-1 bg-white/50 group-hover:w-full transition-all duration-700"></div>
+                <div className="h-1 w-8 bg-white/50 transition-[width] duration-700 group-hover:w-full"></div>
               </div>
             </div>
           </div>
 
           {/* Card 2 */}
           <div className="group relative h-[320px] rounded-2xl overflow-hidden shadow-xl cursor-pointer">
-            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.31.jpeg" alt="Seguridad Industrial" fill className="object-cover transition-transform duration-700 group-hover:scale-110" />
+            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.31.jpeg" alt="Seguridad Industrial" fill className="object-cover transition-transform duration-[1500ms] ease-in-out group-hover:scale-[1.05]" />
             <div className="absolute inset-0 bg-gradient-to-t from-[#012a52] via-[#012a52]/60 to-transparent"></div>
             <div className="absolute inset-0 p-6 flex flex-col justify-between text-white">
               <div className="w-10 h-10 flex items-center justify-center">
@@ -143,14 +170,14 @@ export default function LandingPage() {
                 <h3 className="text-xl font-black leading-tight mb-3 tracking-wide text-blue-50">
                   SUMINISTROS DE <br /> SEGURIDAD <br /> INDUSTRIAL
                 </h3>
-                <div className="w-8 h-1 bg-white/50 group-hover:w-full transition-all duration-700"></div>
+                <div className="h-1 w-8 bg-white/50 transition-[width] duration-700 group-hover:w-full"></div>
               </div>
             </div>
           </div>
 
           {/* Card 3 */}
           <div className="group relative h-[320px] rounded-2xl overflow-hidden shadow-xl cursor-pointer">
-            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.08.jpeg" alt="Instrumentación" fill className="object-cover transition-transform duration-700 group-hover:scale-110" />
+            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.08.jpeg" alt="Instrumentación" fill className="object-cover transition-transform duration-[1500ms] ease-in-out group-hover:scale-[1.05]" />
             <div className="absolute inset-0 bg-gradient-to-t from-[#012a52] via-[#012a52]/60 to-transparent"></div>
             <div className="absolute inset-0 p-6 flex flex-col justify-between text-white">
               <div className="w-10 h-10 flex items-center justify-center">
@@ -160,14 +187,14 @@ export default function LandingPage() {
                 <h3 className="text-xl font-black leading-tight mb-3 tracking-wide text-blue-50">
                   INSTRUMENTACIÓN <br /> Y CONTROL
                 </h3>
-                <div className="w-8 h-1 bg-white/50 group-hover:w-full transition-all duration-700"></div>
+                <div className="h-1 w-8 bg-white/50 transition-[width] duration-700 group-hover:w-full"></div>
               </div>
             </div>
           </div>
 
           {/* Card 4 - New */}
           <div className="group relative h-[320px] rounded-2xl overflow-hidden shadow-xl cursor-pointer">
-            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.22.jpeg" alt="Suministro de Tuberías" fill className="object-cover transition-transform duration-700 group-hover:scale-110" />
+            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.22.jpeg" alt="Suministro de Tuberías" fill className="object-cover transition-transform duration-[1500ms] ease-in-out group-hover:scale-[1.05]" />
             <div className="absolute inset-0 bg-gradient-to-t from-[#012a52] via-[#012a52]/60 to-transparent"></div>
             <div className="absolute inset-0 p-6 flex flex-col justify-between text-white">
               <div className="w-10 h-10 flex items-center justify-center">
@@ -177,7 +204,7 @@ export default function LandingPage() {
                 <h3 className="text-xl font-black leading-tight mb-3 tracking-wide text-blue-50 uppercase">
                   SUMINISTRO <br /> INTEGRAL DE <br /> TUBERÍAS
                 </h3>
-                <div className="w-8 h-1 bg-white/50 group-hover:w-full transition-all duration-700"></div>
+                <div className="h-1 w-8 bg-white/50 transition-[width] duration-700 group-hover:w-full"></div>
               </div>
             </div>
           </div>
@@ -246,7 +273,7 @@ export default function LandingPage() {
             </div>
             <Link
               href="/productos"
-              className="group flex items-center gap-3 bg-white/5 border border-white/10 text-white px-8 py-4 rounded-2xl font-black text-xs hover:bg-orange-600 transition-all hover:border-orange-600"
+              className="group flex items-center gap-3 rounded-2xl border border-white/10 bg-white/5 px-8 py-4 text-xs font-black text-white transition-[background-color,border-color,color] hover:border-orange-600 hover:bg-orange-600"
             >
               VER TODO EL CATÁLOGO <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Link>
@@ -288,15 +315,15 @@ export default function LandingPage() {
               <Link
                 key={prod.href}
                 href={prod.href}
-                className="bg-white/5 border border-white/10 p-8 rounded-[2rem] hover:bg-white hover:border-white group transition-all duration-500"
+                className="group rounded-[2rem] border border-white/10 bg-white/5 p-8 transition-[background-color,border-color,box-shadow] duration-500 hover:border-white hover:bg-white"
               >
-                <div className="w-14 h-14 bg-orange-500/10 rounded-2xl flex items-center justify-center text-orange-500 mb-6 group-hover:bg-orange-500 group-hover:text-white transition-all duration-500">
+                <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-2xl bg-orange-500/10 text-orange-500 transition-[background-color,color] duration-500 group-hover:bg-orange-500 group-hover:text-white">
                   {prod.icon}
                 </div>
                 <h4 className="text-white group-hover:text-slate-900 font-black text-lg mb-2 tracking-tight transition-colors">{prod.title}</h4>
                 <div className="flex items-center justify-between">
                   <span className="text-slate-500 text-[10px] font-bold uppercase tracking-widest">{prod.count}</span>
-                  <ChevronRight className="w-4 h-4 text-orange-500 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all" />
+                  <ChevronRight className="h-4 w-4 text-orange-500 opacity-0 transition-[opacity,transform] group-hover:translate-x-1 group-hover:opacity-100" />
                 </div>
               </Link>
             ))}
@@ -317,7 +344,7 @@ export default function LandingPage() {
         {/* Row 1 - Scroll Left */}
         <div className="flex w-[200%] animate-scroll-left whitespace-nowrap mb-8" style={{ width: 'fit-content' }}>
           {[...row1Brands, ...row1Brands].map((brand, i) => (
-            <div key={`row1-${i}`} className="flex-none w-48 h-32 mx-4 flex items-center justify-center p-6 bg-white rounded-2xl border border-slate-100 shadow-sm opacity-60 hover:opacity-100 transition-all duration-300 grayscale hover:grayscale-0">
+            <div key={`row1-${i}`} className="mx-4 flex h-32 w-48 flex-none items-center justify-center rounded-2xl border border-slate-100 bg-white p-6 opacity-60 shadow-sm grayscale transition-[opacity,filter] duration-300 hover:opacity-100 hover:grayscale-0">
               <div className="relative w-full h-full">
                 <Image src={`/Imagenes_Soporte/${brand}`} alt="Marca" fill className="object-contain" />
               </div>
@@ -328,7 +355,7 @@ export default function LandingPage() {
         {/* Row 2 - Scroll Right */}
         <div className="flex animate-scroll-right whitespace-nowrap" style={{ width: 'fit-content' }}>
           {[...row2Brands, ...row2Brands].map((brand, i) => (
-            <div key={`row2-${i}`} className="flex-none w-48 h-32 mx-4 flex items-center justify-center p-6 bg-white rounded-2xl border border-slate-100 shadow-sm opacity-60 hover:opacity-100 transition-all duration-300 grayscale hover:grayscale-0">
+            <div key={`row2-${i}`} className="mx-4 flex h-32 w-48 flex-none items-center justify-center rounded-2xl border border-slate-100 bg-white p-6 opacity-60 shadow-sm grayscale transition-[opacity,filter] duration-300 hover:opacity-100 hover:grayscale-0">
               <div className="relative w-full h-full">
                 <Image src={`/Imagenes_Soporte/${brand}`} alt="Marca" fill className="object-contain" />
               </div>
@@ -364,7 +391,7 @@ export default function LandingPage() {
               <div>
                 <textarea placeholder="Contacto o mensaje" rows={3} className="w-full bg-white text-slate-800 px-5 py-3.5 text-sm focus:outline-none focus:ring-2 focus:ring-orange-500 placeholder-slate-400 rounded-lg shadow-inner ring-1 ring-slate-100 resize-none"></textarea>
               </div>
-              <button className="w-full bg-orange-500 hover:bg-orange-600 text-white font-black py-4 mt-2 rounded-lg transition-all shadow-lg shadow-orange-500/30 text-sm tracking-wider hover:-translate-y-0.5 transform active:scale-[0.98]">
+              <button className="mt-2 w-full rounded-lg bg-orange-500 py-4 text-sm font-black tracking-wider text-white shadow-lg shadow-orange-500/30 transition-[background-color,transform,box-shadow] hover:-translate-y-0.5 hover:bg-orange-600 active:scale-[0.98]">
                 ENVIAR REQUERIMIENTO
               </button>
             </form>

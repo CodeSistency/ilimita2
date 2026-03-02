@@ -4,6 +4,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { useState, useEffect, useRef } from "react"
 import { AlignJustify, X, ChevronDown, ArrowRight, Activity, Cpu, Power, ShieldCheck, Wrench } from "lucide-react"
+import { motion, AnimatePresence } from "framer-motion"
 
 const categories = [
     { title: "Instrumentos de Campo", icon: <Activity className="w-4 h-4" />, href: "/productos#instrumentos-campo" },
@@ -73,44 +74,50 @@ export default function Navbar() {
                                     className={`flex items-center gap-1 py-8 uppercase transition-colors ${isDropdownOpen ? 'text-orange-600' : 'hover:text-orange-500'}`}
                                 >
                                     Productos
-                                    <ChevronDown className={`w-3 h-3 transition-transform duration-300 ${isDropdownOpen ? 'rotate-180 text-orange-600' : ''}`} />
+                                    <ChevronDown className={`w-3 h-3 transition-transform duration-[var(--motion-duration-fast)] ease-[var(--motion-ease-standard)] ${isDropdownOpen ? 'rotate-180 text-orange-600' : ''}`} />
                                 </button>
 
-                                {isDropdownOpen && (
-                                    <div className="absolute top-[80px] left-0 w-72 bg-white rounded-2xl shadow-[0_20px_50px_-12px_rgba(0,0,0,0.15)] border border-slate-100 p-2 z-[110] animate-in fade-in slide-in-from-top-2 duration-200">
-                                        <div className="p-4 mb-1">
-                                            <h4 className="text-[10px] font-black text-slate-400 uppercase tracking-[0.2em] mb-1">Catálogo Técnico</h4>
-                                            <p className="text-[9px] font-bold text-slate-400">Selecciona una categoría</p>
-                                        </div>
-                                        <div className="space-y-1">
-                                            {categories.map((cat) => (
-                                                <Link
-                                                    key={cat.title}
-                                                    href={cat.href}
-                                                    onClick={() => setIsDropdownOpen(false)}
-                                                    className="flex items-center justify-between p-3.5 rounded-xl hover:bg-slate-50 transition-all group/item border border-transparent hover:border-slate-100"
-                                                >
-                                                    <div className="flex items-center gap-3">
-                                                        <div className="text-slate-400 group-hover/item:text-orange-500 transition-colors">
-                                                            {cat.icon}
-                                                        </div>
-                                                        <span className="text-[11px] font-black tracking-tight text-slate-700 group-hover/item:text-slate-900">{cat.title}</span>
-                                                    </div>
-                                                    <ArrowRight className="w-3.5 h-3.5 text-orange-500 opacity-0 group-hover/item:opacity-100 -translate-x-2 group-hover/item:translate-x-0 transition-all" />
-                                                </Link>
-                                            ))}
-                                        </div>
-                                        <div className="mt-3 p-2 pt-0">
-                                            <Link
-                                                href="/productos"
-                                                onClick={() => setIsDropdownOpen(false)}
-                                                className="flex items-center justify-center w-full py-4 bg-slate-900 text-white rounded-xl text-[10px] font-black tracking-widest hover:bg-orange-600 shadow-lg shadow-slate-900/10 hover:shadow-orange-600/20 transition-all uppercase"
-                                            >
-                                                Catálogo Completo
-                                            </Link>
-                                        </div>
+                                <div
+                                    className={`absolute top-[80px] left-0 w-72 origin-top-left rounded-2xl border border-slate-100 bg-white p-2 shadow-[0_20px_50px_-12px_rgba(0,0,0,0.15)] transition-[opacity,transform,filter] duration-[var(--motion-duration-standard)] ease-[var(--motion-ease-standard)] z-[110] ${isDropdownOpen
+                                        ? 'opacity-100 translate-y-0 scale-100 blur-0'
+                                        : 'pointer-events-none opacity-0 -translate-y-2 scale-[0.98] blur-[2px]'
+                                        }`}
+                                    aria-hidden={!isDropdownOpen}
+                                >
+                                    <div className="p-4 mb-1">
+                                        <h4 className="text-[10px] font-black text-slate-400 uppercase tracking-[0.2em] mb-1">Catálogo Técnico</h4>
+                                        <p className="text-[9px] font-bold text-slate-400">Selecciona una categoría</p>
                                     </div>
-                                )}
+                                    <div className="space-y-1">
+                                        {categories.map((cat) => (
+                                            <Link
+                                                key={cat.title}
+                                                href={cat.href}
+                                                onClick={() => setIsDropdownOpen(false)}
+                                                tabIndex={isDropdownOpen ? 0 : -1}
+                                                className="flex items-center justify-between rounded-xl border border-transparent p-3.5 transition-[background-color,border-color] group/item hover:bg-slate-50 hover:border-slate-100"
+                                            >
+                                                <div className="flex items-center gap-3">
+                                                    <div className="text-slate-400 group-hover/item:text-orange-500 transition-colors">
+                                                        {cat.icon}
+                                                    </div>
+                                                    <span className="text-[11px] font-black tracking-tight text-slate-700 group-hover/item:text-slate-900">{cat.title}</span>
+                                                </div>
+                                                <ArrowRight className="w-3.5 h-3.5 -translate-x-2 text-orange-500 opacity-0 transition-[opacity,transform] group-hover/item:translate-x-0 group-hover/item:opacity-100" />
+                                            </Link>
+                                        ))}
+                                    </div>
+                                    <div className="mt-3 p-2 pt-0">
+                                        <Link
+                                            href="/productos"
+                                            onClick={() => setIsDropdownOpen(false)}
+                                            tabIndex={isDropdownOpen ? 0 : -1}
+                                            className="flex w-full items-center justify-center rounded-xl bg-slate-900 py-4 text-[10px] font-black uppercase tracking-widest text-white shadow-lg shadow-slate-900/10 transition-[background-color,box-shadow,color] hover:bg-orange-600 hover:shadow-orange-600/20"
+                                        >
+                                            Catálogo Completo
+                                        </Link>
+                                    </div>
+                                </div>
                             </div>
 
                             <Link href="/servicios" className="hover:text-orange-500 transition-colors uppercase">Servicios</Link>
@@ -118,7 +125,7 @@ export default function Navbar() {
                             <Link href="/nosotros" className="hover:text-orange-500 transition-colors uppercase">Nosotros</Link>
                             <Link href="/contacto" className="hover:text-orange-500 transition-colors uppercase">Contacto</Link>
 
-                            <Link href="/contacto" className="bg-slate-900 text-white px-7 py-3.5 rounded-xl font-black text-[10px] tracking-widest shadow-xl shadow-slate-900/10 hover:bg-orange-600 hover:shadow-orange-600/20 transition-all hover:-translate-y-0.5 active:scale-95 uppercase">
+                            <Link href="/contacto" className="rounded-xl bg-slate-900 px-7 py-3.5 text-[10px] font-black uppercase tracking-widest text-white shadow-xl shadow-slate-900/10 transition-[background-color,box-shadow,transform,color] hover:-translate-y-0.5 hover:bg-orange-600 hover:shadow-orange-600/20 active:scale-95">
                                 Cotizar ahora
                             </Link>
                         </div>
@@ -130,11 +137,20 @@ export default function Navbar() {
                                 className="p-2 text-slate-600 hover:text-orange-500 transition-colors flex items-center justify-center bg-slate-50 rounded-lg"
                                 aria-label="Menu"
                             >
-                                {isMobileMenuOpen ? (
-                                    <X className="w-7 h-7" />
-                                ) : (
-                                    <AlignJustify className="w-7 h-7" />
-                                )}
+                                <span className="relative block h-7 w-7">
+                                    <AlignJustify
+                                        className={`absolute inset-0 h-7 w-7 transition-[opacity,transform] duration-[var(--motion-duration-fast)] ease-[var(--motion-ease-standard)] ${isMobileMenuOpen
+                                            ? 'opacity-0 scale-90 -rotate-90'
+                                            : 'opacity-100 scale-100 rotate-0'
+                                            }`}
+                                    />
+                                    <X
+                                        className={`absolute inset-0 h-7 w-7 transition-[opacity,transform] duration-[var(--motion-duration-fast)] ease-[var(--motion-ease-standard)] ${isMobileMenuOpen
+                                            ? 'opacity-100 scale-100 rotate-0'
+                                            : 'opacity-0 scale-90 rotate-90'
+                                            }`}
+                                    />
+                                </span>
                             </button>
                         </div>
                     </div>
@@ -143,7 +159,7 @@ export default function Navbar() {
 
             {/* MOBILE MENU FULL OVERLAY */}
             <div
-                className={`fixed inset-0 bg-white z-[90] md:hidden transition-all duration-300 ease-in-out ${isMobileMenuOpen ? 'opacity-100 pointer-events-auto translate-y-0' : 'opacity-0 pointer-events-none translate-y-4'}`}
+                className={`fixed inset-0 bg-white z-[90] md:hidden transition-[opacity,transform] duration-[var(--motion-duration-standard)] ease-[var(--motion-ease-standard)] ${isMobileMenuOpen ? 'opacity-100 pointer-events-auto translate-y-0' : 'opacity-0 pointer-events-none translate-y-4'}`}
                 style={{ paddingTop: '80px' }}
             >
                 <div className="h-full flex flex-col p-6 overflow-y-auto">
@@ -173,7 +189,7 @@ export default function Navbar() {
                                     key={cat.title}
                                     href={cat.href}
                                     onClick={() => setIsMobileMenuOpen(false)}
-                                    className="flex items-center gap-4 p-5 bg-slate-50 rounded-2xl border border-slate-100 active:scale-[0.98] transition-all"
+                                    className="flex items-center gap-4 rounded-2xl border border-slate-100 bg-slate-50 p-5 transition-[background-color,border-color,transform] active:scale-[0.98]"
                                 >
                                     <div className="w-10 h-10 bg-white rounded-xl flex items-center justify-center text-orange-500 shadow-sm border border-slate-100">
                                         {cat.icon}
@@ -189,7 +205,7 @@ export default function Navbar() {
                         <Link
                             href="/contacto"
                             onClick={() => setIsMobileMenuOpen(false)}
-                            className="flex items-center justify-center w-full py-5 bg-slate-900 text-white rounded-2xl font-black text-[12px] tracking-[0.2em] shadow-xl shadow-slate-900/20 active:bg-orange-600 transition-all uppercase italic"
+                            className="flex w-full items-center justify-center rounded-2xl bg-slate-900 py-5 text-[12px] font-black uppercase italic tracking-[0.2em] text-white shadow-xl shadow-slate-900/20 transition-[background-color,color] active:bg-orange-600"
                         >
                             Solicitar Cotización
                         </Link>

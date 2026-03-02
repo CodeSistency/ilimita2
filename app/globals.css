@@ -3,6 +3,11 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --motion-duration-fast: 180ms;
+  --motion-duration-standard: 260ms;
+  --motion-duration-slow: 420ms;
+  --motion-ease-standard: cubic-bezier(0.22, 1, 0.36, 1);
+  --motion-ease-exit: cubic-bezier(0.4, 0, 1, 1);
 }
 
 @theme inline {
@@ -41,4 +46,31 @@ body {
 
 .animate-scroll-right {
   animation: scrollRight 40s linear infinite;
+}
+
+.animate-scroll-left:is(:hover, :focus-within),
+.animate-scroll-right:is(:hover, :focus-within) {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    transition-delay: 0ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .animate-scroll-left,
+  .animate-scroll-right {
+    animation: none !important;
+    transform: none !important;
+  }
 }

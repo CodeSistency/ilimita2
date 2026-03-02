@@ -44,7 +44,7 @@ export default function Footer() {
                     <div>
                         <h4 className="text-white font-black text-sm tracking-widest mb-6 uppercase">Atención</h4>
                         <p className="text-slate-400 text-sm mb-4">Lunes a Viernes: 8:00 AM - 5:00 PM</p>
-                        <Link href="/contacto" className="inline-block border border-orange-500 text-orange-500 px-6 py-2 rounded-lg font-bold text-sm hover:bg-orange-500 hover:text-white transition-all">
+                        <Link href="/contacto" className="inline-block rounded-lg border border-orange-500 px-6 py-2 text-sm font-bold text-orange-500 transition-colors hover:bg-orange-500 hover:text-white">
                             EMERGENCIAS 24/7
                         </Link>
                     </div>

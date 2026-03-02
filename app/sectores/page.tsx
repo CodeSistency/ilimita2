@@ -45,13 +45,13 @@ export default function SectoresPage() {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-5">
                     {sectors.map((sector, i) => (
-                        <div key={i} className="group relative h-[280px] overflow-hidden rounded-2xl bg-[#0a2640] shadow-xl transition-[transform,box-shadow] duration-500 hover:-translate-y-1 hover:shadow-orange-500/10">
+                        <div key={i} className="group relative h-[280px] overflow-hidden rounded-2xl bg-[#0a2640] shadow-xl transition-[transform,box-shadow] duration-300 hover:-translate-y-1 hover:shadow-orange-500/10 cursor-pointer active:scale-[0.98]">
                             {/* Bg Image */}
-                            <Image src={sector.image} alt={sector.title} fill className="object-cover opacity-40 group-hover:scale-105 transition-transform duration-1000 group-hover:opacity-30" />
+                            <Image src={sector.image} alt={sector.title} fill className="object-cover opacity-40 group-hover:scale-105 transition-transform duration-300 ease-out group-hover:opacity-30" />
 
                             {/* Overlay Content */}
                             <div className="absolute inset-0 p-6 flex flex-col justify-end text-white">
-                                <div className="w-12 h-12 bg-white/10 backdrop-blur-md rounded-xl flex items-center justify-center mb-4 border border-white/10 group-hover:bg-orange-500 transition-colors duration-500">
+                                <div className="w-12 h-12 bg-white/10 backdrop-blur-md rounded-xl flex items-center justify-center mb-4 border border-white/10 group-hover:bg-orange-500 transition-colors duration-300">
                                     <div className="text-blue-200 group-hover:text-white transition-colors scale-75">
                                         {sector.icon}
                                     </div>

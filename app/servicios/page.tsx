@@ -6,8 +6,8 @@ import { ChevronRight, Wrench, Shield, Zap, Clock, ShieldCheck, Truck, Globe, Ma
 import { motion, Variants } from "framer-motion"
 
 const fadeInUp: Variants = {
-    hidden: { opacity: 0, y: 20 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: [0.2, 0.8, 0.2, 1] } }
+    hidden: { opacity: 0, y: 20, filter: "blur(4px)" },
+    visible: { opacity: 1, y: 0, filter: "blur(0px)", transition: { duration: 0.4, ease: "easeOut" } }
 }
 
 const staggerContainer: Variants = {
@@ -121,9 +121,9 @@ export default function ServiciosPage() {
                     className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-5"
                 >
                     {technicalServices.map((service, i) => (
-                        <Link href="/contacto" key={i} className="block">
-                            <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row gap-4 group p-5 rounded-2xl cursor-pointer hover:bg-slate-50 transition-colors border border-transparent hover:border-slate-100 shadow-sm hover:shadow-md h-full">
-                                <div className={`flex-shrink-0 w-12 h-12 ${service.color} rounded-xl flex items-center justify-center text-white shadow-md group-hover:scale-105 transition-transform duration-500`}>
+                        <Link href="/contacto" key={i} className="block group/link active:scale-[0.98] transition-transform duration-300 outline-none">
+                            <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row gap-4 group p-5 rounded-2xl cursor-pointer hover:bg-slate-50 transition-[background-color,border-color,box-shadow,transform] duration-300 border border-transparent hover:border-slate-100 shadow-sm hover:shadow-md h-full focus-within:ring-2 focus-within:ring-orange-500">
+                                <div className={`flex-shrink-0 w-12 h-12 ${service.color} rounded-xl flex items-center justify-center text-white shadow-md group-hover:scale-105 transition-transform duration-300`}>
                                     <div className="scale-75">{service.icon}</div>
                                 </div>
                                 <div className="pt-0.5 flex flex-col h-full w-full">
@@ -132,7 +132,7 @@ export default function ServiciosPage() {
                                         {service.desc}
                                     </p>
                                     <span className="flex items-center gap-1.5 text-orange-600 font-black text-[9px] tracking-widest uppercase group/btn mt-auto">
-                                        Más información <ChevronRight className="w-3 h-3 group-hover/btn:translate-x-1 transition-transform" />
+                                        Más información <ChevronRight className="w-3 h-3 group-hover/btn:translate-x-1 transition-transform duration-300" />
                                     </span>
                                 </div>
                             </motion.div>
@@ -156,9 +156,9 @@ export default function ServiciosPage() {
                     className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-5"
                 >
                     {logisticsServices.map((service, i) => (
-                        <Link href="/contacto" key={i} className="block">
-                            <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row gap-4 group p-5 rounded-2xl cursor-pointer hover:bg-slate-50 transition-colors border border-transparent hover:border-slate-100 shadow-sm hover:shadow-md h-full">
-                                <div className={`flex-shrink-0 w-12 h-12 ${service.color} rounded-xl flex items-center justify-center text-white shadow-md group-hover:scale-105 transition-transform duration-500`}>
+                        <Link href="/contacto" key={i} className="block group/link active:scale-[0.98] transition-transform duration-300 outline-none">
+                            <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row gap-4 group p-5 rounded-2xl cursor-pointer hover:bg-slate-50 border border-transparent hover:border-slate-100 shadow-sm hover:shadow-md h-full transition-[background-color,border-color,box-shadow,transform] duration-300 focus-within:ring-2 focus-within:ring-orange-500">
+                                <div className={`flex-shrink-0 w-12 h-12 ${service.color} rounded-xl flex items-center justify-center text-white shadow-md group-hover:scale-105 transition-transform duration-300`}>
                                     <div className="scale-75">{service.icon}</div>
                                 </div>
                                 <div className="pt-0.5 flex-1 flex flex-col h-full w-full">
@@ -172,7 +172,7 @@ export default function ServiciosPage() {
                                         ))}
                                     </ul>
                                     <span className="flex items-center gap-1.5 text-orange-600 font-black text-[9px] tracking-widest uppercase group/btn mt-auto">
-                                        Más información <ChevronRight className="w-3 h-3 group-hover/btn:translate-x-1 transition-transform" />
+                                        Más información <ChevronRight className="w-3 h-3 group-hover/btn:translate-x-1 transition-transform duration-300" />
                                     </span>
                                 </div>
                             </motion.div>
@@ -215,9 +215,10 @@ export default function ServiciosPage() {
                                 </div>
                             </div>
                         </div>
-                        <motion.button variants={fadeInUp} className="mt-12 rounded-full bg-blue-600 px-10 py-4 text-sm font-black tracking-widest text-white shadow-xl shadow-blue-500/20 transition-colors hover:bg-blue-700">
+                        <motion.button variants={fadeInUp} className="mt-12 rounded-full bg-blue-600 px-10 py-4 text-sm font-black tracking-widest text-white shadow-xl shadow-blue-500/20 transition-[background-color,transform,box-shadow,color] duration-300 hover:bg-blue-700 active:scale-[0.98]">
                             CONTACTAR CON UN TÉCNICO
                         </motion.button>
+
                     </motion.div>
                 </motion.div>
             </section>

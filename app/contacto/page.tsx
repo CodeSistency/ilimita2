@@ -4,8 +4,8 @@ import { MapPin, Phone, Mail, Clock, MessageSquare, Send, Flame } from "lucide-r
 import { motion, Variants } from "framer-motion"
 
 const fadeUpVariant: Variants = {
-    hidden: { opacity: 0, y: 15 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: [0.2, 0.8, 0.2, 1] } }
+    hidden: { opacity: 0, y: 15, filter: "blur(4px)" },
+    visible: { opacity: 1, y: 0, filter: "blur(0px)", transition: { duration: 0.4, ease: "easeOut" } }
 }
 
 const staggerVariant: Variants = {
@@ -78,7 +78,7 @@ export default function ContactoPage() {
                             </div>
 
                             <div className="mt-6 pt-4 border-t border-white/10 flex items-center gap-3">
-                                <button className="w-7 h-7 rounded-full bg-white/5 flex items-center justify-center hover:bg-orange-500 transition-colors">
+                                <button className="w-7 h-7 rounded-full bg-white/5 flex items-center justify-center hover:bg-orange-500 transition-colors active:scale-[0.95]">
                                     <MessageSquare className="w-3.5 h-3.5" />
                                 </button>
                                 <span className="text-[9px] font-black uppercase tracking-widest text-slate-400">WhatsApp 24/7 disponible</span>
@@ -124,7 +124,7 @@ export default function ContactoPage() {
                                     <textarea rows={4} className="w-full resize-none rounded-xl border border-slate-200 bg-slate-50 px-4 py-2.5 text-[12px] font-medium text-slate-700 transition-[border-color,box-shadow,background-color] focus:outline-none focus:ring-2 focus:ring-orange-500"></textarea>
                                 </div>
                                 <div className="md:col-span-2 pt-3">
-                                    <button className="flex w-full items-center justify-center gap-2 rounded-xl bg-orange-500 px-8 py-3.5 text-[10px] font-black uppercase tracking-widest text-white shadow-xl shadow-orange-500/20 transition-[background-color,transform,box-shadow,color] hover:-translate-y-1 hover:bg-orange-600 active:scale-95 lg:w-auto">
+                                    <button className="flex w-full items-center justify-center gap-2 rounded-xl bg-orange-500 px-8 py-3.5 text-[10px] font-black uppercase tracking-widest text-white shadow-xl shadow-orange-500/20 transition-[background-color,transform,box-shadow,color] hover:-translate-y-1 hover:bg-orange-600 active:scale-[0.98] lg:w-auto">
                                         ENVIAR MENSAJE <Send className="w-3.5 h-3.5" />
                                     </button>
                                 </div>

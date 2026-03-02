@@ -78,14 +78,14 @@ export default function CategoryDetail({ category }: CategoryDetailProps) {
           <div className="mt-6 flex flex-wrap gap-3">
             <Link
               href="/contacto"
-              className="inline-flex items-center gap-2 rounded-xl bg-slate-900 px-5 py-2.5 text-[10px] font-black uppercase tracking-widest text-white transition-colors hover:bg-orange-600"
+              className="inline-flex items-center gap-2 rounded-xl bg-slate-900 px-5 py-2.5 text-[10px] font-black uppercase tracking-widest text-white transition-[background-color,transform] duration-300 hover:bg-orange-600 active:scale-[0.98]"
             >
               Solicitar cotización
               <ArrowRight className="h-3 w-3" />
             </Link>
             <Link
               href={`/${category.domain}`}
-              className="inline-flex items-center rounded-xl border border-slate-200 px-5 py-2.5 text-[10px] font-black uppercase tracking-widest text-slate-600 transition-colors hover:border-slate-300"
+              className="inline-flex items-center rounded-xl border border-slate-200 px-5 py-2.5 text-[10px] font-black uppercase tracking-widest text-slate-600 transition-[border-color,background-color,transform] duration-300 hover:border-slate-300 hover:bg-slate-50 active:scale-[0.98]"
             >
               Ver otras categorías
             </Link>
@@ -172,7 +172,7 @@ export default function CategoryDetail({ category }: CategoryDetailProps) {
                     <Link
                       href="/contacto"
                       key={item}
-                      className="group flex flex-col justify-between overflow-hidden rounded-xl border border-slate-200 bg-white p-4 shadow-sm cursor-pointer transition-[transform,border-color,box-shadow] duration-300 hover:-translate-y-1 hover:border-orange-300 hover:shadow-md hover:ring-1 hover:ring-orange-300 block w-full"
+                      className="group flex flex-col justify-between overflow-hidden rounded-xl border border-slate-200 bg-white p-4 shadow-sm cursor-pointer transition-[transform,border-color,box-shadow,ring] duration-300 hover:-translate-y-1 hover:border-orange-300 hover:shadow-md hover:ring-1 hover:ring-orange-300 block w-full active:scale-[0.98]"
                     >
                       <div>
                         <div className="mb-3 inline-flex h-8 w-8 items-center justify-center rounded-lg bg-orange-50 text-orange-600 transition-colors duration-300 group-hover:bg-orange-600 group-hover:text-white">

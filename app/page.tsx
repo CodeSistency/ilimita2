@@ -8,34 +8,31 @@ import {
 } from "lucide-react"
 import { motion, Variants } from "framer-motion"
 
-const slideInLeft: Variants = {
-  hidden: { opacity: 0, x: -50 },
-  visible: { opacity: 1, x: 0, transition: { duration: 1.2, ease: "easeOut" } }
-}
+
 
 const slideInRight: Variants = {
-  hidden: { opacity: 0, x: 50 },
-  visible: { opacity: 1, x: 0, transition: { duration: 1.2, ease: "easeOut" } }
+  hidden: { opacity: 0, x: 50, filter: "blur(4px)" },
+  visible: { opacity: 1, x: 0, filter: "blur(0px)", transition: { duration: 0.6, ease: "easeOut" } }
 }
 
 const fadeUpText: Variants = {
-  hidden: { opacity: 0, y: 30 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } }
+  hidden: { opacity: 0, y: 30, filter: "blur(4px)" },
+  visible: { opacity: 1, y: 0, filter: "blur(0px)", transition: { duration: 0.5, ease: "easeOut" } }
 }
 
 const fadeUpVariant: Variants = {
-  hidden: { opacity: 0, y: 40 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } }
+  hidden: { opacity: 0, y: 40, filter: "blur(4px)" },
+  visible: { opacity: 1, y: 0, filter: "blur(0px)", transition: { duration: 0.4, ease: "easeOut" } }
 }
 
 const slideInLeftVariant: Variants = {
-  hidden: { opacity: 0, x: -40 },
-  visible: { opacity: 1, x: 0, transition: { duration: 0.8, ease: "easeOut" } }
+  hidden: { opacity: 0, x: -40, filter: "blur(4px)" },
+  visible: { opacity: 1, x: 0, filter: "blur(0px)", transition: { duration: 0.4, ease: "easeOut" } }
 }
 
 const slideInRightVariant: Variants = {
-  hidden: { opacity: 0, x: 40 },
-  visible: { opacity: 1, x: 0, transition: { duration: 0.8, ease: "easeOut" } }
+  hidden: { opacity: 0, x: 40, filter: "blur(4px)" },
+  visible: { opacity: 1, x: 0, filter: "blur(0px)", transition: { duration: 0.4, ease: "easeOut" } }
 }
 
 const staggerText: Variants = {
@@ -128,10 +125,10 @@ export default function LandingPage() {
               Suministro confiable, servicios especializados para impulsar su producción.
             </motion.p>
             <motion.div variants={fadeUpText} className="flex flex-col sm:flex-row gap-4 relative z-50">
-              <Link href="/productos" className="flex items-center justify-center rounded-full border-[1.5px] border-blue-400 bg-[#08223d]/20 px-8 py-3 text-[13px] font-bold tracking-widest text-white shadow-lg backdrop-blur-md transition-[background-color,color,border-color] hover:border-white hover:bg-white hover:text-[#08223d]">
+              <Link href="/productos" className="flex items-center justify-center rounded-full border-[1.5px] border-blue-400 bg-[#08223d]/20 px-8 py-3 text-[13px] font-bold tracking-widest text-white shadow-lg backdrop-blur-md transition-[background-color,color,border-color,transform] duration-300 hover:border-white hover:bg-white hover:text-[#08223d] active:scale-[0.98]">
                 EXPLORAR CATÁLOGO
               </Link>
-              <Link href="/servicios" className="flex items-center justify-center rounded-full bg-gradient-to-r from-orange-500 to-orange-600 px-8 py-3 text-[13px] font-bold tracking-widest text-white shadow-xl shadow-orange-500/30 transition-[color,box-shadow] hover:from-orange-400 hover:to-orange-500">
+              <Link href="/servicios" className="flex items-center justify-center rounded-full bg-gradient-to-r from-orange-500 to-orange-600 px-8 py-3 text-[13px] font-bold tracking-widest text-white shadow-xl shadow-orange-500/30 transition-[color,box-shadow,transform] duration-300 hover:from-orange-400 hover:to-orange-500 active:scale-[0.98]">
                 CONOZCA NUESTROS SERVICIOS
               </Link>
             </motion.div>
@@ -153,8 +150,8 @@ export default function LandingPage() {
         >
 
           {/* Card 1 */}
-          <motion.div variants={fadeUpVariant} className="group relative h-[320px] rounded-2xl overflow-hidden shadow-xl cursor-pointer">
-            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.40.jpeg" alt="Bombas" fill className="object-cover transition-transform duration-[1500ms] ease-in-out group-hover:scale-[1.05]" />
+          <motion.div variants={fadeUpVariant} className="group relative h-[320px] rounded-2xl overflow-hidden shadow-xl cursor-pointer active:scale-[0.98] transition-transform duration-300">
+            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.40.jpeg" alt="Bombas" fill className="object-cover transition-transform duration-[400ms] ease-out group-hover:scale-[1.05]" />
             <div className="absolute inset-0 bg-gradient-to-t from-[#012a52] via-[#012a52]/60 to-transparent"></div>
             <div className="absolute inset-0 p-6 flex flex-col justify-between text-white">
               <div className="w-10 h-10 flex items-center justify-center">
@@ -170,8 +167,8 @@ export default function LandingPage() {
           </motion.div>
 
           {/* Card 2 */}
-          <motion.div variants={fadeUpVariant} className="group relative h-[320px] rounded-2xl overflow-hidden shadow-xl cursor-pointer">
-            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.31.jpeg" alt="Seguridad Industrial" fill className="object-cover transition-transform duration-[1500ms] ease-in-out group-hover:scale-[1.05]" />
+          <motion.div variants={fadeUpVariant} className="group relative h-[320px] rounded-2xl overflow-hidden shadow-xl cursor-pointer active:scale-[0.98] transition-transform duration-300">
+            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.31.jpeg" alt="Seguridad Industrial" fill className="object-cover transition-transform duration-[400ms] ease-out group-hover:scale-[1.05]" />
             <div className="absolute inset-0 bg-gradient-to-t from-[#012a52] via-[#012a52]/60 to-transparent"></div>
             <div className="absolute inset-0 p-6 flex flex-col justify-between text-white">
               <div className="w-10 h-10 flex items-center justify-center">
@@ -187,8 +184,8 @@ export default function LandingPage() {
           </motion.div>
 
           {/* Card 3 */}
-          <motion.div variants={fadeUpVariant} className="group relative h-[320px] rounded-2xl overflow-hidden shadow-xl cursor-pointer">
-            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.08.jpeg" alt="Instrumentación" fill className="object-cover transition-transform duration-[1500ms] ease-in-out group-hover:scale-[1.05]" />
+          <motion.div variants={fadeUpVariant} className="group relative h-[320px] rounded-2xl overflow-hidden shadow-xl cursor-pointer active:scale-[0.98] transition-transform duration-300">
+            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.08.jpeg" alt="Instrumentación" fill className="object-cover transition-transform duration-[400ms] ease-out group-hover:scale-[1.05]" />
             <div className="absolute inset-0 bg-gradient-to-t from-[#012a52] via-[#012a52]/60 to-transparent"></div>
             <div className="absolute inset-0 p-6 flex flex-col justify-between text-white">
               <div className="w-10 h-10 flex items-center justify-center">
@@ -204,8 +201,8 @@ export default function LandingPage() {
           </motion.div>
 
           {/* Card 4 - New */}
-          <motion.div variants={fadeUpVariant} className="group relative h-[320px] rounded-2xl overflow-hidden shadow-xl cursor-pointer">
-            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.22.jpeg" alt="Suministro de Tuberías" fill className="object-cover transition-transform duration-[1500ms] ease-in-out group-hover:scale-[1.05]" />
+          <motion.div variants={fadeUpVariant} className="group relative h-[320px] rounded-2xl overflow-hidden shadow-xl cursor-pointer active:scale-[0.98] transition-transform duration-300">
+            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.22.jpeg" alt="Suministro de Tuberías" fill className="object-cover transition-transform duration-[400ms] ease-out group-hover:scale-[1.05]" />
             <div className="absolute inset-0 bg-gradient-to-t from-[#012a52] via-[#012a52]/60 to-transparent"></div>
             <div className="absolute inset-0 p-6 flex flex-col justify-between text-white">
               <div className="w-10 h-10 flex items-center justify-center">
@@ -302,7 +299,7 @@ export default function LandingPage() {
             </div>
             <Link
               href="/productos"
-              className="group flex items-center gap-3 rounded-2xl border border-white/10 bg-white/5 px-8 py-4 text-xs font-black text-white transition-[background-color,border-color,color] hover:border-orange-600 hover:bg-orange-600"
+              className="group flex items-center gap-3 rounded-2xl border border-white/10 bg-white/5 px-8 py-4 text-xs font-black text-white transition-[background-color,border-color,transform,color] duration-300 hover:border-orange-600 hover:bg-orange-600 active:scale-[0.98]"
             >
               VER TODO EL CATÁLOGO <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Link>
@@ -344,9 +341,9 @@ export default function LandingPage() {
               <motion.div key={prod.href} variants={fadeUpVariant}>
                 <Link
                   href={prod.href}
-                  className="group block rounded-[2rem] border border-white/10 bg-white/5 p-8 transition-[background-color,border-color,box-shadow] duration-500 hover:border-white hover:bg-white h-full"
+                  className="group block rounded-[2rem] border border-white/10 bg-white/5 p-8 transition-[background-color,border-color,box-shadow,transform] duration-300 hover:border-white hover:bg-white h-full active:scale-[0.98]"
                 >
-                  <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-2xl bg-orange-500/10 text-orange-500 transition-[background-color,color] duration-500 group-hover:bg-orange-500 group-hover:text-white">
+                  <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-2xl bg-orange-500/10 text-orange-500 transition-[background-color,color] duration-300 group-hover:bg-orange-500 group-hover:text-white">
                     {prod.icon}
                   </div>
                   <h4 className="text-white group-hover:text-slate-900 font-black text-lg mb-2 tracking-tight transition-colors">{prod.title}</h4>

@@ -108,7 +108,7 @@ export default function NosotrosPage() {
           {propuestaValor.map((item, index) => (
             <article
               key={item}
-              className="group rounded-2xl border border-slate-200 bg-white p-5 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#0f3f66]/30 hover:shadow-md"
+              className="group rounded-2xl border border-slate-200 bg-white p-5 shadow-sm transition-[transform,border-color,box-shadow] duration-300 hover:-translate-y-1 hover:border-[#0f3f66]/30 hover:shadow-md cursor-pointer active:scale-[0.98]"
             >
               <div className="mb-4 inline-flex items-center justify-center h-10 w-10 rounded-xl bg-[#e9f2f9] text-[#0f3f66] font-black text-base transition-colors group-hover:bg-[#0f3f66] group-hover:text-white">
                 0{index + 1}
@@ -201,7 +201,7 @@ export default function NosotrosPage() {
               const Icon = icons[index]
 
               return (
-                <article key={item} className="group rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur-sm transition-all duration-300 hover:bg-white/10 hover:border-orange-500/30 hover:-translate-y-1">
+                <article key={item} className="group rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur-sm transition-all duration-300 hover:bg-white/10 hover:border-orange-500/30 hover:-translate-y-1 cursor-pointer active:scale-[0.98]">
                   <div className="mb-4 inline-flex rounded-xl bg-white/5 p-2.5 text-orange-400 border border-white/5 group-hover:scale-110 group-hover:bg-orange-500/10 transition-all duration-300">
                     <Icon className="h-5 w-5" />
                   </div>
@@ -217,7 +217,7 @@ export default function NosotrosPage() {
             </p>
             <Link
               href="/contacto"
-              className="shrink-0 inline-flex items-center gap-3 rounded-full bg-orange-500 px-8 py-5 text-sm font-black tracking-[0.15em] text-white uppercase transition-all hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20"
+              className="shrink-0 inline-flex items-center gap-3 rounded-full bg-orange-500 px-8 py-5 text-sm font-black tracking-[0.15em] text-white uppercase transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-[0.98]"
             >
               Contactar Asesor
             </Link>

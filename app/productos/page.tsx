@@ -7,6 +7,7 @@ import { Search, ArrowRight, X } from "lucide-react"
 
 import { catalogCategories } from "@/data/catalog"
 import { renderCategoryIcon } from "@/components/catalog/icons"
+import { motion, AnimatePresence } from "framer-motion"
 
 export default function ProductosPage() {
     const [searchTerm, setSearchTerm] = useState("")
@@ -202,56 +203,67 @@ export default function ProductosPage() {
                         </div>
                     )}
 
-                    {/* Grid de Categorías */}
-                    <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:gap-5">
-                        {filteredCategories.map((cat) => (
-                            <Link
-                                id={cat.id}
-                                href={`/productos/${cat.slug}`}
-                                key={cat.id}
-                                className="scroll-mt-[180px] group relative flex flex-col overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-orange-200 hover:shadow-md hover:shadow-orange-900/5 outline-none focus-visible:ring-2 focus-visible:ring-orange-500"
-                            >
-                                {/* Imagen de Cabecera */}
-                                <div className="relative h-28 w-full overflow-hidden bg-slate-100 sm:h-36">
-                                    <Image
-                                        src={cat.heroImage}
-                                        alt={cat.title}
-                                        fill
-                                        className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
-                                    />
-                                    <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-slate-900/20 to-transparent opacity-80 transition-opacity duration-300 group-hover:opacity-60" />
-                                    <div className="absolute left-2.5 top-2.5 rounded-full bg-white/90 px-2 py-0.5 text-[8px] font-black uppercase tracking-widest text-slate-900 backdrop-blur-md">
-                                        {cat.badge}
-                                    </div>
-                                </div>
-
-                                {/* Contenido de la Tarjeta */}
-                                <div className="flex flex-1 flex-col p-4 sm:p-5">
-                                    <div className="mb-2.5 flex items-center gap-2">
-                                        <div className="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg bg-orange-50 text-orange-600 transition-colors duration-300 group-hover:bg-orange-600 group-hover:text-white">
-                                            {renderCategoryIcon({ slug: cat.slug, className: "h-3.5 w-3.5" })}
+                    <motion.div layout className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:gap-5">
+                        <AnimatePresence>
+                            {filteredCategories.map((cat) => (
+                                <motion.div
+                                    key={cat.id}
+                                    layout
+                                    initial={{ opacity: 0, filter: "blur(4px)" }}
+                                    animate={{ opacity: 1, filter: "blur(0px)" }}
+                                    exit={{ opacity: 0, filter: "blur(4px)" }}
+                                    transition={{ duration: 0.3 }}
+                                    className="h-full block"
+                                >
+                                    <Link
+                                        id={cat.id}
+                                        href={`/productos/${cat.slug}`}
+                                        className="scroll-mt-[180px] h-full group relative flex flex-col overflow-hidden rounded-xl bg-white shadow-sm transition-[transform,box-shadow,border-color] duration-300 hover:-translate-y-1 hover:shadow-md hover:shadow-orange-900/5 outline-none focus-visible:ring-2 focus-visible:ring-orange-500 active:scale-[0.98]
+                                        border border-transparent hover:border-orange-200"
+                                    >
+                                        {/* Imagen de Cabecera */}
+                                        <div className="relative h-28 w-full overflow-hidden bg-slate-100 sm:h-36">
+                                            <Image
+                                                src={cat.heroImage}
+                                                alt={cat.title}
+                                                fill
+                                                className="object-cover transition-transform duration-300 ease-out group-hover:scale-105"
+                                            />
+                                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-slate-900/20 to-transparent opacity-80 transition-opacity duration-300 group-hover:opacity-60" />
+                                            <div className="absolute left-2.5 top-2.5 rounded-full bg-white/90 px-2 py-0.5 text-[8px] font-black uppercase tracking-widest text-slate-900 backdrop-blur-md">
+                                                {cat.badge}
+                                            </div>
                                         </div>
-                                        <h2 className="line-clamp-2 text-sm font-black uppercase tracking-tight text-slate-900">
-                                            {cat.title}
-                                        </h2>
-                                    </div>
 
-                                    <p className="mb-5 line-clamp-3 flex-1 text-[11px] font-medium leading-relaxed text-slate-600">
-                                        {cat.description}
-                                    </p>
+                                        {/* Contenido de la Tarjeta */}
+                                        <div className="flex flex-1 flex-col p-4 sm:p-5">
+                                            <div className="mb-2.5 flex items-center gap-2">
+                                                <div className="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg bg-orange-50 text-orange-600 transition-colors duration-300 group-hover:bg-orange-600 group-hover:text-white">
+                                                    {renderCategoryIcon({ slug: cat.slug, className: "h-3.5 w-3.5" })}
+                                                </div>
+                                                <h2 className="line-clamp-2 text-sm font-black uppercase tracking-tight text-slate-900">
+                                                    {cat.title}
+                                                </h2>
+                                            </div>
 
-                                    <div className="mt-auto flex items-center justify-between border-t border-slate-100 pt-3.5">
-                                        <span className="text-[9px] font-black uppercase tracking-widest text-orange-600 transition-colors group-hover:text-orange-700">
-                                            Ver {cat.sections.reduce((acc, curr) => acc + curr.items.length, 0)} Elementos
-                                        </span>
-                                        <div className="flex h-5 w-5 items-center justify-center rounded-full bg-slate-50 transition-colors group-hover:bg-orange-100">
-                                            <ArrowRight className="h-2.5 w-2.5 text-slate-400 transition-transform group-hover:translate-x-0.5 group-hover:text-orange-600" />
+                                            <p className="mb-5 line-clamp-3 flex-1 text-[11px] font-medium leading-relaxed text-slate-600">
+                                                {cat.description}
+                                            </p>
+
+                                            <div className="mt-auto flex items-center justify-between border-t border-slate-100 pt-3.5">
+                                                <span className="text-[9px] font-black uppercase tracking-widest text-orange-600 transition-colors group-hover:text-orange-700">
+                                                    Ver {cat.sections.reduce((acc, curr) => acc + curr.items.length, 0)} Elementos
+                                                </span>
+                                                <div className="flex h-5 w-5 items-center justify-center rounded-full bg-slate-50 transition-colors group-hover:bg-orange-100">
+                                                    <ArrowRight className="h-2.5 w-2.5 text-slate-400 transition-transform group-hover:translate-x-0.5 group-hover:text-orange-600" />
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                </div>
-                            </Link>
-                        ))}
-                    </div>
+                                    </Link>
+                                </motion.div>
+                            ))}
+                        </AnimatePresence>
+                    </motion.div>
                 </div>
             </div>
 

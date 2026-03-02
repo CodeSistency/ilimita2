@@ -4,7 +4,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { useState, useEffect, useRef } from "react"
 import { AlignJustify, X, ChevronDown, ArrowRight, Activity, Cpu, Power, ShieldCheck, Wrench } from "lucide-react"
-import { motion, AnimatePresence } from "framer-motion"
+
 
 const categories = [
     { title: "Instrumentos de Campo", icon: <Activity className="w-4 h-4" />, href: "/productos#instrumentos-campo" },

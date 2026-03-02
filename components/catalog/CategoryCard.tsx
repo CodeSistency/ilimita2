@@ -15,14 +15,14 @@ export default function CategoryCard({ category }: CategoryCardProps) {
   return (
     <Link
       href={`/${category.domain}/${category.slug}`}
-      className="group overflow-hidden rounded-[1.5rem] border border-slate-200 bg-white shadow-sm transition-[transform,box-shadow] duration-300 hover:-translate-y-1 hover:shadow-xl"
+      className="group overflow-hidden rounded-[1.5rem] border border-slate-200 bg-white shadow-sm transition-[transform,box-shadow,border-color] duration-300 hover:-translate-y-1 hover:shadow-xl hover:border-orange-200 active:scale-[0.98]"
     >
       <div className="relative h-48 overflow-hidden border-b border-slate-100">
         <Image
           src={category.heroImage}
           alt={category.title}
           fill
-          className="object-cover transition-transform duration-700 group-hover:scale-105"
+          className="object-cover transition-transform duration-[400ms] ease-out group-hover:scale-105"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-slate-900/20 to-transparent" />
         <span className="absolute left-5 top-5 rounded-full border border-white/30 bg-white/10 px-3 py-1 text-[10px] font-black uppercase tracking-widest text-white backdrop-blur-sm">

@@ -1,0 +1,14 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>页面不存在！</title>
+<script src="//g.alicdn.com/frontend-lib/frontend-lib/2.3.74/antidom.js"></script><script src="//o.alicdn.com/frontend-lib/common-lib/jquery.min.js"></script></head>
+
+<body>
+<h1>很抱歉，您要访问的页面不存在！</h1>
+<p>温馨提示</p>
+<p>请检查您访问的网址是否正确</p>
+<p>如果您不能确认访问的网址，请返回德力西首页重新点击。</p>
+</body>
+</html>

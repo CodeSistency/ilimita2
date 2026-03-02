@@ -11,72 +11,102 @@ export default function LandingPage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative w-full bg-[#0a2640] overflow-hidden min-h-[700px] flex flex-col pt-12">
-        {/* Top image collage background */}
-        <div className="absolute top-0 left-0 w-full h-[55%] grid grid-cols-4 grid-rows-2">
-          <div className="relative row-span-2 col-span-1 border-r-4 border-white">
-            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.02.jpeg" alt="Oil rig" fill className="object-cover" />
+      <section className="relative w-full bg-[#08223d] overflow-hidden min-h-[650px] lg:min-h-[750px] flex flex-col">
+        {/* TOP BACKGROUND PANELS (Heights go down to 45%) */}
+        <div className="absolute top-0 left-0 w-full h-[50%] lg:h-[45%] bg-white z-0">
+
+          {/* Panel 1 (Left Image - Pipeline) */}
+          <div className="absolute top-0 left-0 w-full h-full"
+            style={{ clipPath: 'polygon(0 0, calc(34% - 4px) 0, calc(42% - 4px) 100%, 0 100%)' }}>
+            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.02.jpeg" alt="Instalación Petrolera" fill className="object-cover" />
+
+            {/* Venezuelan Flag Overlay centered in top-left space */}
+            <div className="absolute top-16 left-6 lg:top-20 lg:left-10 w-14 h-9 lg:w-16 lg:h-11 shadow-2xl z-10 flex flex-col rounded-sm overflow-hidden border border-white/40 rotate-[3deg]">
+              <div className="w-full h-1/3 bg-[#fce300]"></div>
+              <div className="w-full h-1/3 bg-[#0038a8] flex justify-center items-center">
+                <div className="flex gap-[1px] translate-y-[1px]">
+                  {[...Array(8)].map((_, i) => (
+                    <span key={i} className="text-white text-[2px] lg:text-[3px] leading-none">★</span>
+                  ))}
+                </div>
+              </div>
+              <div className="w-full h-1/3 bg-[#ce1126]"></div>
+            </div>
           </div>
-          <div className="relative col-span-1 border-r-4 border-white">
-            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.10.jpeg" alt="Tanks" fill className="object-cover" />
+
+          {/* Panel 2 (Middle Logo) */}
+          <div className="absolute top-0 left-0 w-full h-full"
+            style={{ clipPath: 'polygon(calc(34% + 4px) 0, calc(66% - 4px) 0, calc(58% - 4px) 100%, calc(42% + 4px) 100%)' }}>
+            {/* Background Image */}
+            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.08.jpeg" alt="Fondo Central" fill className="object-cover" />
+
+            {/* Centered Radial White Gradient for Logo Readability (Smaller Destello) */}
+            <div className="absolute inset-0 z-10 pointer-events-none bg-[radial-gradient(ellipse_50%_30%_at_50%_48%,rgba(255,255,255,0.95)_0%,rgba(255,255,255,0)_75%)] lg:bg-[radial-gradient(ellipse_45%_25%_at_50%_48%,rgba(255,255,255,0.95)_0%,rgba(255,255,255,0)_75%)]"></div>
+
+            <div className="relative w-full h-[70%] flex items-center justify-center pt-24 lg:pt-28 z-20">
+              <div className="relative w-[50%] lg:w-[45%] h-[80px] lg:h-[100px]">
+                <Image src="/logo.png" alt="Logo" fill className="object-contain drop-shadow-xl" />
+              </div>
+            </div>
           </div>
-          <div className="relative col-span-1 border-r-4 border-white">
-            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.03.jpeg" alt="Industrial Instrumentation" fill className="object-cover" />
-          </div>
-          <div className="relative col-span-1">
-            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.33.jpeg" alt="Robotics" fill className="object-cover" />
-          </div>
-          <div className="relative row-span-1 col-span-2 border-t-4 border-r-4 border-white">
-            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.29.jpeg" alt="Pipes" fill className="object-cover" />
-          </div>
-          <div className="relative row-span-1 col-span-1 border-t-4 border-white">
-            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.14.jpeg" alt="Electrical" fill className="object-cover" />
+
+          {/* Panel 3 (Right Image - Equipos VFD) */}
+          <div className="absolute top-0 left-0 w-full h-full"
+            style={{ clipPath: 'polygon(calc(66% + 4px) 0, 100% 0, 100% 100%, calc(58% + 4px) 100%)' }}>
+            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.10.jpeg" alt="Equipos VFD" fill className="object-cover" />
           </div>
         </div>
 
-        {/* Angled Content Overlay */}
-        <div
-          className="absolute top-[35%] w-full h-[65%] bg-gradient-to-br from-[#0a2640] to-[#041525] z-10"
-          style={{ clipPath: 'polygon(0 15%, 100% 0, 100% 100%, 0 100%)' }}
-        ></div>
+        {/* BOTTOM BLUE AREA */}
+        {/* White Border layer - V-shape pointing down in the middle */}
+        <div className="absolute bottom-0 left-0 w-full h-[75%] lg:h-[75%] bg-white z-[9]"
+          style={{ clipPath: 'polygon(0 0, 50% 15%, 100% 0, 100% 100%, 0 100%)' }}>
+        </div>
 
-        {/* Hero Content */}
-        <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-[35vh] pb-32 flex flex-col lg:flex-row justify-between items-center lg:items-end gap-10">
+        {/* DARK BLUE OVERLAY inside the white border */}
+        <div className="absolute bottom-0 left-0 w-full h-[75%] lg:h-[75%] bg-[#08223d] z-10"
+          style={{ clipPath: 'polygon(0 calc(0% + 8px), 50% calc(15% + 8px), 100% calc(0% + 8px), 100% 100%, 0 100%)' }}>
 
-          <div className="w-full lg:w-[60%] text-white pt-8 z-40 relative">
-            <h1 className="text-4xl md:text-5xl lg:text-5xl xl:text-5xl font-black leading-tight mb-6 tracking-tight drop-shadow-xl text-balance text-left">
-              SOLUCIONES INDUSTRIALES <br className="hidden md:block" />Y PETROLERAS SIN LIMITES
+          {/* Left Lateral Faded Image */}
+          <div className="absolute top-0 left-0 w-[40%] h-full opacity-90">
+            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.42.jpeg" alt="Equipos" fill className="object-cover" />
+            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-[#08223d]/40 to-[#08223d]"></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-[#08223d] via-transparent to-transparent opacity-20"></div>
+          </div>
+
+          {/* Right Lateral Faded Image */}
+          <div className="absolute top-0 right-0 w-[40%] h-full opacity-90">
+            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.06.jpeg" alt="Estructura Industrial" fill className="object-cover" />
+            <div className="absolute inset-0 bg-gradient-to-l from-transparent via-[#08223d]/40 to-[#08223d]"></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-[#08223d] via-transparent to-transparent opacity-20"></div>
+          </div>
+
+          {/* Dark Vignette to ensure center text pop */}
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(8,34,61,0)_20%,rgba(8,34,61,0.8)_70%,rgba(8,34,61,1)_100%)]"></div>
+
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(5,20,33,0)_0%,rgba(5,20,33,0.8)_100%)] mix-blend-multiply opacity-50"></div>
+        </div>
+
+        {/* TEXT CONTENT LAYER */}
+        <div className="relative z-20 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex flex-col justify-end pb-16 lg:pb-24 pt-[280px] lg:pt-[300px]">
+          <div className="w-full text-white relative flex flex-col items-center text-center">
+            <h1 className="text-3xl md:text-4xl lg:text-[2.8rem] font-black leading-[1.1] mb-5 tracking-tight drop-shadow-2xl">
+              SOLUCIONES INDUSTRIALES <br className="hidden md:block" />
+              Y PETROLERAS SIN LÍMITES.
             </h1>
-            <p className="text-lg md:text-xl text-blue-100 font-medium mb-10 max-w-xl text-balance drop-shadow-md text-left">
+            <p className="text-sm md:text-lg text-blue-50/90 font-medium mb-8 max-w-2xl leading-relaxed drop-shadow-md">
               Suministro confiable, servicios especializados para impulsar su producción.
             </p>
 
-            <div className="flex flex-wrap gap-4 relative z-50">
-              <button className="border-2 border-blue-400 bg-blue-900/40 backdrop-blur-md text-white px-6 py-3 rounded-full font-bold hover:bg-blue-800 transition-colors shadow-[0_0_15px_rgba(59,130,246,0.3)] pointer-events-auto cursor-pointer">
+            <div className="flex flex-col sm:flex-row gap-4 relative z-50">
+              <Link href="/productos" className="border-[1.5px] border-blue-400 hover:bg-white hover:text-[#08223d] hover:border-white bg-[#08223d]/20 backdrop-blur-md text-white px-8 py-3 rounded-full font-bold transition-all shadow-lg text-[13px] tracking-widest flex items-center justify-center">
                 EXPLORAR CATÁLOGO
-              </button>
-              <button className="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-6 py-3 rounded-full font-bold shadow-xl shadow-orange-500/30 hover:-translate-y-1 transition-transform pointer-events-auto cursor-pointer">
+              </Link>
+              <Link href="/servicios" className="bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-400 hover:to-orange-500 text-white px-8 py-3 rounded-full font-bold shadow-xl shadow-orange-500/30 transition-all text-[13px] tracking-widest flex items-center justify-center">
                 CONOZCA NUESTROS SERVICIOS
-              </button>
+              </Link>
             </div>
           </div>
-
-          {/* Faux Worker Image pointing */}
-          <div className="hidden lg:flex w-full lg:w-[40%] justify-end relative h-[450px] z-30 pointer-events-none -mt-12">
-            <div className="relative w-[500px] h-[500px]">
-              <Image
-                src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.37.jpeg"
-                alt="Industrial Worker"
-                fill
-                className="object-cover mix-blend-screen opacity-90"
-                style={{
-                  maskImage: "radial-gradient(ellipse at center, rgba(0,0,0,1) 40%, rgba(0,0,0,0) 70%)",
-                  WebkitMaskImage: "radial-gradient(ellipse at center, rgba(0,0,0,1) 40%, rgba(0,0,0,0) 70%)"
-                }}
-              />
-            </div>
-          </div>
-
         </div>
       </section>
 
@@ -370,11 +400,10 @@ export default function LandingPage() {
 
 const row1Brands = [
   "3M.jpg", "ABB.png", "APC.png", "Castrol.png", "FAG.png", "Flowserve.png",
-  "GE.png", "Honeywell.png", "Mobil.png", "NSK.png", "North.png", "PDVSA_Petróleo.png"
+  "GE.png", "Honeywell.png", "Mobil.png", "NSK.png", "North.png"
 ]
 
 const row2Brands = [
-  "Pdvsa_Gas.png", "Pequiven.png", "Petromonagas.png", "Petropiar.png",
-  "Petrosanfelix.png", "RA.png", "Rosemount-Emerson-Logo-Vertical.png",
-  "SIEMENS.jpg", "SKF.png", "Sulzer.jpg", "Wika.png", "ashcroft.png", "weir.jpeg"
+  "PDVSA_Petróleo.png", "Pequiven.png", "RA.png", "Rosemount-Emerson-Logo-Vertical.png",
+  "SIEMENS.jpg", "SKF.png", "Sulzer.jpg", "Wika.png", "ashcroft.png", "weir.jpeg", "delixi.svg"
 ]

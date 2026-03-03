@@ -12,7 +12,7 @@
 - Tags: `industrial, valve, actuator, pipeline, process, oil, electricos, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Eléctricos. Context: Elementos Finales de Control y Actuación / Actuadores. Scene on a live process manifold in a Venezuelan oil facility, showing installed valves and actuators connected to high-pressure piping. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Eléctricos. Context: Elementos Finales de Control y Actuación / Actuadores. Scene on a live process manifold in a Venezuelan oil facility, showing installed valves and actuators connected to high-pressure piping. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Zulia (Puerto Miranda), Venezuela.
 
 ## Hidráulicos y Electrohidráulicos [OK]
 - Categoría: Elementos Finales de Control y Actuación
@@ -23,7 +23,7 @@
 - Tags: `industrial, valve, actuator, pipeline, process, oil, hidraulicos, electrohidraulicos, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Hidráulicos y Electrohidráulicos. Context: Elementos Finales de Control y Actuación / Actuadores. Scene on a live process manifold in a Venezuelan oil facility, showing installed valves and actuators connected to high-pressure piping. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Hidráulicos y Electrohidráulicos. Context: Elementos Finales de Control y Actuación / Actuadores. Scene on a live process manifold in a Venezuelan oil facility, showing installed valves and actuators connected to high-pressure piping. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Anzoátegui (Jose), Venezuela.
 
 ## Neumáticos (Diafragma / Pistón) [OK]
 - Categoría: Elementos Finales de Control y Actuación
@@ -34,7 +34,7 @@
 - Tags: `industrial, valve, actuator, pipeline, process, oil, neumaticos, diafragma, piston, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Neumáticos (Diafragma / Pistón). Context: Elementos Finales de Control y Actuación / Actuadores. Scene on a live process manifold in a Venezuelan oil facility, showing installed valves and actuators connected to high-pressure piping. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Neumáticos (Diafragma / Pistón). Context: Elementos Finales de Control y Actuación / Actuadores. Scene on a live process manifold in a Venezuelan oil facility, showing installed valves and actuators connected to high-pressure piping. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Falcón (Punto Fijo), Venezuela.
 
 ## Accesorios [OK]
 - Categoría: Elementos Finales de Control y Actuación
@@ -45,7 +45,7 @@
 - Tags: `industrial, valve, actuator, pipeline, process, oil, accesorios, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Accesorios. Context: Elementos Finales de Control y Actuación / Válvulas de Control. Scene on a live process manifold in a Venezuelan oil facility, showing installed valves and actuators connected to high-pressure piping. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Accesorios. Context: Elementos Finales de Control y Actuación / Válvulas de Control. Scene on a live process manifold in a Venezuelan oil facility, showing installed valves and actuators connected to high-pressure piping. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Carabobo (Puerto Cabello), Venezuela.
 
 ## Posicionadores [OK]
 - Categoría: Elementos Finales de Control y Actuación
@@ -56,7 +56,7 @@
 - Tags: `industrial, valve, actuator, pipeline, process, oil, valve-positioner, instrumentation, posicionadores, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Posicionadores. Context: Elementos Finales de Control y Actuación / Válvulas de Control. Scene on a live process manifold in a Venezuelan oil facility, showing installed valves and actuators connected to high-pressure piping. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Posicionadores. Context: Elementos Finales de Control y Actuación / Válvulas de Control. Scene on a live process manifold in a Venezuelan oil facility, showing installed valves and actuators connected to high-pressure piping. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Zulia (Maracaibo), Venezuela.
 
 ## Válvulas de Control [OK]
 - Categoría: Elementos Finales de Control y Actuación
@@ -67,7 +67,7 @@
 - Tags: `industrial, valve, actuator, pipeline, process, oil, valvulas, control, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Válvulas de Control. Context: Elementos Finales de Control y Actuación / Válvulas de Control. Scene on a live process manifold in a Venezuelan oil facility, showing installed valves and actuators connected to high-pressure piping. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Válvulas de Control. Context: Elementos Finales de Control y Actuación / Válvulas de Control. Scene on a live process manifold in a Venezuelan oil facility, showing installed valves and actuators connected to high-pressure piping. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Monagas (Maturín), Venezuela.
 
 ## Acondicionadores de Señal [OK]
 - Categoría: Equipos Auxiliares y Accesorios
@@ -78,7 +78,7 @@
 - Tags: `industrial, fittings, instrumentation, workshop, pipeline, steel, acondicionadores, senal, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Acondicionadores de Señal. Context: Equipos Auxiliares y Accesorios / Accesorios y Complementos. Scene in a technical workshop and installation area in Venezuela, with fittings, manifolds, cabinets and field-ready instrumentation accessories. Use a technical close-up composition, main product in sharp focus on an industrial workbench, installation context in background. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Acondicionadores de Señal. Context: Equipos Auxiliares y Accesorios / Accesorios y Complementos. Scene in a technical workshop and installation area in Venezuela, with fittings, manifolds, cabinets and field-ready instrumentation accessories. Use a technical close-up composition, main product in sharp focus on an industrial workbench, installation context in background. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Zulia (Cabimas), Venezuela.
 
 ## Barreras de Aislamiento [OK]
 - Categoría: Equipos Auxiliares y Accesorios
@@ -89,7 +89,7 @@
 - Tags: `industrial, fittings, instrumentation, workshop, pipeline, steel, switchgear, substation, isolator, control-panel, barreras, aislamiento`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Barreras de Aislamiento. Context: Equipos Auxiliares y Accesorios / Accesorios y Complementos. Scene in a technical workshop and installation area in Venezuela, with fittings, manifolds, cabinets and field-ready instrumentation accessories. Use a technical close-up composition, main product in sharp focus on an industrial workbench, installation context in background. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Barreras de Aislamiento. Context: Equipos Auxiliares y Accesorios / Accesorios y Complementos. Scene in a technical workshop and installation area in Venezuela, with fittings, manifolds, cabinets and field-ready instrumentation accessories. Use a technical close-up composition, main product in sharp focus on an industrial workbench, installation context in background. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Carabobo (Valencia), Venezuela.
 
 ## Bridas [OK]
 - Categoría: Equipos Auxiliares y Accesorios
@@ -100,7 +100,7 @@
 - Tags: `industrial, fittings, instrumentation, workshop, pipeline, steel, flange, bridas, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Bridas. Context: Equipos Auxiliares y Accesorios / Accesorios y Complementos. Scene in a technical workshop and installation area in Venezuela, with fittings, manifolds, cabinets and field-ready instrumentation accessories. Use a technical close-up composition, main product in sharp focus on an industrial workbench, installation context in background. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Bridas. Context: Equipos Auxiliares y Accesorios / Accesorios y Complementos. Scene in a technical workshop and installation area in Venezuela, with fittings, manifolds, cabinets and field-ready instrumentation accessories. Use a technical close-up composition, main product in sharp focus on an industrial workbench, installation context in background. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Anzoátegui (Barcelona), Venezuela.
 
 ## Instrumentación Inalámbrica [OK]
 - Categoría: Equipos Auxiliares y Accesorios
@@ -111,7 +111,7 @@
 - Tags: `industrial, fittings, instrumentation, workshop, pipeline, steel, wireless-instrumentation, instrumentacion, inalambrica, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Instrumentación Inalámbrica. Context: Equipos Auxiliares y Accesorios / Accesorios y Complementos. Scene in a technical workshop and installation area in Venezuela, with fittings, manifolds, cabinets and field-ready instrumentation accessories. Use a technical close-up composition, main product in sharp focus on an industrial workbench, installation context in background. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Instrumentación Inalámbrica. Context: Equipos Auxiliares y Accesorios / Accesorios y Complementos. Scene in a technical workshop and installation area in Venezuela, with fittings, manifolds, cabinets and field-ready instrumentation accessories. Use a technical close-up composition, main product in sharp focus on an industrial workbench, installation context in background. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Zulia (Lagunillas), Venezuela.
 
 ## Manifolds [OK]
 - Categoría: Equipos Auxiliares y Accesorios
@@ -122,7 +122,7 @@
 - Tags: `industrial, fittings, instrumentation, workshop, pipeline, steel, manifold, manifolds, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Manifolds. Context: Equipos Auxiliares y Accesorios / Accesorios y Complementos. Scene in a technical workshop and installation area in Venezuela, with fittings, manifolds, cabinets and field-ready instrumentation accessories. Use a technical close-up composition, main product in sharp focus on an industrial workbench, installation context in background. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Manifolds. Context: Equipos Auxiliares y Accesorios / Accesorios y Complementos. Scene in a technical workshop and installation area in Venezuela, with fittings, manifolds, cabinets and field-ready instrumentation accessories. Use a technical close-up composition, main product in sharp focus on an industrial workbench, installation context in background. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Zulia (Ciudad Ojeda), Venezuela.
 
 ## Paneles y Gabinetes [OK]
 - Categoría: Equipos Auxiliares y Accesorios
@@ -133,7 +133,7 @@
 - Tags: `industrial, fittings, instrumentation, workshop, pipeline, steel, electrical-cabinet, paneles, gabinetes, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Paneles y Gabinetes. Context: Equipos Auxiliares y Accesorios / Accesorios y Complementos. Scene in a technical workshop and installation area in Venezuela, with fittings, manifolds, cabinets and field-ready instrumentation accessories. Use a technical close-up composition, main product in sharp focus on an industrial workbench, installation context in background. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Paneles y Gabinetes. Context: Equipos Auxiliares y Accesorios / Accesorios y Complementos. Scene in a technical workshop and installation area in Venezuela, with fittings, manifolds, cabinets and field-ready instrumentation accessories. Use a technical close-up composition, main product in sharp focus on an industrial workbench, installation context in background. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Carabobo (San Diego), Venezuela.
 
 ## Tubing & Fittings [OK]
 - Categoría: Equipos Auxiliares y Accesorios
@@ -144,7 +144,7 @@
 - Tags: `industrial, fittings, instrumentation, workshop, pipeline, steel, tube-fitting, tubing, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Tubing & Fittings. Context: Equipos Auxiliares y Accesorios / Accesorios y Complementos. Scene in a technical workshop and installation area in Venezuela, with fittings, manifolds, cabinets and field-ready instrumentation accessories. Use a technical close-up composition, main product in sharp focus on an industrial workbench, installation context in background. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Tubing & Fittings. Context: Equipos Auxiliares y Accesorios / Accesorios y Complementos. Scene in a technical workshop and installation area in Venezuela, with fittings, manifolds, cabinets and field-ready instrumentation accessories. Use a technical close-up composition, main product in sharp focus on an industrial workbench, installation context in background. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Zulia (Bachaquero), Venezuela.
 
 ## Bombas Centrífugas [OK]
 - Categoría: Equipos de Bombeo y Válvulas Industriales
@@ -155,7 +155,7 @@
 - Tags: `industrial, pump, valve, pipeline, oilfield, machinery, gas-detector, centrifugal-pump, bombas, centrifugas, venezuela, industry`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Bombas Centrífugas. Context: Equipos de Bombeo y Válvulas Industriales / Sistemas de Bombeo. Scene in a heavy-duty pumping and transfer station in Venezuela, with skid-mounted equipment, flanged pipelines and operating industrial infrastructure. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Bombas Centrífugas. Context: Equipos de Bombeo y Válvulas Industriales / Sistemas de Bombeo. Scene in a heavy-duty pumping and transfer station in Venezuela, with skid-mounted equipment, flanged pipelines and operating industrial infrastructure. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Zulia (Tía Juana), Venezuela.
 
 ## Bombas Electrosumergibles [OK]
 - Categoría: Equipos de Bombeo y Válvulas Industriales
@@ -166,7 +166,7 @@
 - Tags: `industrial, pump, valve, pipeline, oilfield, machinery, esp-pump, bombas, electrosumergibles, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Bombas Electrosumergibles. Context: Equipos de Bombeo y Válvulas Industriales / Sistemas de Bombeo. Scene in a heavy-duty pumping and transfer station in Venezuela, with skid-mounted equipment, flanged pipelines and operating industrial infrastructure. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Bombas Electrosumergibles. Context: Equipos de Bombeo y Válvulas Industriales / Sistemas de Bombeo. Scene in a heavy-duty pumping and transfer station in Venezuela, with skid-mounted equipment, flanged pipelines and operating industrial infrastructure. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Monagas (El Furrial), Venezuela.
 
 ## Bombas de Cavidad Progresiva (BCP) [OK]
 - Categoría: Equipos de Bombeo y Válvulas Industriales
@@ -177,7 +177,7 @@
 - Tags: `industrial, pump, valve, pipeline, oilfield, machinery, progressing-cavity-pump, bombas, cavidad, progresiva, venezuela, industry`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Bombas de Cavidad Progresiva (BCP). Context: Equipos de Bombeo y Válvulas Industriales / Sistemas de Bombeo. Scene in a heavy-duty pumping and transfer station in Venezuela, with skid-mounted equipment, flanged pipelines and operating industrial infrastructure. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Bombas de Cavidad Progresiva (BCP). Context: Equipos de Bombeo y Válvulas Industriales / Sistemas de Bombeo. Scene in a heavy-duty pumping and transfer station in Venezuela, with skid-mounted equipment, flanged pipelines and operating industrial infrastructure. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Anzoátegui (San Tomé), Venezuela.
 
 ## Bombas de Pistón / Reciprocantes [OK]
 - Categoría: Equipos de Bombeo y Válvulas Industriales
@@ -188,7 +188,7 @@
 - Tags: `industrial, pump, valve, pipeline, oilfield, machinery, reciprocating-pump, bombas, piston, reciprocantes, venezuela, industry`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Bombas de Pistón / Reciprocantes. Context: Equipos de Bombeo y Válvulas Industriales / Sistemas de Bombeo. Scene in a heavy-duty pumping and transfer station in Venezuela, with skid-mounted equipment, flanged pipelines and operating industrial infrastructure. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Bombas de Pistón / Reciprocantes. Context: Equipos de Bombeo y Válvulas Industriales / Sistemas de Bombeo. Scene in a heavy-duty pumping and transfer station in Venezuela, with skid-mounted equipment, flanged pipelines and operating industrial infrastructure. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Zulia (San Lorenzo), Venezuela.
 
 ## Válvulas Mariposa [OK]
 - Categoría: Equipos de Bombeo y Válvulas Industriales
@@ -199,7 +199,7 @@
 - Tags: `industrial, pump, valve, pipeline, oilfield, machinery, valvulas, mariposa, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Válvulas Mariposa. Context: Equipos de Bombeo y Válvulas Industriales / Válvulas Industriales de Proceso. Scene in a heavy-duty pumping and transfer station in Venezuela, with skid-mounted equipment, flanged pipelines and operating industrial infrastructure. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Válvulas Mariposa. Context: Equipos de Bombeo y Válvulas Industriales / Válvulas Industriales de Proceso. Scene in a heavy-duty pumping and transfer station in Venezuela, with skid-mounted equipment, flanged pipelines and operating industrial infrastructure. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Falcón (Cardón), Venezuela.
 
 ## Válvulas de Alivio y Seguridad [OK]
 - Categoría: Equipos de Bombeo y Válvulas Industriales
@@ -210,7 +210,7 @@
 - Tags: `industrial, pump, valve, pipeline, oilfield, machinery, valvulas, alivio, seguridad, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Válvulas de Alivio y Seguridad. Context: Equipos de Bombeo y Válvulas Industriales / Válvulas Industriales de Proceso. Scene in a heavy-duty pumping and transfer station in Venezuela, with skid-mounted equipment, flanged pipelines and operating industrial infrastructure. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Válvulas de Alivio y Seguridad. Context: Equipos de Bombeo y Válvulas Industriales / Válvulas Industriales de Proceso. Scene in a heavy-duty pumping and transfer station in Venezuela, with skid-mounted equipment, flanged pipelines and operating industrial infrastructure. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Anzoátegui (Guanta), Venezuela.
 
 ## Válvulas de Bola [OK]
 - Categoría: Equipos de Bombeo y Válvulas Industriales
@@ -221,7 +221,7 @@
 - Tags: `industrial, pump, valve, pipeline, oilfield, machinery, valvulas, bola, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Válvulas de Bola. Context: Equipos de Bombeo y Válvulas Industriales / Válvulas Industriales de Proceso. Scene in a heavy-duty pumping and transfer station in Venezuela, with skid-mounted equipment, flanged pipelines and operating industrial infrastructure. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Válvulas de Bola. Context: Equipos de Bombeo y Válvulas Industriales / Válvulas Industriales de Proceso. Scene in a heavy-duty pumping and transfer station in Venezuela, with skid-mounted equipment, flanged pipelines and operating industrial infrastructure. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Zulia (Puerto Miranda), Venezuela.
 
 ## Válvulas de Compuerta [OK]
 - Categoría: Equipos de Bombeo y Válvulas Industriales
@@ -232,7 +232,7 @@
 - Tags: `industrial, pump, valve, pipeline, oilfield, machinery, valvulas, compuerta, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Válvulas de Compuerta. Context: Equipos de Bombeo y Válvulas Industriales / Válvulas Industriales de Proceso. Scene in a heavy-duty pumping and transfer station in Venezuela, with skid-mounted equipment, flanged pipelines and operating industrial infrastructure. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Válvulas de Compuerta. Context: Equipos de Bombeo y Válvulas Industriales / Válvulas Industriales de Proceso. Scene in a heavy-duty pumping and transfer station in Venezuela, with skid-mounted equipment, flanged pipelines and operating industrial infrastructure. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Monagas (Maturín), Venezuela.
 
 ## Válvulas de Globo [OK]
 - Categoría: Equipos de Bombeo y Válvulas Industriales
@@ -243,7 +243,7 @@
 - Tags: `industrial, pump, valve, pipeline, oilfield, machinery, valvulas, globo, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Válvulas de Globo. Context: Equipos de Bombeo y Válvulas Industriales / Válvulas Industriales de Proceso. Scene in a heavy-duty pumping and transfer station in Venezuela, with skid-mounted equipment, flanged pipelines and operating industrial infrastructure. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Válvulas de Globo. Context: Equipos de Bombeo y Válvulas Industriales / Válvulas Industriales de Proceso. Scene in a heavy-duty pumping and transfer station in Venezuela, with skid-mounted equipment, flanged pipelines and operating industrial infrastructure. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Carabobo (Puerto Cabello), Venezuela.
 
 ## Válvulas de Tapón [OK]
 - Categoría: Equipos de Bombeo y Válvulas Industriales
@@ -254,7 +254,7 @@
 - Tags: `industrial, pump, valve, pipeline, oilfield, machinery, valvulas, tapon, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Válvulas de Tapón. Context: Equipos de Bombeo y Válvulas Industriales / Válvulas Industriales de Proceso. Scene in a heavy-duty pumping and transfer station in Venezuela, with skid-mounted equipment, flanged pipelines and operating industrial infrastructure. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Válvulas de Tapón. Context: Equipos de Bombeo y Válvulas Industriales / Válvulas Industriales de Proceso. Scene in a heavy-duty pumping and transfer station in Venezuela, with skid-mounted equipment, flanged pipelines and operating industrial infrastructure. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Zulia (Maracaibo), Venezuela.
 
 ## Analizadores de Gas [OK]
 - Categoría: Instrumentación de Campo (Medición)
@@ -265,7 +265,7 @@
 - Tags: `industrial, instrumentation, pipeline, refinery, oil, gas, industrial-analyzer, gas-detector, analizadores, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Analizadores de Gas. Context: Instrumentación de Campo (Medición) / Instrumentación Analítica. Scene inside an operating refinery and flow station in Venezuela, with instruments mounted on real process lines, stainless tubing, impulse lines and weathered industrial structures. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Analizadores de Gas. Context: Instrumentación de Campo (Medición) / Instrumentación Analítica. Scene inside an operating refinery and flow station in Venezuela, with instruments mounted on real process lines, stainless tubing, impulse lines and weathered industrial structures. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Zulia (Lagunillas), Venezuela.
 
 ## Analizadores de pH/ORP y Conductividad [OK]
 - Categoría: Instrumentación de Campo (Medición)
@@ -276,7 +276,7 @@
 - Tags: `industrial, instrumentation, pipeline, refinery, oil, gas, industrial-analyzer, water-analysis, laboratory, analizadores, conductividad, venezuela`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Analizadores de pH/ORP y Conductividad. Context: Instrumentación de Campo (Medición) / Instrumentación Analítica. Scene inside an operating refinery and flow station in Venezuela, with instruments mounted on real process lines, stainless tubing, impulse lines and weathered industrial structures. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Analizadores de pH/ORP y Conductividad. Context: Instrumentación de Campo (Medición) / Instrumentación Analítica. Scene inside an operating refinery and flow station in Venezuela, with instruments mounted on real process lines, stainless tubing, impulse lines and weathered industrial structures. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Anzoátegui (Jose), Venezuela.
 
 ## Medidores de Humedad / Punto de Rocío [OK]
 - Categoría: Instrumentación de Campo (Medición)
@@ -287,7 +287,7 @@
 - Tags: `industrial, instrumentation, pipeline, refinery, oil, gas, humidity-sensor, medidores, humedad, punto, rocio, venezuela`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Medidores de Humedad / Punto de Rocío. Context: Instrumentación de Campo (Medición) / Instrumentación Analítica. Scene inside an operating refinery and flow station in Venezuela, with instruments mounted on real process lines, stainless tubing, impulse lines and weathered industrial structures. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Medidores de Humedad / Punto de Rocío. Context: Instrumentación de Campo (Medición) / Instrumentación Analítica. Scene inside an operating refinery and flow station in Venezuela, with instruments mounted on real process lines, stainless tubing, impulse lines and weathered industrial structures. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Falcón (Cardón), Venezuela.
 
 ## Caudalímetros Magnéticos [OK]
 - Categoría: Instrumentación de Campo (Medición)
@@ -298,7 +298,7 @@
 - Tags: `industrial, instrumentation, pipeline, refinery, oil, gas, flowmeter, caudalimetros, magneticos, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Caudalímetros Magnéticos. Context: Instrumentación de Campo (Medición) / Medición de Flujo (Caudal). Scene inside an operating refinery and flow station in Venezuela, with instruments mounted on real process lines, stainless tubing, impulse lines and weathered industrial structures. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Caudalímetros Magnéticos. Context: Instrumentación de Campo (Medición) / Medición de Flujo (Caudal). Scene inside an operating refinery and flow station in Venezuela, with instruments mounted on real process lines, stainless tubing, impulse lines and weathered industrial structures. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Zulia (Puerto Miranda), Venezuela.
 
 ## Caudalímetros Ultrasónicos [OK]
 - Categoría: Instrumentación de Campo (Medición)
@@ -309,7 +309,7 @@
 - Tags: `industrial, instrumentation, pipeline, refinery, oil, gas, flowmeter, ultrasonic-sensor, caudalimetros, ultrasonicos, venezuela, industry`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Caudalímetros Ultrasónicos. Context: Instrumentación de Campo (Medición) / Medición de Flujo (Caudal). Scene inside an operating refinery and flow station in Venezuela, with instruments mounted on real process lines, stainless tubing, impulse lines and weathered industrial structures. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Caudalímetros Ultrasónicos. Context: Instrumentación de Campo (Medición) / Medición de Flujo (Caudal). Scene inside an operating refinery and flow station in Venezuela, with instruments mounted on real process lines, stainless tubing, impulse lines and weathered industrial structures. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Carabobo (Valencia), Venezuela.
 
 ## Caudalímetros Vortex [OK]
 - Categoría: Instrumentación de Campo (Medición)
@@ -320,7 +320,7 @@
 - Tags: `industrial, instrumentation, pipeline, refinery, oil, gas, flowmeter, vortex-flowmeter, caudalimetros, vortex, venezuela, industry`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Caudalímetros Vortex. Context: Instrumentación de Campo (Medición) / Medición de Flujo (Caudal). Scene inside an operating refinery and flow station in Venezuela, with instruments mounted on real process lines, stainless tubing, impulse lines and weathered industrial structures. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Caudalímetros Vortex. Context: Instrumentación de Campo (Medición) / Medición de Flujo (Caudal). Scene inside an operating refinery and flow station in Venezuela, with instruments mounted on real process lines, stainless tubing, impulse lines and weathered industrial structures. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Monagas (El Furrial), Venezuela.
 
 ## Caudalímetros de Masa (Coriolis) [OK]
 - Categoría: Instrumentación de Campo (Medición)
@@ -331,7 +331,7 @@
 - Tags: `industrial, instrumentation, pipeline, refinery, oil, gas, flowmeter, coriolis, caudalimetros, masa, venezuela, industry`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Caudalímetros de Masa (Coriolis). Context: Instrumentación de Campo (Medición) / Medición de Flujo (Caudal). Scene inside an operating refinery and flow station in Venezuela, with instruments mounted on real process lines, stainless tubing, impulse lines and weathered industrial structures. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Caudalímetros de Masa (Coriolis). Context: Instrumentación de Campo (Medición) / Medición de Flujo (Caudal). Scene inside an operating refinery and flow station in Venezuela, with instruments mounted on real process lines, stainless tubing, impulse lines and weathered industrial structures. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Anzoátegui (San Tomé), Venezuela.
 
 ## Caudalímetros de Turbina [OK]
 - Categoría: Instrumentación de Campo (Medición)
@@ -342,7 +342,7 @@
 - Tags: `industrial, instrumentation, pipeline, refinery, oil, gas, turbine, powerplant, flowmeter, machinery, caudalimetros, turbina`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Caudalímetros de Turbina. Context: Instrumentación de Campo (Medición) / Medición de Flujo (Caudal). Scene inside an operating refinery and flow station in Venezuela, with instruments mounted on real process lines, stainless tubing, impulse lines and weathered industrial structures. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Caudalímetros de Turbina. Context: Instrumentación de Campo (Medición) / Medición de Flujo (Caudal). Scene inside an operating refinery and flow station in Venezuela, with instruments mounted on real process lines, stainless tubing, impulse lines and weathered industrial structures. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Zulia (Bachaquero), Venezuela.
 
 ## Elementos Primarios de Flujo [OK]
 - Categoría: Instrumentación de Campo (Medición)
@@ -353,7 +353,7 @@
 - Tags: `industrial, instrumentation, pipeline, refinery, oil, gas, elementos, primarios, flujo, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Elementos Primarios de Flujo. Context: Instrumentación de Campo (Medición) / Medición de Flujo (Caudal). Scene inside an operating refinery and flow station in Venezuela, with instruments mounted on real process lines, stainless tubing, impulse lines and weathered industrial structures. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Elementos Primarios de Flujo. Context: Instrumentación de Campo (Medición) / Medición de Flujo (Caudal). Scene inside an operating refinery and flow station in Venezuela, with instruments mounted on real process lines, stainless tubing, impulse lines and weathered industrial structures. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Anzoátegui (Barcelona), Venezuela.
 
 ## Interruptores de Nivel [OK]
 - Categoría: Instrumentación de Campo (Medición)
@@ -364,7 +364,7 @@
 - Tags: `industrial, instrumentation, pipeline, refinery, oil, gas, level-transmitter, tank, interruptores, nivel, venezuela, industry`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Interruptores de Nivel. Context: Instrumentación de Campo (Medición) / Medición de Nivel. Scene inside an operating refinery and flow station in Venezuela, with instruments mounted on real process lines, stainless tubing, impulse lines and weathered industrial structures. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Interruptores de Nivel. Context: Instrumentación de Campo (Medición) / Medición de Nivel. Scene inside an operating refinery and flow station in Venezuela, with instruments mounted on real process lines, stainless tubing, impulse lines and weathered industrial structures. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Zulia (Lagunillas), Venezuela.
 
 ## Medidores Hidrostáticos [OK]
 - Categoría: Instrumentación de Campo (Medición)
@@ -375,7 +375,7 @@
 - Tags: `industrial, instrumentation, pipeline, refinery, oil, gas, hydrostatic, medidores, hidrostaticos, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Medidores Hidrostáticos. Context: Instrumentación de Campo (Medición) / Medición de Nivel. Scene inside an operating refinery and flow station in Venezuela, with instruments mounted on real process lines, stainless tubing, impulse lines and weathered industrial structures. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Medidores Hidrostáticos. Context: Instrumentación de Campo (Medición) / Medición de Nivel. Scene inside an operating refinery and flow station in Venezuela, with instruments mounted on real process lines, stainless tubing, impulse lines and weathered industrial structures. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Carabobo (Puerto Cabello), Venezuela.
 
 ## Transmisores Capacitivos [OK]
 - Categoría: Instrumentación de Campo (Medición)
@@ -386,7 +386,7 @@
 - Tags: `industrial, instrumentation, pipeline, refinery, oil, gas, capacitive-sensor, transmisores, capacitivos, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Transmisores Capacitivos. Context: Instrumentación de Campo (Medición) / Medición de Nivel. Scene inside an operating refinery and flow station in Venezuela, with instruments mounted on real process lines, stainless tubing, impulse lines and weathered industrial structures. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Transmisores Capacitivos. Context: Instrumentación de Campo (Medición) / Medición de Nivel. Scene inside an operating refinery and flow station in Venezuela, with instruments mounted on real process lines, stainless tubing, impulse lines and weathered industrial structures. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Falcón (Punto Fijo), Venezuela.
 
 ## Transmisores Ultrasónicos [OK]
 - Categoría: Instrumentación de Campo (Medición)
@@ -397,7 +397,7 @@
 - Tags: `industrial, instrumentation, pipeline, refinery, oil, gas, ultrasonic-sensor, transmisores, ultrasonicos, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Transmisores Ultrasónicos. Context: Instrumentación de Campo (Medición) / Medición de Nivel. Scene inside an operating refinery and flow station in Venezuela, with instruments mounted on real process lines, stainless tubing, impulse lines and weathered industrial structures. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Transmisores Ultrasónicos. Context: Instrumentación de Campo (Medición) / Medición de Nivel. Scene inside an operating refinery and flow station in Venezuela, with instruments mounted on real process lines, stainless tubing, impulse lines and weathered industrial structures. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Zulia (Puerto Miranda), Venezuela.
 
 ## Transmisores de Nivel Radar (Onda Guiada y No Contacto) [OK]
 - Categoría: Instrumentación de Campo (Medición)
@@ -408,7 +408,7 @@
 - Tags: `industrial, instrumentation, pipeline, refinery, oil, gas, level-transmitter, tank, radar-level, transmisores, nivel, radar`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Transmisores de Nivel Radar (Onda Guiada y No Contacto). Context: Instrumentación de Campo (Medición) / Medición de Nivel. Scene inside an operating refinery and flow station in Venezuela, with instruments mounted on real process lines, stainless tubing, impulse lines and weathered industrial structures. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Transmisores de Nivel Radar (Onda Guiada y No Contacto). Context: Instrumentación de Campo (Medición) / Medición de Nivel. Scene inside an operating refinery and flow station in Venezuela, with instruments mounted on real process lines, stainless tubing, impulse lines and weathered industrial structures. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Anzoátegui (Jose), Venezuela.
 
 ## Interruptores de Presión (Pressure Switches) [OK]
 - Categoría: Instrumentación de Campo (Medición)
@@ -419,7 +419,7 @@
 - Tags: `industrial, instrumentation, pipeline, refinery, oil, gas, pressure-transmitter, interruptores, presion, pressure, switches, venezuela`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Interruptores de Presión (Pressure Switches). Context: Instrumentación de Campo (Medición) / Medición de Presión. Scene inside an operating refinery and flow station in Venezuela, with instruments mounted on real process lines, stainless tubing, impulse lines and weathered industrial structures. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Interruptores de Presión (Pressure Switches). Context: Instrumentación de Campo (Medición) / Medición de Presión. Scene inside an operating refinery and flow station in Venezuela, with instruments mounted on real process lines, stainless tubing, impulse lines and weathered industrial structures. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Zulia (Maracaibo), Venezuela.
 
 ## Manómetros Industriales [OK]
 - Categoría: Instrumentación de Campo (Medición)
@@ -430,7 +430,7 @@
 - Tags: `industrial, instrumentation, pipeline, refinery, oil, gas, pressure-gauge, manometros, industriales, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Manómetros Industriales. Context: Instrumentación de Campo (Medición) / Medición de Presión. Scene inside an operating refinery and flow station in Venezuela, with instruments mounted on real process lines, stainless tubing, impulse lines and weathered industrial structures. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Manómetros Industriales. Context: Instrumentación de Campo (Medición) / Medición de Presión. Scene inside an operating refinery and flow station in Venezuela, with instruments mounted on real process lines, stainless tubing, impulse lines and weathered industrial structures. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Monagas (Maturín), Venezuela.
 
 ## Transmisores de Presión (Relativa, Absoluta y Diferencial) [OK]
 - Categoría: Instrumentación de Campo (Medición)
@@ -441,7 +441,7 @@
 - Tags: `industrial, instrumentation, pipeline, refinery, oil, gas, pressure-transmitter, transmisores, presion, relativa, absoluta, diferencial`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Transmisores de Presión (Relativa, Absoluta y Diferencial). Context: Instrumentación de Campo (Medición) / Medición de Presión. Scene inside an operating refinery and flow station in Venezuela, with instruments mounted on real process lines, stainless tubing, impulse lines and weathered industrial structures. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Transmisores de Presión (Relativa, Absoluta y Diferencial). Context: Instrumentación de Campo (Medición) / Medición de Presión. Scene inside an operating refinery and flow station in Venezuela, with instruments mounted on real process lines, stainless tubing, impulse lines and weathered industrial structures. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Carabobo (Valencia), Venezuela.
 
 ## Pirómetros Infrarrojos [OK]
 - Categoría: Instrumentación de Campo (Medición)
@@ -452,7 +452,7 @@
 - Tags: `industrial, instrumentation, pipeline, refinery, oil, gas, infrared-thermometer, pirometros, infrarrojos, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Pirómetros Infrarrojos. Context: Instrumentación de Campo (Medición) / Medición de Temperatura. Scene inside an operating refinery and flow station in Venezuela, with instruments mounted on real process lines, stainless tubing, impulse lines and weathered industrial structures. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Pirómetros Infrarrojos. Context: Instrumentación de Campo (Medición) / Medición de Temperatura. Scene inside an operating refinery and flow station in Venezuela, with instruments mounted on real process lines, stainless tubing, impulse lines and weathered industrial structures. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Falcón (Cardón), Venezuela.
 
 ## Sensores de Temperatura [OK]
 - Categoría: Instrumentación de Campo (Medición)
@@ -463,7 +463,7 @@
 - Tags: `industrial, instrumentation, pipeline, refinery, oil, gas, temperature-sensor, sensores, temperatura, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Sensores de Temperatura. Context: Instrumentación de Campo (Medición) / Medición de Temperatura. Scene inside an operating refinery and flow station in Venezuela, with instruments mounted on real process lines, stainless tubing, impulse lines and weathered industrial structures. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Sensores de Temperatura. Context: Instrumentación de Campo (Medición) / Medición de Temperatura. Scene inside an operating refinery and flow station in Venezuela, with instruments mounted on real process lines, stainless tubing, impulse lines and weathered industrial structures. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Zulia (Puerto Miranda), Venezuela.
 
 ## Termopozos [OK]
 - Categoría: Instrumentación de Campo (Medición)
@@ -474,7 +474,7 @@
 - Tags: `industrial, instrumentation, pipeline, refinery, oil, gas, thermowell, termopozos, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Termopozos. Context: Instrumentación de Campo (Medición) / Medición de Temperatura. Scene inside an operating refinery and flow station in Venezuela, with instruments mounted on real process lines, stainless tubing, impulse lines and weathered industrial structures. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Termopozos. Context: Instrumentación de Campo (Medición) / Medición de Temperatura. Scene inside an operating refinery and flow station in Venezuela, with instruments mounted on real process lines, stainless tubing, impulse lines and weathered industrial structures. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Anzoátegui (Jose), Venezuela.
 
 ## Transmisores de Temperatura [OK]
 - Categoría: Instrumentación de Campo (Medición)
@@ -485,7 +485,7 @@
 - Tags: `industrial, instrumentation, pipeline, refinery, oil, gas, temperature-sensor, transmisores, temperatura, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Transmisores de Temperatura. Context: Instrumentación de Campo (Medición) / Medición de Temperatura. Scene inside an operating refinery and flow station in Venezuela, with instruments mounted on real process lines, stainless tubing, impulse lines and weathered industrial structures. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Transmisores de Temperatura. Context: Instrumentación de Campo (Medición) / Medición de Temperatura. Scene inside an operating refinery and flow station in Venezuela, with instruments mounted on real process lines, stainless tubing, impulse lines and weathered industrial structures. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Zulia (Maracaibo), Venezuela.
 
 ## Cabezales de Pozo (Suspensión y Sellado) [OK]
 - Categoría: Producción de Pozo: Cabillas y Cabezales
@@ -496,7 +496,7 @@
 - Tags: `oilfield, wellhead, pumpjack, drilling, industrial, rods, cabezales, pozo, suspension, sellado, venezuela, industry`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Cabezales de Pozo (Suspensión y Sellado). Context: Producción de Pozo: Cabillas y Cabezales / Cabezales y Sellado. Scene at a Venezuelan onshore oil well pad with pumpjacks, wellheads, rod yards and dusty tropical conditions. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Cabezales de Pozo (Suspensión y Sellado). Context: Producción de Pozo: Cabillas y Cabezales / Cabezales y Sellado. Scene at a Venezuelan onshore oil well pad with pumpjacks, wellheads, rod yards and dusty tropical conditions. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Monagas (Maturín), Venezuela.
 
 ## Empacaduras [OK]
 - Categoría: Producción de Pozo: Cabillas y Cabezales
@@ -507,7 +507,7 @@
 - Tags: `oilfield, wellhead, pumpjack, drilling, industrial, rods, industrial-gasket, seal, empacaduras, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Empacaduras. Context: Producción de Pozo: Cabillas y Cabezales / Cabezales y Sellado. Scene at a Venezuelan onshore oil well pad with pumpjacks, wellheads, rod yards and dusty tropical conditions. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Empacaduras. Context: Producción de Pozo: Cabillas y Cabezales / Cabezales y Sellado. Scene at a Venezuelan onshore oil well pad with pumpjacks, wellheads, rod yards and dusty tropical conditions. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Anzoátegui (San Tomé), Venezuela.
 
 ## Sellos Mecánicos [OK]
 - Categoría: Producción de Pozo: Cabillas y Cabezales
@@ -518,7 +518,7 @@
 - Tags: `oilfield, wellhead, pumpjack, drilling, industrial, rods, mechanical-seal, sellos, mecanicos, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Sellos Mecánicos. Context: Producción de Pozo: Cabillas y Cabezales / Cabezales y Sellado. Scene at a Venezuelan onshore oil well pad with pumpjacks, wellheads, rod yards and dusty tropical conditions. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Sellos Mecánicos. Context: Producción de Pozo: Cabillas y Cabezales / Cabezales y Sellado. Scene at a Venezuelan onshore oil well pad with pumpjacks, wellheads, rod yards and dusty tropical conditions. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Zulia (San Lorenzo), Venezuela.
 
 ## Variadores de Frecuencia (VFD) [OK]
 - Categoría: Producción de Pozo: Cabillas y Cabezales
@@ -529,7 +529,7 @@
 - Tags: `oilfield, wellhead, pumpjack, drilling, industrial, rods, variable-frequency-drive, variadores, frecuencia, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Variadores de Frecuencia (VFD). Context: Producción de Pozo: Cabillas y Cabezales / Cabezales y Sellado. Scene at a Venezuelan onshore oil well pad with pumpjacks, wellheads, rod yards and dusty tropical conditions. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Variadores de Frecuencia (VFD). Context: Producción de Pozo: Cabillas y Cabezales / Cabezales y Sellado. Scene at a Venezuelan onshore oil well pad with pumpjacks, wellheads, rod yards and dusty tropical conditions. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Falcón (Cardón), Venezuela.
 
 ## Cabillas Continuas (Continuous Rod) [OK]
 - Categoría: Producción de Pozo: Cabillas y Cabezales
@@ -540,7 +540,7 @@
 - Tags: `oilfield, wellhead, pumpjack, drilling, industrial, rods, sucker-rod, cabillas, continuas, continuous, venezuela, industry`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Cabillas Continuas (Continuous Rod). Context: Producción de Pozo: Cabillas y Cabezales / Cabillas Petroleras. Scene at a Venezuelan onshore oil well pad with pumpjacks, wellheads, rod yards and dusty tropical conditions. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Cabillas Continuas (Continuous Rod). Context: Producción de Pozo: Cabillas y Cabezales / Cabillas Petroleras. Scene at a Venezuelan onshore oil well pad with pumpjacks, wellheads, rod yards and dusty tropical conditions. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Anzoátegui (Guanta), Venezuela.
 
 ## Cabillas Grado C (Acero al Carbono) [OK]
 - Categoría: Producción de Pozo: Cabillas y Cabezales
@@ -551,7 +551,7 @@
 - Tags: `oilfield, wellhead, pumpjack, drilling, industrial, rods, sucker-rod, cabillas, grado, acero, carbono, venezuela`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Cabillas Grado C (Acero al Carbono). Context: Producción de Pozo: Cabillas y Cabezales / Cabillas Petroleras. Scene at a Venezuelan onshore oil well pad with pumpjacks, wellheads, rod yards and dusty tropical conditions. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Cabillas Grado C (Acero al Carbono). Context: Producción de Pozo: Cabillas y Cabezales / Cabillas Petroleras. Scene at a Venezuelan onshore oil well pad with pumpjacks, wellheads, rod yards and dusty tropical conditions. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Zulia (Puerto Miranda), Venezuela.
 
 ## Cabillas Grado D (Alta Resistencia) [OK]
 - Categoría: Producción de Pozo: Cabillas y Cabezales
@@ -562,7 +562,7 @@
 - Tags: `oilfield, wellhead, pumpjack, drilling, industrial, rods, sucker-rod, cabillas, grado, alta, resistencia, venezuela`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Cabillas Grado D (Alta Resistencia). Context: Producción de Pozo: Cabillas y Cabezales / Cabillas Petroleras. Scene at a Venezuelan onshore oil well pad with pumpjacks, wellheads, rod yards and dusty tropical conditions. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Cabillas Grado D (Alta Resistencia). Context: Producción de Pozo: Cabillas y Cabezales / Cabillas Petroleras. Scene at a Venezuelan onshore oil well pad with pumpjacks, wellheads, rod yards and dusty tropical conditions. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Monagas (Maturín), Venezuela.
 
 ## Cabillas Grado K (Aleación de Níquel) [OK]
 - Categoría: Producción de Pozo: Cabillas y Cabezales
@@ -573,7 +573,7 @@
 - Tags: `oilfield, wellhead, pumpjack, drilling, industrial, rods, sucker-rod, cabillas, grado, aleacion, niquel, venezuela`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Cabillas Grado K (Aleación de Níquel). Context: Producción de Pozo: Cabillas y Cabezales / Cabillas Petroleras. Scene at a Venezuelan onshore oil well pad with pumpjacks, wellheads, rod yards and dusty tropical conditions. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Cabillas Grado K (Aleación de Níquel). Context: Producción de Pozo: Cabillas y Cabezales / Cabillas Petroleras. Scene at a Venezuelan onshore oil well pad with pumpjacks, wellheads, rod yards and dusty tropical conditions. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Anzoátegui (San Tomé), Venezuela.
 
 ## Cabillas Ultra-High Strength [OK]
 - Categoría: Producción de Pozo: Cabillas y Cabezales
@@ -584,7 +584,7 @@
 - Tags: `oilfield, wellhead, pumpjack, drilling, industrial, rods, sucker-rod, cabillas, ultra, high, strength, venezuela`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Cabillas Ultra-High Strength. Context: Producción de Pozo: Cabillas y Cabezales / Cabillas Petroleras. Scene at a Venezuelan onshore oil well pad with pumpjacks, wellheads, rod yards and dusty tropical conditions. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Cabillas Ultra-High Strength. Context: Producción de Pozo: Cabillas y Cabezales / Cabillas Petroleras. Scene at a Venezuelan onshore oil well pad with pumpjacks, wellheads, rod yards and dusty tropical conditions. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Zulia (San Lorenzo), Venezuela.
 
 ## Cabillas de Fibra de Vidrio (FRP) [OK]
 - Categoría: Producción de Pozo: Cabillas y Cabezales
@@ -595,7 +595,7 @@
 - Tags: `oilfield, wellhead, pumpjack, drilling, industrial, rods, sucker-rod, cabillas, fibra, vidrio, venezuela, industry`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Cabillas de Fibra de Vidrio (FRP). Context: Producción de Pozo: Cabillas y Cabezales / Cabillas Petroleras. Scene at a Venezuelan onshore oil well pad with pumpjacks, wellheads, rod yards and dusty tropical conditions. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Cabillas de Fibra de Vidrio (FRP). Context: Producción de Pozo: Cabillas y Cabezales / Cabillas Petroleras. Scene at a Venezuelan onshore oil well pad with pumpjacks, wellheads, rod yards and dusty tropical conditions. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Zulia (Tía Juana), Venezuela.
 
 ## Barra Pulida [OK]
 - Categoría: Producción de Pozo: Cabillas y Cabezales
@@ -606,7 +606,7 @@
 - Tags: `oilfield, wellhead, pumpjack, drilling, industrial, rods, barra, pulida, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Barra Pulida. Context: Producción de Pozo: Cabillas y Cabezales / Componentes Complementarios. Scene at a Venezuelan onshore oil well pad with pumpjacks, wellheads, rod yards and dusty tropical conditions. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Barra Pulida. Context: Producción de Pozo: Cabillas y Cabezales / Componentes Complementarios. Scene at a Venezuelan onshore oil well pad with pumpjacks, wellheads, rod yards and dusty tropical conditions. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Monagas (El Furrial), Venezuela.
 
 ## Centralizadores [OK]
 - Categoría: Producción de Pozo: Cabillas y Cabezales
@@ -617,7 +617,7 @@
 - Tags: `oilfield, wellhead, pumpjack, drilling, industrial, rods, centralizadores, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Centralizadores. Context: Producción de Pozo: Cabillas y Cabezales / Componentes Complementarios. Scene at a Venezuelan onshore oil well pad with pumpjacks, wellheads, rod yards and dusty tropical conditions. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Centralizadores. Context: Producción de Pozo: Cabillas y Cabezales / Componentes Complementarios. Scene at a Venezuelan onshore oil well pad with pumpjacks, wellheads, rod yards and dusty tropical conditions. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Anzoátegui (Jose), Venezuela.
 
 ## Cuplas [OK]
 - Categoría: Producción de Pozo: Cabillas y Cabezales
@@ -628,7 +628,7 @@
 - Tags: `oilfield, wellhead, pumpjack, drilling, industrial, rods, cuplas, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Cuplas. Context: Producción de Pozo: Cabillas y Cabezales / Componentes Complementarios. Scene at a Venezuelan onshore oil well pad with pumpjacks, wellheads, rod yards and dusty tropical conditions. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Cuplas. Context: Producción de Pozo: Cabillas y Cabezales / Componentes Complementarios. Scene at a Venezuelan onshore oil well pad with pumpjacks, wellheads, rod yards and dusty tropical conditions. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Zulia (Maracaibo), Venezuela.
 
 ## Calzado Dieléctrico [OK]
 - Categoría: Seguridad Industrial
@@ -639,7 +639,7 @@
 - Tags: `industrial, safety, ppe, workers, warehouse, oilfield, safety-boots, calzado, dielectrico, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Calzado Dieléctrico. Context: Seguridad Industrial / Equipos de Protección y Emergencia. Scene in an industrial safety supply warehouse and oilfield jobsite in Venezuela, with workers using certified PPE. Use a documentary photo style with real workers wearing PPE, shelves with safety equipment, and natural warehouse lighting. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Calzado Dieléctrico. Context: Seguridad Industrial / Equipos de Protección y Emergencia. Scene in an industrial safety supply warehouse and oilfield jobsite in Venezuela, with workers using certified PPE. Use a documentary photo style with real workers wearing PPE, shelves with safety equipment, and natural warehouse lighting. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Zulia (Lagunillas), Venezuela.
 
 ## Detectores Multigás [OK]
 - Categoría: Seguridad Industrial
@@ -650,7 +650,7 @@
 - Tags: `industrial, safety, ppe, workers, warehouse, oilfield, gas-detector, detectores, multigas, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Detectores Multigás. Context: Seguridad Industrial / Equipos de Protección y Emergencia. Scene in an industrial safety supply warehouse and oilfield jobsite in Venezuela, with workers using certified PPE. Use a documentary photo style with real workers wearing PPE, shelves with safety equipment, and natural warehouse lighting. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Detectores Multigás. Context: Seguridad Industrial / Equipos de Protección y Emergencia. Scene in an industrial safety supply warehouse and oilfield jobsite in Venezuela, with workers using certified PPE. Use a documentary photo style with real workers wearing PPE, shelves with safety equipment, and natural warehouse lighting. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Carabobo (San Diego), Venezuela.
 
 ## Duchas y Lavaojos [OK]
 - Categoría: Seguridad Industrial
@@ -661,7 +661,7 @@
 - Tags: `industrial, safety, ppe, workers, warehouse, oilfield, eyewash, duchas, lavaojos, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Duchas y Lavaojos. Context: Seguridad Industrial / Equipos de Protección y Emergencia. Scene in an industrial safety supply warehouse and oilfield jobsite in Venezuela, with workers using certified PPE. Use a documentary photo style with real workers wearing PPE, shelves with safety equipment, and natural warehouse lighting. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Duchas y Lavaojos. Context: Seguridad Industrial / Equipos de Protección y Emergencia. Scene in an industrial safety supply warehouse and oilfield jobsite in Venezuela, with workers using certified PPE. Use a documentary photo style with real workers wearing PPE, shelves with safety equipment, and natural warehouse lighting. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Zulia (Bachaquero), Venezuela.
 
 ## Extintores PQS y CO2 [OK]
 - Categoría: Seguridad Industrial
@@ -672,7 +672,7 @@
 - Tags: `industrial, safety, ppe, workers, warehouse, oilfield, fire-extinguisher, extintores, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Extintores PQS y CO2. Context: Seguridad Industrial / Equipos de Protección y Emergencia. Scene in an industrial safety supply warehouse and oilfield jobsite in Venezuela, with workers using certified PPE. Use a documentary photo style with real workers wearing PPE, shelves with safety equipment, and natural warehouse lighting. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Extintores PQS y CO2. Context: Seguridad Industrial / Equipos de Protección y Emergencia. Scene in an industrial safety supply warehouse and oilfield jobsite in Venezuela, with workers using certified PPE. Use a documentary photo style with real workers wearing PPE, shelves with safety equipment, and natural warehouse lighting. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Monagas (Maturín), Venezuela.
 
 ## Guantes de Impacto y Químicos [OK]
 - Categoría: Seguridad Industrial
@@ -683,7 +683,7 @@
 - Tags: `industrial, safety, ppe, workers, warehouse, oilfield, protective-gloves, guantes, impacto, quimicos, venezuela, industry`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Guantes de Impacto y Químicos. Context: Seguridad Industrial / Equipos de Protección y Emergencia. Scene in an industrial safety supply warehouse and oilfield jobsite in Venezuela, with workers using certified PPE. Use a documentary photo style with real workers wearing PPE, shelves with safety equipment, and natural warehouse lighting. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Guantes de Impacto y Químicos. Context: Seguridad Industrial / Equipos de Protección y Emergencia. Scene in an industrial safety supply warehouse and oilfield jobsite in Venezuela, with workers using certified PPE. Use a documentary photo style with real workers wearing PPE, shelves with safety equipment, and natural warehouse lighting. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Anzoátegui (Barcelona), Venezuela.
 
 ## Kits Antiderrames [OK]
 - Categoría: Seguridad Industrial
@@ -694,7 +694,7 @@
 - Tags: `industrial, safety, ppe, workers, warehouse, oilfield, kits, antiderrames, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Kits Antiderrames. Context: Seguridad Industrial / Equipos de Protección y Emergencia. Scene in an industrial safety supply warehouse and oilfield jobsite in Venezuela, with workers using certified PPE. Use a documentary photo style with real workers wearing PPE, shelves with safety equipment, and natural warehouse lighting. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Kits Antiderrames. Context: Seguridad Industrial / Equipos de Protección y Emergencia. Scene in an industrial safety supply warehouse and oilfield jobsite in Venezuela, with workers using certified PPE. Use a documentary photo style with real workers wearing PPE, shelves with safety equipment, and natural warehouse lighting. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Zulia (Puerto Miranda), Venezuela.
 
 ## Mascarillas Industriales [OK]
 - Categoría: Seguridad Industrial
@@ -705,29 +705,29 @@
 - Tags: `industrial, safety, ppe, workers, warehouse, oilfield, respirator, mascarillas, industriales, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Mascarillas Industriales. Context: Seguridad Industrial / Equipos de Protección y Emergencia. Scene in an industrial safety supply warehouse and oilfield jobsite in Venezuela, with workers using certified PPE. Use a documentary photo style with real workers wearing PPE, shelves with safety equipment, and natural warehouse lighting. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Mascarillas y Respiradores. Context: Seguridad Industrial / Protección Personal (EPP). Scene in an industrial safety supply warehouse and oilfield jobsite in Venezuela, with workers using certified PPE. Use a documentary photo style with real workers wearing PPE, shelves with safety equipment, and natural warehouse lighting. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Zulia (Tía Juana), Venezuela.
 
 ## Overoles Ignífugos [OK]
 - Categoría: Seguridad Industrial
-- Sección: Equipos de Protección y Emergencia
+- Sección: Protección Personal (EPP)
 - Item ID: `overoles-ign-fugos`
 - Ruta imagen: `/catalog/generated/20260302_211115/overoles-ign-fugos.jpg`
 - Fuente: `https://live.staticflickr.com/65535/55125905879_64cf5b2fef_b.jpg`
 - Tags: `industrial, safety, ppe, workers, warehouse, oilfield, coveralls, overoles, ignifugos, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Overoles Ignífugos. Context: Seguridad Industrial / Equipos de Protección y Emergencia. Scene in an industrial safety supply warehouse and oilfield jobsite in Venezuela, with workers using certified PPE. Use a documentary photo style with real workers wearing PPE, shelves with safety equipment, and natural warehouse lighting. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Ropa de Protección (Overoles / Ignífuga). Context: Seguridad Industrial / Protección Personal (EPP). Scene in an industrial safety supply warehouse and oilfield jobsite in Venezuela, with workers using certified PPE. Use a documentary photo style with real workers wearing PPE, shelves with safety equipment, and natural warehouse lighting. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Zulia (Lagunillas), Venezuela.
 
 ## Protección Auditiva [OK]
 - Categoría: Seguridad Industrial
-- Sección: Equipos de Protección y Emergencia
+- Sección: Protección Personal (EPP)
 - Item ID: `protecci-n-auditiva`
 - Ruta imagen: `/catalog/generated/20260302_211115/protecci-n-auditiva.jpg`
 - Fuente: `https://live.staticflickr.com/65535/55125905879_64cf5b2fef_b.jpg`
 - Tags: `industrial, safety, ppe, workers, warehouse, oilfield, hearing-protection, proteccion, auditiva, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Protección Auditiva. Context: Seguridad Industrial / Equipos de Protección y Emergencia. Scene in an industrial safety supply warehouse and oilfield jobsite in Venezuela, with workers using certified PPE. Use a documentary photo style with real workers wearing PPE, shelves with safety equipment, and natural warehouse lighting. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Protección Auditiva (Orejeras / Tapones). Context: Seguridad Industrial / Protección Personal (EPP). Scene in an industrial safety supply warehouse and oilfield jobsite in Venezuela, with workers using certified PPE. Use a documentary photo style with real workers wearing PPE, shelves with safety equipment, and natural warehouse lighting. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Anzoátegui (Barcelona), Venezuela.
 
 ## SCBA [OK]
 - Categoría: Seguridad Industrial
@@ -738,29 +738,29 @@
 - Tags: `industrial, safety, ppe, workers, warehouse, oilfield, scba, respirator, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of SCBA. Context: Seguridad Industrial / Equipos de Protección y Emergencia. Scene in an industrial safety supply warehouse and oilfield jobsite in Venezuela, with workers using certified PPE. Use a documentary photo style with real workers wearing PPE, shelves with safety equipment, and natural warehouse lighting. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of SCBA (Equipos de Respiración Autónoma). Context: Seguridad Industrial / Equipos de Protección y Emergencia. Scene in an industrial safety supply warehouse and oilfield jobsite in Venezuela, with workers using certified PPE. Use a documentary photo style with real workers wearing PPE, shelves with safety equipment, and natural warehouse lighting. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Zulia (Lagunillas), Venezuela.
 
 ## Bloqueadores de Válvulas [OK]
 - Categoría: Seguridad Industrial
-- Sección: Sistemas LOTO
+- Sección: Protección Personal (EPP)
 - Item ID: `bloqueadores-de-v-lvulas`
 - Ruta imagen: `/catalog/generated/20260302_211115/bloqueadores-de-v-lvulas.jpg`
 - Fuente: `https://live.staticflickr.com/65535/55125905879_64cf5b2fef_b.jpg`
 - Tags: `industrial, safety, ppe, workers, warehouse, oilfield, valve, pipeline, bloqueadores, valvulas, venezuela, industry`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Bloqueadores de Válvulas. Context: Seguridad Industrial / Sistemas LOTO. Scene in an industrial safety supply warehouse and oilfield jobsite in Venezuela, with workers using certified PPE. Use a documentary photo style with real workers wearing PPE, shelves with safety equipment, and natural warehouse lighting. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Bloqueadores de Válvulas. Context: Seguridad Industrial / Señalización y Bloqueo. Scene in an industrial safety supply warehouse and oilfield jobsite in Venezuela, with workers using certified PPE. Use a documentary photo style with real workers wearing PPE, shelves with safety equipment, and natural warehouse lighting. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Carabobo (San Diego), Venezuela.
 
 ## Sistemas LOTO [OK]
 - Categoría: Seguridad Industrial
-- Sección: Sistemas LOTO
+- Sección: Protección Personal (EPP)
 - Item ID: `sistemas-loto`
 - Ruta imagen: `/catalog/generated/20260302_211115/sistemas-loto.jpg`
 - Fuente: `https://live.staticflickr.com/65535/55125905879_64cf5b2fef_b.jpg`
 - Tags: `industrial, safety, ppe, workers, warehouse, oilfield, lockout-tagout, sistemas, loto, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Sistemas LOTO. Context: Seguridad Industrial / Sistemas LOTO. Scene in an industrial safety supply warehouse and oilfield jobsite in Venezuela, with workers using certified PPE. Use a documentary photo style with real workers wearing PPE, shelves with safety equipment, and natural warehouse lighting. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Sistemas LOTO (Lockout / Tagout). Context: Seguridad Industrial / Señalización y Bloqueo. Scene in an industrial safety supply warehouse and oilfield jobsite in Venezuela, with workers using certified PPE. Use a documentary photo style with real workers wearing PPE, shelves with safety equipment, and natural warehouse lighting. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Zulia (San Lorenzo), Venezuela.
 
 ## Controladores Lógicos Programables (PLC) [OK]
 - Categoría: Sistemas de Control y Automatización
@@ -771,7 +771,7 @@
 - Tags: `industrial, automation, control, plc, scada, oil, controladores, logicos, programables, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Controladores Lógicos Programables (PLC). Context: Sistemas de Control y Automatización / Sistemas de Control. Scene in a real industrial control environment in Venezuela, including control cabinets, HMI screens, wiring trays and process area background. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Controladores Lógicos Programables (PLC). Context: Sistemas de Control y Automatización / Sistemas de Control. Scene in a real industrial control environment in Venezuela, including control cabinets, HMI screens, wiring trays and process area background. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Zulia (Lagunillas), Venezuela.
 
 ## Edge Devices [OK]
 - Categoría: Sistemas de Control y Automatización
@@ -782,7 +782,7 @@
 - Tags: `industrial, automation, control, plc, scada, oil, edge, devices, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Edge Devices. Context: Sistemas de Control y Automatización / Sistemas de Control. Scene in a real industrial control environment in Venezuela, including control cabinets, HMI screens, wiring trays and process area background. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Edge Devices. Context: Sistemas de Control y Automatización / Sistemas de Control. Scene in a real industrial control environment in Venezuela, including control cabinets, HMI screens, wiring trays and process area background. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Anzoátegui (Barcelona), Venezuela.
 
 ## Sistemas Instrumentados de Seguridad (SIS) [OK]
 - Categoría: Sistemas de Control y Automatización
@@ -793,7 +793,7 @@
 - Tags: `industrial, automation, control, plc, scada, oil, sistemas, instrumentados, seguridad, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Sistemas Instrumentados de Seguridad (SIS). Context: Sistemas de Control y Automatización / Sistemas de Control. Scene in a real industrial control environment in Venezuela, including control cabinets, HMI screens, wiring trays and process area background. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Sistemas Instrumentados de Seguridad (SIS). Context: Sistemas de Control y Automatización / Sistemas de Control. Scene in a real industrial control environment in Venezuela, including control cabinets, HMI screens, wiring trays and process area background. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Falcón (Punto Fijo), Venezuela.
 
 ## Sistemas SCADA [OK]
 - Categoría: Sistemas de Control y Automatización
@@ -804,7 +804,7 @@
 - Tags: `industrial, automation, control, plc, scada, oil, controlroom, sistemas, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Sistemas SCADA. Context: Sistemas de Control y Automatización / Sistemas de Control. Scene in a real industrial control environment in Venezuela, including control cabinets, HMI screens, wiring trays and process area background. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Sistemas SCADA. Context: Sistemas de Control y Automatización / Sistemas de Control. Scene in a real industrial control environment in Venezuela, including control cabinets, HMI screens, wiring trays and process area background. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Zulia (Puerto Miranda), Venezuela.
 
 ## Sistemas de Control Distribuido (DCS) [OK]
 - Categoría: Sistemas de Control y Automatización
@@ -815,7 +815,7 @@
 - Tags: `industrial, automation, control, plc, scada, oil, sistemas, distribuido, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Sistemas de Control Distribuido (DCS). Context: Sistemas de Control y Automatización / Sistemas de Control. Scene in a real industrial control environment in Venezuela, including control cabinets, HMI screens, wiring trays and process area background. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Sistemas de Control Distribuido (DCS). Context: Sistemas de Control y Automatización / Sistemas de Control. Scene in a real industrial control environment in Venezuela, including control cabinets, HMI screens, wiring trays and process area background. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Carabobo (Valencia), Venezuela.
 
 ## Unidades Terminales Remotas (RTU) [OK]
 - Categoría: Sistemas de Control y Automatización
@@ -826,7 +826,7 @@
 - Tags: `industrial, automation, control, plc, scada, oil, rtu, telemetry, unidades, terminales, remotas, venezuela`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Unidades Terminales Remotas (RTU). Context: Sistemas de Control y Automatización / Sistemas de Control. Scene in a real industrial control environment in Venezuela, including control cabinets, HMI screens, wiring trays and process area background. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Unidades Terminales Remotas (RTU). Context: Sistemas de Control y Automatización / Sistemas de Control. Scene in a real industrial control environment in Venezuela, including control cabinets, HMI screens, wiring trays and process area background. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Monagas (Maturín), Venezuela.
 
 ## Controladores Lógicos Programables (PLC) [OK]
 - Categoría: Suministros Eléctricos Industriales
@@ -837,7 +837,7 @@
 - Tags: `substation, electrical, industrial, power, switchgear, oil, plc, automation, controladores, logicos, programables, venezuela`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Controladores Lógicos Programables (PLC). Context: Suministros Eléctricos Industriales / Control y Automatización Eléctrica. Scene in Venezuelan power and oilfield infrastructure, with substations, switchgear rooms and medium-voltage systems. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Controladores Lógicos Programables (PLC). Context: Suministros Eléctricos Industriales / Control y Automatización Eléctrica. Scene in Venezuelan power and oilfield infrastructure, with substations, switchgear rooms and medium-voltage systems. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Anzoátegui (Jose), Venezuela.
 
 ## Unidades de Control Remoto (RTU) [OK]
 - Categoría: Suministros Eléctricos Industriales
@@ -848,7 +848,7 @@
 - Tags: `substation, electrical, industrial, power, switchgear, oil, rtu, telemetry, unidades, control, remoto, venezuela`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Unidades de Control Remoto (RTU). Context: Suministros Eléctricos Industriales / Control y Automatización Eléctrica. Scene in Venezuelan power and oilfield infrastructure, with substations, switchgear rooms and medium-voltage systems. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Unidades de Control Remoto (RTU). Context: Suministros Eléctricos Industriales / Control y Automatización Eléctrica. Scene in Venezuelan power and oilfield infrastructure, with substations, switchgear rooms and medium-voltage systems. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Zulia (Maracaibo), Venezuela.
 
 ## Arrancadores Suaves (Soft Starters) [OK]
 - Categoría: Suministros Eléctricos Industriales
@@ -859,7 +859,7 @@
 - Tags: `substation, electrical, industrial, power, switchgear, oil, arrancadores, suaves, soft, starters, venezuela, industry`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Arrancadores Suaves (Soft Starters). Context: Suministros Eléctricos Industriales / Distribución y Protección (MT/BT). Scene in Venezuelan power and oilfield infrastructure, with substations, switchgear rooms and medium-voltage systems. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Arrancadores Suaves (Soft Starters). Context: Suministros Eléctricos Industriales / Distribución y Protección (MT/BT). Scene in Venezuelan power and oilfield infrastructure, with substations, switchgear rooms and medium-voltage systems. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Carabobo (Puerto Cabello), Venezuela.
 
 ## Cables Umbilicales [OK]
 - Categoría: Suministros Eléctricos Industriales
@@ -870,7 +870,7 @@
 - Tags: `substation, electrical, industrial, power, switchgear, oil, cable, cables, umbilicales, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Cables Umbilicales. Context: Suministros Eléctricos Industriales / Distribución y Protección (MT/BT). Scene in Venezuelan power and oilfield infrastructure, with substations, switchgear rooms and medium-voltage systems. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Cables Umbilicales. Context: Suministros Eléctricos Industriales / Distribución y Protección (MT/BT). Scene in Venezuelan power and oilfield infrastructure, with substations, switchgear rooms and medium-voltage systems. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Falcón (Cardón), Venezuela.
 
 ## Cables de Potencia y Control [OK]
 - Categoría: Suministros Eléctricos Industriales
@@ -881,7 +881,7 @@
 - Tags: `substation, electrical, industrial, power, switchgear, oil, cable, cables, potencia, control, venezuela, industry`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Cables de Potencia y Control. Context: Suministros Eléctricos Industriales / Distribución y Protección (MT/BT). Scene in Venezuelan power and oilfield infrastructure, with substations, switchgear rooms and medium-voltage systems. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Cables de Potencia y Control. Context: Suministros Eléctricos Industriales / Distribución y Protección (MT/BT). Scene in Venezuelan power and oilfield infrastructure, with substations, switchgear rooms and medium-voltage systems. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Zulia (Puerto Miranda), Venezuela.
 
 ## Equipos MT/BT (GIS / AIS) [OK]
 - Categoría: Suministros Eléctricos Industriales
@@ -892,7 +892,7 @@
 - Tags: `substation, electrical, industrial, power, switchgear, oil, equipos, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Equipos MT/BT (GIS / AIS). Context: Suministros Eléctricos Industriales / Distribución y Protección (MT/BT). Scene in Venezuelan power and oilfield infrastructure, with substations, switchgear rooms and medium-voltage systems. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Equipos MT/BT (GIS / AIS). Context: Suministros Eléctricos Industriales / Distribución y Protección (MT/BT). Scene in Venezuelan power and oilfield infrastructure, with substations, switchgear rooms and medium-voltage systems. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Anzoátegui (Barcelona), Venezuela.
 
 ## Paneles de Arranque y Protección [OK]
 - Categoría: Suministros Eléctricos Industriales
@@ -903,7 +903,7 @@
 - Tags: `substation, electrical, industrial, power, switchgear, oil, paneles, arranque, proteccion, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Paneles de Arranque y Protección. Context: Suministros Eléctricos Industriales / Distribución y Protección (MT/BT). Scene in Venezuelan power and oilfield infrastructure, with substations, switchgear rooms and medium-voltage systems. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Paneles de Arranque y Protección. Context: Suministros Eléctricos Industriales / Distribución y Protección (MT/BT). Scene in Venezuelan power and oilfield infrastructure, with substations, switchgear rooms and medium-voltage systems. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Zulia (Lagunillas), Venezuela.
 
 ## Sistemas de Alimentación Ininterrumpida (UPS) [OK]
 - Categoría: Suministros Eléctricos Industriales
@@ -914,7 +914,7 @@
 - Tags: `substation, electrical, industrial, power, switchgear, oil, ups, sistemas, alimentacion, ininterrumpida, venezuela, industry`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Sistemas de Alimentación Ininterrumpida (UPS). Context: Suministros Eléctricos Industriales / Distribución y Protección (MT/BT). Scene in Venezuelan power and oilfield infrastructure, with substations, switchgear rooms and medium-voltage systems. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Sistemas de Alimentación Ininterrumpida (UPS). Context: Suministros Eléctricos Industriales / Distribución y Protección (MT/BT). Scene in Venezuelan power and oilfield infrastructure, with substations, switchgear rooms and medium-voltage systems. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Monagas (El Furrial), Venezuela.
 
 ## Bancos de Baterías y Rectificadores [OK]
 - Categoría: Suministros Eléctricos Industriales
@@ -925,7 +925,7 @@
 - Tags: `substation, electrical, industrial, power, switchgear, oil, battery, rectifier, bancos, baterias, rectificadores, venezuela`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Bancos de Baterías y Rectificadores. Context: Suministros Eléctricos Industriales / Generación y Energía. Scene in Venezuelan power and oilfield infrastructure, with substations, switchgear rooms and medium-voltage systems. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Bancos de Baterías y Rectificadores. Context: Suministros Eléctricos Industriales / Generación y Energía. Scene in Venezuelan power and oilfield infrastructure, with substations, switchgear rooms and medium-voltage systems. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Zulia (San Lorenzo), Venezuela.
 
 ## E-Houses (Salas Eléctricas Modulares) [OK]
 - Categoría: Suministros Eléctricos Industriales
@@ -936,7 +936,7 @@
 - Tags: `substation, electrical, industrial, power, switchgear, oil, houses, salas, electricas, modulares, venezuela, industry`
 - Prompt:
 
-  Hyperrealistic industrial photograph of E-Houses (Salas Eléctricas Modulares). Context: Suministros Eléctricos Industriales / Generación y Energía. Scene in Venezuelan power and oilfield infrastructure, with substations, switchgear rooms and medium-voltage systems. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of E-Houses (Salas Eléctricas Modulares). Context: Suministros Eléctricos Industriales / Generación y Energía. Scene in Venezuelan power and oilfield infrastructure, with substations, switchgear rooms and medium-voltage systems. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Carabobo (San Diego), Venezuela.
 
 ## Iluminación LED Ex (Explosion Proof) [OK]
 - Categoría: Suministros Eléctricos Industriales
@@ -947,7 +947,7 @@
 - Tags: `substation, electrical, industrial, power, switchgear, oil, industrial-lighting, led, iluminacion, explosion, proof, venezuela`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Iluminación LED Ex (Explosion Proof). Context: Suministros Eléctricos Industriales / Iluminación Industrial. Scene in Venezuelan power and oilfield infrastructure, with substations, switchgear rooms and medium-voltage systems. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Iluminación LED Ex (Explosion Proof). Context: Suministros Eléctricos Industriales / Iluminación Industrial. Scene in Venezuelan power and oilfield infrastructure, with substations, switchgear rooms and medium-voltage systems. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Zulia (Puerto Miranda), Venezuela.
 
 ## Analizadores de Calidad de Potencia [OK]
 - Categoría: Suministros Eléctricos Industriales
@@ -958,7 +958,7 @@
 - Tags: `substation, electrical, industrial, power, switchgear, oil, industrial-analyzer, instrumentation, analizadores, calidad, potencia, venezuela`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Analizadores de Calidad de Potencia. Context: Suministros Eléctricos Industriales / Instrumentación Eléctrica. Scene in Venezuelan power and oilfield infrastructure, with substations, switchgear rooms and medium-voltage systems. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Analizadores de Calidad de Potencia. Context: Suministros Eléctricos Industriales / Instrumentación Eléctrica. Scene in Venezuelan power and oilfield infrastructure, with substations, switchgear rooms and medium-voltage systems. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Anzoátegui (Barcelona), Venezuela.
 
 ## Cámaras Termográficas Certificadas [OK]
 - Categoría: Suministros Eléctricos Industriales
@@ -969,7 +969,7 @@
 - Tags: `substation, electrical, industrial, power, switchgear, oil, thermal-camera, inspection, camaras, termograficas, certificadas, venezuela`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Cámaras Termográficas Certificadas. Context: Suministros Eléctricos Industriales / Instrumentación Eléctrica. Scene in Venezuelan power and oilfield infrastructure, with substations, switchgear rooms and medium-voltage systems. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Cámaras Termográficas Certificadas. Context: Suministros Eléctricos Industriales / Instrumentación Eléctrica. Scene in Venezuelan power and oilfield infrastructure, with substations, switchgear rooms and medium-voltage systems. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Zulia (Lagunillas), Venezuela.
 
 ## Megóhmetros (Meggers) [OK]
 - Categoría: Suministros Eléctricos Industriales
@@ -980,7 +980,7 @@
 - Tags: `substation, electrical, industrial, power, switchgear, oil, megohmmeter, electrical-testing, megohmetros, meggers, venezuela, industry`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Megóhmetros (Meggers). Context: Suministros Eléctricos Industriales / Instrumentación Eléctrica. Scene in Venezuelan power and oilfield infrastructure, with substations, switchgear rooms and medium-voltage systems. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Megóhmetros (Meggers). Context: Suministros Eléctricos Industriales / Instrumentación Eléctrica. Scene in Venezuelan power and oilfield infrastructure, with substations, switchgear rooms and medium-voltage systems. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Zulia (Maracaibo), Venezuela.
 
 ## Multímetros de Seguridad Intrínseca [OK]
 - Categoría: Suministros Eléctricos Industriales
@@ -991,7 +991,7 @@
 - Tags: `substation, electrical, industrial, power, switchgear, oil, multimeter, electrical-testing, multimetros, seguridad, intrinseca, venezuela`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Multímetros de Seguridad Intrínseca. Context: Suministros Eléctricos Industriales / Instrumentación Eléctrica. Scene in Venezuelan power and oilfield infrastructure, with substations, switchgear rooms and medium-voltage systems. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Multímetros de Seguridad Intrínseca. Context: Suministros Eléctricos Industriales / Instrumentación Eléctrica. Scene in Venezuelan power and oilfield infrastructure, with substations, switchgear rooms and medium-voltage systems. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Carabobo (Puerto Cabello), Venezuela.
 
 ## Electrodos de Referencia [OK]
 - Categoría: Suministros Eléctricos Industriales
@@ -1002,7 +1002,7 @@
 - Tags: `substation, electrical, industrial, power, switchgear, oil, electrodos, referencia, venezuela, industry, photography`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Electrodos de Referencia. Context: Suministros Eléctricos Industriales / Protección Catódica. Scene in Venezuelan power and oilfield infrastructure, with substations, switchgear rooms and medium-voltage systems. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Electrodos de Referencia. Context: Suministros Eléctricos Industriales / Protección Catódica. Scene in Venezuelan power and oilfield infrastructure, with substations, switchgear rooms and medium-voltage systems. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Falcón (Punto Fijo), Venezuela.
 
 ## Rectificadores de Corriente Impresa [OK]
 - Categoría: Suministros Eléctricos Industriales
@@ -1013,7 +1013,7 @@
 - Tags: `substation, electrical, industrial, power, switchgear, oil, rectifier, rectificadores, corriente, impresa, venezuela, industry`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Rectificadores de Corriente Impresa. Context: Suministros Eléctricos Industriales / Protección Catódica. Scene in Venezuelan power and oilfield infrastructure, with substations, switchgear rooms and medium-voltage systems. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Rectificadores de Corriente Impresa. Context: Suministros Eléctricos Industriales / Protección Catódica. Scene in Venezuelan power and oilfield infrastructure, with substations, switchgear rooms and medium-voltage systems. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Zulia (Bachaquero), Venezuela.
 
 ## Ánodos de Corriente Impresa (ICCP) [OK]
 - Categoría: Suministros Eléctricos Industriales
@@ -1024,7 +1024,7 @@
 - Tags: `substation, electrical, industrial, power, switchgear, oil, anode, corrosion, anodos, corriente, impresa, iccp`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Ánodos de Corriente Impresa (ICCP). Context: Suministros Eléctricos Industriales / Protección Catódica. Scene in Venezuelan power and oilfield infrastructure, with substations, switchgear rooms and medium-voltage systems. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Ánodos de Corriente Impresa (ICCP). Context: Suministros Eléctricos Industriales / Protección Catódica. Scene in Venezuelan power and oilfield infrastructure, with substations, switchgear rooms and medium-voltage systems. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Anzoátegui (Barcelona), Venezuela.
 
 ## Ánodos de Sacrificio [OK]
 - Categoría: Suministros Eléctricos Industriales
@@ -1035,4 +1035,4 @@
 - Tags: `substation, electrical, industrial, power, switchgear, oil, anode, corrosion, anodos, sacrificio, venezuela, industry`
 - Prompt:
 
-  Hyperrealistic industrial photograph of Ánodos de Sacrificio. Context: Suministros Eléctricos Industriales / Protección Catódica. Scene in Venezuelan power and oilfield infrastructure, with substations, switchgear rooms and medium-voltage systems. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text.
+  Hyperrealistic industrial photograph of Ánodos de Sacrificio. Context: Suministros Eléctricos Industriales / Protección Catódica. Scene in Venezuelan power and oilfield infrastructure, with substations, switchgear rooms and medium-voltage systems. Use an editorial industrial composition where the product is the clear subject and the operating environment gives context. Venezuela oil and gas setting, tropical daylight, true color, high dynamic range, high texture detail, authentic steel wear, realistic dust and shadows, no CGI, no illustration, no 3D render, no watermark, no oversized text. Specifically highlight the product in impeccable, brand new condition, factory-fresh with a clean polished finish and no signs of use or wear, ideal for a B2B commercial sales presentation. Atmosphere: Professional, efficient, and modern industrial environment in Zulia (Tía Juana), Venezuela.

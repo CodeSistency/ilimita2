@@ -65,6 +65,20 @@ export default function CategoryDetail({ category }: CategoryDetailProps) {
           Volver a {category.domain}
         </Link>
 
+        <div className="mt-6 overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
+          <div className="relative h-44 w-full sm:h-56 lg:h-64">
+            <Image
+              src={category.heroImage}
+              alt={`Imagen principal de ${category.title}`}
+              fill
+              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 80vw, 1120px"
+              priority
+              className="object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-slate-900/70 via-slate-900/20 to-transparent" />
+          </div>
+        </div>
+
         <div className="mt-6 mb-2 max-w-3xl">
           <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-orange-100 bg-orange-50 px-3 py-1 text-[9px] font-black uppercase tracking-[0.2em] text-orange-600">
             {renderCategoryIcon({ slug: category.slug, className: "h-3.5 w-3.5" })}

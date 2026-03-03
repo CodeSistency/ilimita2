@@ -233,10 +233,8 @@ export default function ProductosPage() {
                                                 className="object-cover transition-transform duration-300 ease-out group-hover:scale-105"
                                             />
                                             <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-slate-900/20 to-transparent opacity-80 transition-opacity duration-300 group-hover:opacity-60" />
-                                            <div className="absolute left-2.5 top-2.5 rounded-full bg-white/90 px-2 py-0.5 text-[8px] font-black uppercase tracking-widest text-slate-900 backdrop-blur-md">
-                                                {cat.badge}
-                                            </div>
                                         </div>
+
 
                                         {/* Contenido de la Tarjeta */}
                                         <div className="flex flex-1 flex-col p-4 sm:p-5">

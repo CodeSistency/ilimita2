@@ -53,7 +53,7 @@ export default function LandingPage() {
             initial="hidden" animate="visible" variants={slideInLeftVariant}
             className="absolute top-0 left-0 w-full h-full"
             style={{ clipPath: 'polygon(0 0, calc(34% - 4px) 0, calc(42% - 4px) 100%, 0 100%)' }}>
-            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.19.jpeg" alt="Instalación Petrolera" fill className="object-cover" />
+            <Image src="/catalog/brain/c8839c20-9824-4537-9cd0-866a6ab3e772/pip_tubing_ven_1772498443475.png" alt="Tuberías petroleras" fill className="object-cover" />
           </motion.div>
 
           {/* Panel 2 (Middle Logo) */}
@@ -72,12 +72,12 @@ export default function LandingPage() {
             </div>
           </div>
 
-          {/* Panel 3 (Right Image - Equipos VFD) */}
+          {/* Panel 3 (Right Image - Servicios Técnicos) */}
           <motion.div
             initial="hidden" animate="visible" variants={slideInRight}
             className="absolute top-0 left-0 w-full h-full"
             style={{ clipPath: 'polygon(calc(66% + 4px) 0, 100% 0, 100% 100%, calc(58% + 4px) 100%)' }}>
-            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.24.jpeg" alt="Equipos VFD" fill className="object-cover" />
+            <Image src="/images/service_valves_1772216481455.png" alt="Servicios especializados" fill className="object-cover" />
           </motion.div>
         </div>
 
@@ -93,14 +93,14 @@ export default function LandingPage() {
 
           {/* Left Lateral Faded Image */}
           <div className="absolute top-0 left-0 w-[40%] h-full opacity-90">
-            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.42.jpeg" alt="Equipos" fill className="object-cover" />
+            <Image src="/images/service_pipes.png" alt="Servicio de tuberías" fill className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-r from-transparent via-[#08223d]/40 to-[#08223d]"></div>
             <div className="absolute inset-0 bg-gradient-to-t from-[#08223d] via-transparent to-transparent opacity-20"></div>
           </div>
 
           {/* Right Lateral Faded Image */}
           <div className="absolute top-0 right-0 w-[40%] h-full opacity-90">
-            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.06.jpeg" alt="Estructura Industrial" fill className="object-cover" />
+            <Image src="/images/service_instruments_1772216578079.png" alt="Servicios de instrumentación" fill className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-l from-transparent via-[#08223d]/40 to-[#08223d]"></div>
             <div className="absolute inset-0 bg-gradient-to-t from-[#08223d] via-transparent to-transparent opacity-20"></div>
           </div>
@@ -151,7 +151,7 @@ export default function LandingPage() {
 
           {/* Card 1 */}
           <motion.div variants={fadeUpVariant} className="group relative h-[320px] rounded-2xl overflow-hidden shadow-xl cursor-pointer active:scale-[0.98] transition-transform duration-300">
-            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.40.jpeg" alt="Bombas" fill className="object-cover transition-transform duration-[400ms] ease-out group-hover:scale-[1.05]" />
+            <Image src="/catalog/ai-pencil/20260302/bombas-centr-fugas.png" alt="Equipos de bombeo" fill className="object-cover transition-transform duration-[400ms] ease-out group-hover:scale-[1.05]" />
             <div className="absolute inset-0 bg-gradient-to-t from-[#012a52] via-[#012a52]/60 to-transparent"></div>
             <div className="absolute inset-0 p-6 flex flex-col justify-between text-white">
               <div className="w-10 h-10 flex items-center justify-center">
@@ -168,7 +168,7 @@ export default function LandingPage() {
 
           {/* Card 2 */}
           <motion.div variants={fadeUpVariant} className="group relative h-[320px] rounded-2xl overflow-hidden shadow-xl cursor-pointer active:scale-[0.98] transition-transform duration-300">
-            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.31.jpeg" alt="Seguridad Industrial" fill className="object-cover transition-transform duration-[400ms] ease-out group-hover:scale-[1.05]" />
+            <Image src="/catalog/ai-pencil/20260302/overoles-ign-fugos.png" alt="Seguridad industrial" fill className="object-cover transition-transform duration-[400ms] ease-out group-hover:scale-[1.05]" />
             <div className="absolute inset-0 bg-gradient-to-t from-[#012a52] via-[#012a52]/60 to-transparent"></div>
             <div className="absolute inset-0 p-6 flex flex-col justify-between text-white">
               <div className="w-10 h-10 flex items-center justify-center">
@@ -185,7 +185,7 @@ export default function LandingPage() {
 
           {/* Card 3 */}
           <motion.div variants={fadeUpVariant} className="group relative h-[320px] rounded-2xl overflow-hidden shadow-xl cursor-pointer active:scale-[0.98] transition-transform duration-300">
-            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.08.jpeg" alt="Instrumentación" fill className="object-cover transition-transform duration-[400ms] ease-out group-hover:scale-[1.05]" />
+            <Image src="/catalog/ai-pencil/20260302/transmisores-de-presi-n-relativa-absoluta-y-diferencial.png" alt="Instrumentación y control" fill className="object-cover transition-transform duration-[400ms] ease-out group-hover:scale-[1.05]" />
             <div className="absolute inset-0 bg-gradient-to-t from-[#012a52] via-[#012a52]/60 to-transparent"></div>
             <div className="absolute inset-0 p-6 flex flex-col justify-between text-white">
               <div className="w-10 h-10 flex items-center justify-center">
@@ -202,7 +202,7 @@ export default function LandingPage() {
 
           {/* Card 4 - New */}
           <motion.div variants={fadeUpVariant} className="group relative h-[320px] rounded-2xl overflow-hidden shadow-xl cursor-pointer active:scale-[0.98] transition-transform duration-300">
-            <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.22.jpeg" alt="Suministro de Tuberías" fill className="object-cover transition-transform duration-[400ms] ease-out group-hover:scale-[1.05]" />
+            <Image src="/catalog/brain/c8839c20-9824-4537-9cd0-866a6ab3e772/pip_line_ven_v2_1772498521591.png" alt="Suministro de tuberías petroleras" fill className="object-cover transition-transform duration-[400ms] ease-out group-hover:scale-[1.05]" />
             <div className="absolute inset-0 bg-gradient-to-t from-[#012a52] via-[#012a52]/60 to-transparent"></div>
             <div className="absolute inset-0 p-6 flex flex-col justify-between text-white">
               <div className="w-10 h-10 flex items-center justify-center">

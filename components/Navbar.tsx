@@ -41,6 +41,7 @@ export default function Navbar() {
 
     const navLinks = [
         { title: "Inicio", href: "/" },
+        { title: "Productos", href: "/productos" },
         { title: "Servicios", href: "/servicios" },
         { title: "Sectores", href: "/sectores" },
         { title: "Nosotros", href: "/nosotros" },
@@ -180,25 +181,7 @@ export default function Navbar() {
                         ))}
                     </div>
 
-                    {/* Product Categories Section */}
-                    <div className="mb-10">
-                        <h4 className="text-[10px] font-black text-slate-400 uppercase tracking-[0.3em] mb-6 pl-2">Portafolio Técnico</h4>
-                        <div className="grid grid-cols-1 gap-3">
-                            {categories.map((cat) => (
-                                <Link
-                                    key={cat.title}
-                                    href={cat.href}
-                                    onClick={() => setIsMobileMenuOpen(false)}
-                                    className="flex items-center gap-4 rounded-2xl border border-slate-100 bg-slate-50 p-5 transition-[background-color,border-color,transform] active:scale-[0.98]"
-                                >
-                                    <div className="w-10 h-10 bg-white rounded-xl flex items-center justify-center text-orange-500 shadow-sm border border-slate-100">
-                                        {cat.icon}
-                                    </div>
-                                    <span className="text-sm font-black text-slate-800 uppercase tracking-tight">{cat.title}</span>
-                                </Link>
-                            ))}
-                        </div>
-                    </div>
+
 
                     {/* Bottom CTA */}
                     <div className="mt-auto pb-4 pt-10">

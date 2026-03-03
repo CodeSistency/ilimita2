@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { ArrowLeft, ArrowRight } from "lucide-react"
 
 import type { CatalogCategory } from "@/data/catalog"
@@ -171,18 +172,36 @@ export default function CategoryDetail({ category }: CategoryDetailProps) {
                   {section.items.map((item) => (
                     <Link
                       href="/contacto"
-                      key={item}
+                      key={item.id}
                       className="group flex flex-col justify-between overflow-hidden rounded-xl border border-slate-200 bg-white p-4 shadow-sm cursor-pointer transition-[transform,border-color,box-shadow,ring] duration-300 hover:-translate-y-1 hover:border-orange-300 hover:shadow-md hover:ring-1 hover:ring-orange-300 block w-full active:scale-[0.98]"
                     >
-                      <div>
-                        <div className="mb-3 inline-flex h-8 w-8 items-center justify-center rounded-lg bg-orange-50 text-orange-600 transition-colors duration-300 group-hover:bg-orange-600 group-hover:text-white">
-                          <div className="scale-75">
-                            {renderCategoryIcon({ slug: category.slug, className: "h-4 w-4" })}
+                      {/* Item Image or Icon */}
+                      <div className="relative mb-4 aspect-video w-full overflow-hidden rounded-lg bg-slate-100">
+                        {item.image ? (
+                          <Image
+                            src={item.image}
+                            alt={item.name}
+                            fill
+                            className="object-cover transition-transform duration-500 group-hover:scale-110"
+                          />
+                        ) : (
+                          <div className="flex h-full w-full items-center justify-center bg-orange-50 text-orange-600 transition-colors duration-300 group-hover:bg-orange-600 group-hover:text-white">
+                            <div className="scale-125">
+                              {renderCategoryIcon({ slug: category.slug, className: "h-6 w-6" })}
+                            </div>
                           </div>
-                        </div>
-                        <h3 className="text-xs font-bold leading-normal text-slate-800">
-                          {item}
+                        )}
+                      </div>
+
+                      <div className="flex-1">
+                        <h3 className="text-sm font-bold leading-tight text-slate-800 line-clamp-2">
+                          {item.name}
                         </h3>
+                        {item.description && (
+                          <p className="mt-1 text-[10px] font-medium text-slate-500 line-clamp-2">
+                            {item.description}
+                          </p>
+                        )}
                       </div>
 
                       <div className="mt-5 flex items-center justify-between border-t border-slate-100 pt-3">

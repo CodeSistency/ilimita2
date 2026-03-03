@@ -1,0 +1,193 @@
+{
+  "version": "2.8",
+  "children": [
+    {
+      "type": "frame",
+      "id": "4B5Nn",
+      "x": 40,
+      "y": 40,
+      "name": "Transformer Test",
+      "width": 1280,
+      "height": 720,
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "tzzmA",
+          "name": "Transformer",
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "./images/generated-1772500916795.png",
+            "mode": "fill"
+          },
+          "width": "fill_container",
+          "height": "fill_container"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "W1TW2",
+      "x": 40,
+      "y": 40,
+      "name": "AI Stage",
+      "width": 2000,
+      "height": 1200,
+      "layout": "vertical",
+      "gap": 20,
+      "padding": 20,
+      "children": [
+        {
+          "type": "frame",
+          "id": "nrFMy",
+          "name": "Row 1",
+          "width": "fill_container",
+          "height": 560,
+          "gap": 20,
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "n1ClY",
+              "name": "SLOT_00",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./images/generated-1772502237386.png",
+                "mode": "fill"
+              },
+              "width": 360,
+              "height": 520
+            },
+            {
+              "type": "rectangle",
+              "id": "eFL8d",
+              "name": "SLOT_01",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./images/generated-1772502244439.png",
+                "mode": "fill"
+              },
+              "width": 360,
+              "height": 520
+            },
+            {
+              "type": "rectangle",
+              "id": "xLXRk",
+              "name": "SLOT_02",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./images/generated-1772502251533.png",
+                "mode": "fill"
+              },
+              "width": 360,
+              "height": 520
+            },
+            {
+              "type": "rectangle",
+              "id": "tjynX",
+              "name": "SLOT_03",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./images/generated-1772502258451.png",
+                "mode": "fill"
+              },
+              "width": 360,
+              "height": 520
+            },
+            {
+              "type": "rectangle",
+              "id": "ts6k0",
+              "name": "SLOT_04",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./images/generated-1772502173384.png",
+                "mode": "fill"
+              },
+              "width": 360,
+              "height": 520
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "oa1yF",
+          "name": "Row 2",
+          "width": "fill_container",
+          "height": 560,
+          "gap": 20,
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "T8ODz",
+              "name": "SLOT_05",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./images/generated-1772502165203.png",
+                "mode": "fill"
+              },
+              "width": 360,
+              "height": 520
+            },
+            {
+              "type": "rectangle",
+              "id": "Uv9Af",
+              "name": "SLOT_06",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./images/generated-1772502179590.png",
+                "mode": "fill"
+              },
+              "width": 360,
+              "height": 520
+            },
+            {
+              "type": "rectangle",
+              "id": "pTHg0",
+              "name": "SLOT_07",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./images/generated-1772502187614.png",
+                "mode": "fill"
+              },
+              "width": 360,
+              "height": 520
+            },
+            {
+              "type": "rectangle",
+              "id": "jwSPi",
+              "name": "SLOT_08",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./images/generated-1772502194780.png",
+                "mode": "fill"
+              },
+              "width": 360,
+              "height": 520
+            },
+            {
+              "type": "rectangle",
+              "id": "C6Shw",
+              "name": "SLOT_09",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./images/generated-1772502201356.png",
+                "mode": "fill"
+              },
+              "width": 360,
+              "height": 520
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

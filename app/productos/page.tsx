@@ -32,7 +32,10 @@ export default function ProductosPage() {
                 cat.title.toLowerCase().includes(lowerSearch) ||
                 cat.description.toLowerCase().includes(lowerSearch) ||
                 cat.sections.some((sec) =>
-                    sec.items.some((item) => item.toLowerCase().includes(lowerSearch))
+                    sec.items.some((item) =>
+                        item.name.toLowerCase().includes(lowerSearch) ||
+                        (item.description && item.description.toLowerCase().includes(lowerSearch))
+                    )
                 )
         )
     }, [hasSearchTerm, searchTerm, categories])

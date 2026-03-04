@@ -268,7 +268,7 @@ export const catalogCategories: CatalogCategory[] = [
         items: [
           { id: "generadores-diesel", name: "Generadores Diésel", image: "/catalog/brain/c8839c20-9824-4537-9cd0-866a6ab3e772/ele_diesel_gen_ven_1772498998193.png", description: "Generadores potentes para autogeneración en sitios remotos." },
           { id: "turbinas-de-gas", name: "Turbinas de Gas", image: "/catalog/brain/c8839c20-9824-4537-9cd0-866a6ab3e772/ele_gas_turbine_ven_1772499016579.png", description: "Turbinas de gas de alta eficiencia para operaciones industriales." },
-          { id: "transformadores", name: "Transformadores (Aceite y Secos)", image: "/catalog/brain/c8839c20-9824-4537-9cd0-866a6ab3e772/ele_transformer_ven_1772499034356.png", description: "Transformadores de potencia y distribución." },
+          { id: "transformadores", name: "Transformadores (Aceite y Secos)", image: "/catalog/ai-pencil/20260303/products-clean/transformadores.png", description: "Transformadores de potencia y distribución." },
           { id: "e-houses", name: "E-Houses (Salas Eléctricas Modulares)", image: "/catalog/ai-pencil/20260303/products-clean/e-houses.png", description: "Soluciones modulares integradas para protección y control." },
           { id: "baterias-rectificadores", name: "Bancos de Baterías y Rectificadores", image: "/catalog/ai-pencil/20260303/products-clean/baterias-rectificadores.png" }
         ],

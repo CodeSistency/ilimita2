@@ -55,7 +55,7 @@ export default function CategoryDetail({ category }: CategoryDetailProps) {
   }, [category.sections])
 
   return (
-    <div className="bg-slate-50 pb-24 overflow-x-hidden w-full">
+    <div className="bg-slate-50 pb-24">
       <section className="mx-auto max-w-7xl px-4 pt-10 sm:px-6 lg:px-8">
         <Link
           href={`/${category.domain}`}

@@ -7,8 +7,8 @@ export default function Footer() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
                     <div className="col-span-1 md:col-span-1">
-                        <div className="mb-8 p-3.5 bg-white rounded-xl inline-flex items-center justify-center shadow-xl shadow-black/20">
-                            <div className="relative w-36 h-9">
+                        <div className="mb-8 p-4 bg-white rounded-xl inline-flex items-center justify-center shadow-xl shadow-black/20">
+                            <div className="relative w-64 h-16">
                                 <Image
                                     src="/logo.png"
                                     alt="Ilimita2 Logo"

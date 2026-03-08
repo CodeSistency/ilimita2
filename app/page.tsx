@@ -151,15 +151,16 @@ export default function LandingPage() {
 
           {/* Card 1 */}
           <motion.div variants={fadeUpVariant} className="group relative h-[320px] rounded-2xl overflow-hidden shadow-xl cursor-pointer active:scale-[0.98] transition-transform duration-300">
-            <Image src="/catalog/ai-pencil/20260302/bombas-centr-fugas.png" alt="Equipos de bombeo" fill className="object-cover transition-transform duration-[400ms] ease-out group-hover:scale-[1.05]" />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#012a52] via-[#012a52]/60 to-transparent"></div>
-            <div className="absolute inset-0 p-6 flex flex-col justify-between text-white">
+            <Link href="/productos/facilidades-superficie" className="absolute inset-0 z-20"><span className="sr-only">Facilidades de Superficie</span></Link>
+            <Image src="/catalog/ai-pencil/20260302/bombas-centr-fugas.png" alt="Facilidades de Superficie" fill className="object-cover transition-transform duration-[400ms] ease-out group-hover:scale-[1.05]" />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#012a52] via-[#012a52]/80 to-transparent"></div>
+            <div className="absolute inset-0 p-6 flex flex-col justify-between text-white z-10 pointer-events-none">
               <div className="w-10 h-10 flex items-center justify-center">
                 <Droplet className="w-8 h-8 opacity-90 drop-shadow-md" />
               </div>
               <div>
                 <h3 className="text-xl font-black leading-tight mb-3 tracking-wide text-blue-50">
-                  EQUIPOS DE <br /> BOMBEO Y <br /> VÁLVULAS
+                  EQUIPOS E INSUMOS PARA <br /> FACILIDADES DE <br /> SUPERFICIE
                 </h3>
                 <div className="h-1 w-8 bg-white/50 transition-[width] duration-700 group-hover:w-full"></div>
               </div>
@@ -168,15 +169,16 @@ export default function LandingPage() {
 
           {/* Card 2 */}
           <motion.div variants={fadeUpVariant} className="group relative h-[320px] rounded-2xl overflow-hidden shadow-xl cursor-pointer active:scale-[0.98] transition-transform duration-300">
-            <Image src="/catalog/ai-pencil/20260302/overoles-ign-fugos.png" alt="Seguridad industrial" fill className="object-cover transition-transform duration-[400ms] ease-out group-hover:scale-[1.05]" />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#012a52] via-[#012a52]/60 to-transparent"></div>
-            <div className="absolute inset-0 p-6 flex flex-col justify-between text-white">
+            <Link href="/productos/instalaciones-subsuelo" className="absolute inset-0 z-20"><span className="sr-only">Instalaciones de Subsuelo</span></Link>
+            <Image src="/catalog/brain/c8839c20-9824-4537-9cd0-866a6ab3e772/pip_line_ven_v2_1772498521591.png" alt="Instalaciones de Subsuelo" fill className="object-cover transition-transform duration-[400ms] ease-out group-hover:scale-[1.05]" />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#012a52] via-[#012a52]/80 to-transparent"></div>
+            <div className="absolute inset-0 p-6 flex flex-col justify-between text-white z-10 pointer-events-none">
               <div className="w-10 h-10 flex items-center justify-center">
-                <ShieldCheck className="w-8 h-8 opacity-90 drop-shadow-md" />
+                <Settings className="w-8 h-8 opacity-90 drop-shadow-md" />
               </div>
               <div>
                 <h3 className="text-xl font-black leading-tight mb-3 tracking-wide text-blue-50">
-                  SUMINISTROS DE <br /> SEGURIDAD <br /> INDUSTRIAL
+                  EQUIPOS E INSUMOS PARA <br /> INSTALACIONES DE <br /> SUBSUELO
                 </h3>
                 <div className="h-1 w-8 bg-white/50 transition-[width] duration-700 group-hover:w-full"></div>
               </div>
@@ -185,32 +187,34 @@ export default function LandingPage() {
 
           {/* Card 3 */}
           <motion.div variants={fadeUpVariant} className="group relative h-[320px] rounded-2xl overflow-hidden shadow-xl cursor-pointer active:scale-[0.98] transition-transform duration-300">
-            <Image src="/catalog/ai-pencil/20260302/transmisores-de-presi-n-relativa-absoluta-y-diferencial.png" alt="Instrumentación y control" fill className="object-cover transition-transform duration-[400ms] ease-out group-hover:scale-[1.05]" />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#012a52] via-[#012a52]/60 to-transparent"></div>
-            <div className="absolute inset-0 p-6 flex flex-col justify-between text-white">
+            <Link href="/productos/equipos-electricos" className="absolute inset-0 z-20"><span className="sr-only">Equipos Eléctricos</span></Link>
+            <Image src="/catalog/ai-pencil/20260302/e-houses.png" alt="Equipos Eléctricos" fill className="object-cover transition-transform duration-[400ms] ease-out group-hover:scale-[1.05]" />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#012a52] via-[#012a52]/80 to-transparent"></div>
+            <div className="absolute inset-0 p-6 flex flex-col justify-between text-white z-10 pointer-events-none">
               <div className="w-10 h-10 flex items-center justify-center">
-                <Wrench className="w-8 h-8 opacity-90 drop-shadow-md" />
+                <Cpu className="w-8 h-8 opacity-90 drop-shadow-md" />
               </div>
               <div>
                 <h3 className="text-xl font-black leading-tight mb-3 tracking-wide text-blue-50">
-                  INSTRUMENTACIÓN <br /> Y CONTROL
+                  EQUIPOS E <br /> INSUMOS <br /> ELÉCTRICOS
                 </h3>
                 <div className="h-1 w-8 bg-white/50 transition-[width] duration-700 group-hover:w-full"></div>
               </div>
             </div>
           </motion.div>
 
-          {/* Card 4 - New */}
+          {/* Card 4 */}
           <motion.div variants={fadeUpVariant} className="group relative h-[320px] rounded-2xl overflow-hidden shadow-xl cursor-pointer active:scale-[0.98] transition-transform duration-300">
-            <Image src="/catalog/brain/c8839c20-9824-4537-9cd0-866a6ab3e772/pip_line_ven_v2_1772498521591.png" alt="Suministro de tuberías petroleras" fill className="object-cover transition-transform duration-[400ms] ease-out group-hover:scale-[1.05]" />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#012a52] via-[#012a52]/60 to-transparent"></div>
-            <div className="absolute inset-0 p-6 flex flex-col justify-between text-white">
+            <Link href="/productos/seguridad-industrial" className="absolute inset-0 z-20"><span className="sr-only">Seguridad Industrial</span></Link>
+            <Image src="/catalog/ai-pencil/20260302/overoles-ign-fugos.png" alt="Seguridad Industrial" fill className="object-cover transition-transform duration-[400ms] ease-out group-hover:scale-[1.05]" />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#012a52] via-[#012a52]/80 to-transparent"></div>
+            <div className="absolute inset-0 p-6 flex flex-col justify-between text-white z-10 pointer-events-none">
               <div className="w-10 h-10 flex items-center justify-center">
-                <Settings className="w-8 h-8 opacity-90 drop-shadow-md" />
+                <ShieldCheck className="w-8 h-8 opacity-90 drop-shadow-md" />
               </div>
               <div>
-                <h3 className="text-xl font-black leading-tight mb-3 tracking-wide text-blue-50 uppercase">
-                  SUMINISTRO <br /> INTEGRAL DE <br /> TUBERÍAS
+                <h3 className="text-xl font-black leading-tight mb-3 tracking-wide text-blue-50">
+                  SEGURIDAD <br /> INDUSTRIAL
                 </h3>
                 <div className="h-1 w-8 bg-white/50 transition-[width] duration-700 group-hover:w-full"></div>
               </div>
@@ -308,34 +312,34 @@ export default function LandingPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6">
             {[
               {
-                href: "/productos/instrumentacion-campo",
-                title: "Instrumentación",
-                icon: <Activity className="w-6 h-6" />,
-                count: "Medición de proceso",
-              },
-              {
-                href: "/productos/equipos-bombeo-valvulas-industriales",
-                title: "Bombeo & Válvulas",
+                href: "/productos/facilidades-superficie",
+                title: "Superficie",
                 icon: <Droplet className="w-6 h-6" />,
-                count: "Fluidos industriales",
+                count: "Instrumentación y Bombeo",
               },
               {
-                href: "/productos/suministros-electricos-industriales",
-                title: "Suministros Eléct.",
+                href: "/productos/instalaciones-subsuelo",
+                title: "Subsuelo",
+                icon: <Settings className="w-6 h-6" />,
+                count: "Tuberías y Pozo",
+              },
+              {
+                href: "/productos/equipos-electricos",
+                title: "Eléctricos",
                 icon: <Cpu className="w-6 h-6" />,
-                count: "Energía y control",
+                count: "Distribución y Potencia",
               },
               {
                 href: "/productos/seguridad-industrial",
                 title: "Seguridad",
                 icon: <ShieldCheck className="w-6 h-6" />,
-                count: "Protección integral",
+                count: "Protección Integral",
               },
               {
                 href: "/servicios/procura-logistica",
                 title: "Procura & Logística",
                 icon: <Globe className="w-6 h-6" />,
-                count: "Cobertura global",
+                count: "Cobertura Global",
               },
             ].map((prod) => (
               <motion.div key={prod.href} variants={fadeUpVariant}>

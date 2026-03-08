@@ -55,7 +55,7 @@ export default function CategoryDetail({ category }: CategoryDetailProps) {
   }, [category.sections])
 
   return (
-    <div className="bg-slate-50 pb-24">
+    <div className="bg-slate-50 pb-24 overflow-x-hidden w-full">
       <section className="mx-auto max-w-7xl px-4 pt-10 sm:px-6 lg:px-8">
         <Link
           href={`/${category.domain}`}
@@ -143,7 +143,7 @@ export default function CategoryDetail({ category }: CategoryDetailProps) {
           </aside>
 
           {/* Catalog Sections Grid */}
-          <div className="flex-1 space-y-16">
+          <div className="flex-1 min-w-0 w-full space-y-16">
             {/* Mobile Quick Links / Accesos Directos (visible only on mobile) */}
             <div className="sticky top-16 z-10 -mx-4 mb-4 bg-slate-50/90 px-4 pb-4 pt-4 backdrop-blur-md lg:hidden sm:-mx-6 sm:px-6">
               <nav className="flex gap-2 overflow-x-auto custom-scrollbar">
@@ -171,26 +171,26 @@ export default function CategoryDetail({ category }: CategoryDetailProps) {
 
             {category.sections.map((section) => (
               <article key={section.name} id={slugify(section.name)} className="scroll-mt-32">
-                <header className="mb-8 flex items-end justify-between border-b border-slate-200 pb-4">
+                <header className="mb-6 flex flex-col sm:flex-row sm:items-end justify-between gap-3 border-b border-slate-200 pb-4">
                   <div>
-                    <h2 className="text-xl font-black uppercase leading-tight tracking-tight text-slate-900 lg:text-2xl">
+                    <h2 className="text-lg sm:text-xl font-black uppercase leading-tight tracking-tight text-slate-900 lg:text-2xl">
                       {section.name}
                     </h2>
                   </div>
-                  <span className="rounded-full bg-slate-200 px-3 py-1 text-xs font-bold text-slate-600">
+                  <span className="self-start sm:self-auto rounded-full bg-slate-200 px-3 py-1 text-[10px] sm:text-xs font-bold text-slate-600">
                     {section.items.length} {section.items.length === 1 ? "ítem" : "ítems"}
                   </span>
                 </header>
 
-                <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3">
+                <ul className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4">
                   {section.items.map((item) => (
                     <Link
                       href="/contacto"
                       key={item.id}
-                      className="group flex flex-col justify-between overflow-hidden rounded-xl border border-slate-200 bg-white p-4 shadow-sm cursor-pointer transition-[transform,border-color,box-shadow,ring] duration-300 hover:-translate-y-1 hover:border-orange-300 hover:shadow-md hover:ring-1 hover:ring-orange-300 block w-full active:scale-[0.98]"
+                      className="group flex flex-col justify-between overflow-hidden rounded-xl border border-slate-200 bg-white p-3 sm:p-4 shadow-sm cursor-pointer transition-[transform,border-color,box-shadow,ring] duration-300 hover:-translate-y-1 hover:border-orange-300 hover:shadow-md hover:ring-1 hover:ring-orange-300 w-full active:scale-[0.98]"
                     >
                       {/* Item Image or Icon */}
-                      <div className="relative mb-4 aspect-video w-full overflow-hidden rounded-lg bg-slate-100">
+                      <div className="relative mb-3 sm:mb-4 aspect-[4/3] sm:aspect-video w-full overflow-hidden rounded-lg bg-slate-100">
                         {item.image ? (
                           <Image
                             src={item.image}
@@ -200,30 +200,30 @@ export default function CategoryDetail({ category }: CategoryDetailProps) {
                           />
                         ) : (
                           <div className="flex h-full w-full items-center justify-center bg-orange-50 text-orange-600 transition-colors duration-300 group-hover:bg-orange-600 group-hover:text-white">
-                            <div className="scale-125">
-                              {renderCategoryIcon({ slug: category.slug, className: "h-6 w-6" })}
+                            <div className="scale-100 sm:scale-125">
+                              {renderCategoryIcon({ slug: category.slug, className: "h-5 w-5 sm:h-6 sm:w-6" })}
                             </div>
                           </div>
                         )}
                       </div>
 
                       <div className="flex-1">
-                        <h3 className="text-sm font-bold leading-tight text-slate-800 line-clamp-2">
+                        <h3 className="text-xs sm:text-sm font-bold leading-tight text-slate-800 line-clamp-2">
                           {item.name}
                         </h3>
                         {item.description && (
-                          <p className="mt-1 text-[10px] font-medium text-slate-500 line-clamp-2">
+                          <p className="mt-1 text-[9px] sm:text-[10px] font-medium text-slate-500 line-clamp-2 sm:line-clamp-3">
                             {item.description}
                           </p>
                         )}
                       </div>
 
-                      <div className="mt-5 flex items-center justify-between border-t border-slate-100 pt-3">
-                        <span className="text-[9px] font-black uppercase tracking-widest text-slate-400 transition-colors hover:text-orange-600 group-hover:text-orange-600">
-                          Cotizar equipo
+                      <div className="mt-4 sm:mt-5 flex items-center justify-between border-t border-slate-100 pt-2 sm:pt-3">
+                        <span className="text-[8px] sm:text-[9px] font-black uppercase tracking-widest text-slate-400 transition-colors group-hover:text-orange-600">
+                          Cotizar
                         </span>
-                        <div className="flex h-5 w-5 items-center justify-center rounded-full bg-slate-50 transition-colors group-hover:bg-orange-100">
-                          <ArrowRight className="h-2.5 w-2.5 text-slate-400 transition-transform group-hover:translate-x-0.5 group-hover:text-orange-600" />
+                        <div className="flex h-4 w-4 sm:h-5 sm:w-5 items-center justify-center rounded-full bg-slate-50 transition-colors group-hover:bg-orange-100">
+                          <ArrowRight className="h-2.5 w-2.5 sm:h-3 sm:w-3 text-slate-400 transition-transform group-hover:translate-x-0.5 group-hover:text-orange-600" />
                         </div>
                       </div>
                     </Link>

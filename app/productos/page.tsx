@@ -72,7 +72,7 @@ export default function ProductosPage() {
     }, [hasSearchTerm, categories, activeSection])
 
     return (
-        <div className="min-h-screen bg-slate-50 pb-32 pt-20 font-sans">
+        <div className="min-h-screen bg-slate-50 pb-32 pt-20 font-sans overflow-x-hidden w-full">
 
             {/* SEARCH FIXED HEADER */}
             <div className="sticky top-20 z-40 bg-white/90 backdrop-blur-xl border-b border-slate-200 shadow-sm py-4 lg:py-6">
@@ -156,7 +156,7 @@ export default function ProductosPage() {
                 </aside>
 
                 {/* MAIN CONTENT AREA */}
-                <div className="flex-1">
+                <div className="flex-1 w-full min-w-0">
 
                     {/* MOBILE QUICK ACCESS CHIPS */}
                     <div

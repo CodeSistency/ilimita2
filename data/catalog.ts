@@ -83,7 +83,6 @@ export const catalogCategories: CatalogCategory[] = [
       {
         name: "Equipos de Bombeo de Superficie",
         items: [
-          { id: "bombas-de-cavidad-progresiva-bcp", name: "Bombas de Cavidad Progresiva (BCP)", image: "/catalog/ai-pencil/20260303/products-clean/bombas-de-cavidad-progresiva-bcp.png" },
           { id: "bombas-centr-fugas", name: "Bombas Centrífugas", image: "/catalog/ai-pencil/20260303/products-clean/bombas-centr-fugas.png" },
           { id: "bombas-de-pist-n-reciprocantes", name: "Bombas de Pistón / Reciprocantes", image: "/catalog/ai-pencil/20260303/products-clean/bombas-de-pist-n-reciprocantes.png" }
         ],
@@ -178,6 +177,7 @@ export const catalogCategories: CatalogCategory[] = [
         name: "Equipos de Bombeo para Pozos",
         items: [
           { id: "bombas-electrosumergibles", name: "Bombas Electrosumergibles", image: "/catalog/ai-pencil/20260303/products-clean/bombas-electrosumergibles.png" },
+          { id: "bombas-de-cavidad-progresiva-bcp", name: "Bombas de Cavidad Progresiva (BCP)", image: "/catalog/ai-pencil/20260303/products-clean/bombas-de-cavidad-progresiva-bcp.png" },
           { id: "variadores-de-frecuencia-vfd", name: "Variadores de Frecuencia (VFD)", image: "/catalog/ai-pencil/20260303/products-clean/variadores-de-frecuencia-vfd.png" }
         ],
       },

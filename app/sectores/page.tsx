@@ -8,7 +8,7 @@ const sectors = [
         title: "Petróleo y Gas",
         desc: "Suministro crítico para perforación, refinación y transporte de hidrocarburos.",
         icon: <Flame className="w-10 h-10" />,
-        image: "/venezuela/WhatsApp Image 2026-02-28 at 16.44.36.jpeg"
+        image: "/nuevas/sector-petroquimico.jpeg"
     },
     {
         title: "Energía y Eléctrico",
@@ -20,7 +20,7 @@ const sectors = [
         title: "Construcción Pesada",
         desc: "Maquinaria y suministros para grandes obras de infraestructura industrial.",
         icon: <Construction className="w-10 h-10" />,
-        image: "/venezuela/WhatsApp Image 2026-02-28 at 16.44.11.jpeg"
+        image: "/nuevas/sector-construccion.jpeg"
     },
     {
         title: "Tratamiento de Aguas",
@@ -92,7 +92,7 @@ export default function SectoresPage() {
                         </div>
                     </div>
                     <div className="w-full lg:w-1/2 relative h-[300px]">
-                        <Image src="/venezuela/WhatsApp Image 2026-02-28 at 16.44.07.jpeg" alt="Tecnología" fill className="object-cover rounded-2xl shadow-lg" />
+                        <Image src="/nuevas/fabricantes-mundo.jpeg" alt="Tecnología" fill className="object-cover rounded-2xl shadow-lg" />
                     </div>
                 </div>
 

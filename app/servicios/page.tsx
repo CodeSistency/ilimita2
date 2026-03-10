@@ -191,7 +191,7 @@ export default function ServiciosPage() {
                     className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-20 items-center"
                 >
                     <motion.div variants={fadeInUp} className="relative h-[400px] rounded-2xl overflow-hidden shadow-xl">
-                        <Image src="/images/hero_electrical_1772216413692.png" alt="Soporte Técnico" fill className="object-cover" />
+                        <Image src="/nuevas/sector-electrico.jpeg" alt="Soporte Técnico" fill className="object-cover" />
                     </motion.div>
                     <motion.div variants={fadeInUp}>
                         <h2 className="text-2xl font-black text-slate-900 mb-6 tracking-tight">SOLUCIONES ADAPTADAS A SU NECESIDAD</h2>

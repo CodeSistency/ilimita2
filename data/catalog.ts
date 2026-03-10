@@ -103,7 +103,7 @@ export const catalogCategories: CatalogCategory[] = [
       {
         name: "Transformadores y Energía",
         items: [
-          { id: "transformadores", name: "Transformadores", image: "/catalog/ai-pencil/20260303/products-clean/transformadores.png", description: "Transformadores de potencia y distribución." },
+          { id: "transformadores", name: "Transformadores", image: "/catalog/brain/c8839c20-9824-4537-9cd0-866a6ab3e772/ele_transformer_ven_1772499034356.png", description: "Transformadores de potencia y distribución." },
           { id: "generadores-diesel", name: "Generadores Diésel", image: "/catalog/brain/c8839c20-9824-4537-9cd0-866a6ab3e772/ele_diesel_gen_ven_1772498998193.png" },
           { id: "turbinas-de-gas", name: "Turbinas de Gas", image: "/catalog/brain/c8839c20-9824-4537-9cd0-866a6ab3e772/ele_gas_turbine_ven_1772499016579.png" }
         ],

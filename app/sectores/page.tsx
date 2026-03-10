@@ -14,7 +14,7 @@ const sectors = [
         title: "Energía y Eléctrico",
         desc: "Componentes para subestaciones y plantas de generación de energía.",
         icon: <Zap className="w-10 h-10" />,
-        image: "/venezuela/WhatsApp Image 2026-02-28 at 16.44.24.jpeg"
+        image: "/images/hero_electrical_1772216413692.png"
     },
     {
         title: "Construcción Pesada",

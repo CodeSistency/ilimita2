@@ -37,7 +37,7 @@ export default function Footer() {
                         <p className="text-slate-400 text-sm leading-relaxed">
                             Anaco, Estado Anzoátegui.<br />
                             Venezuela.<br />
-                            contacto@ilimita2.com
+                            info@ilimita2.com
                         </p>
                     </div>
 

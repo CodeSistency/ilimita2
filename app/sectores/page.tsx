@@ -8,7 +8,7 @@ const sectors = [
         title: "Petróleo y Gas",
         desc: "Suministro crítico para perforación, refinación y transporte de hidrocarburos.",
         icon: <Flame className="w-10 h-10" />,
-        image: "/venezuela/WhatsApp Image 2026-02-28 at 16.44.15.jpeg"
+        image: "/nuevas/petroleoygas.jpeg"
     },
     {
         title: "Petroquímico",

@@ -1,14 +1,20 @@
 "use client"
 
 import Image from "next/image"
-import { Droplet, Flame, Zap, Construction, Globe } from "lucide-react"
+import { Droplet, Flame, Zap, Construction, Globe, FlaskConical } from "lucide-react"
 
 const sectors = [
     {
         title: "Petróleo y Gas",
         desc: "Suministro crítico para perforación, refinación y transporte de hidrocarburos.",
         icon: <Flame className="w-10 h-10" />,
-        image: "/nuevas/sector-petroquimico.jpeg"
+        image: "/venezuela/WhatsApp Image 2026-02-28 at 16.44.15.jpeg"
+    },
+    {
+        title: "Petroquímico",
+        desc: "Equipos y suministros especializados para plantas de transformación química y derivados.",
+        icon: <FlaskConical className="w-10 h-10" />,
+        image: "/nuevas/sector-petroquimico-realista.png"
     },
     {
         title: "Energía y Eléctrico",
@@ -24,9 +30,9 @@ const sectors = [
     },
     {
         title: "Tratamiento de Aguas",
-        desc: "Soluciones de bombeo y purificación para procesos industriales y municipales.",
+        desc: "Tecnología avanzada de nanoburbujas (Nanobuna) para purificación y remediación ambiental.",
         icon: <Droplet className="w-10 h-10" />,
-        image: "/venezuela/WhatsApp Image 2026-02-28 at 16.44.15.jpeg"
+        image: "/nuevas/nanobana-v2.png"
     }
 ]
 
@@ -43,9 +49,9 @@ export default function SectoresPage() {
                     <div className="w-16 h-1.5 bg-orange-500 mx-auto mt-6 rounded-full"></div>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-5">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-4 lg:gap-5">
                     {sectors.map((sector, i) => (
-                        <div key={i} className="group relative h-[280px] overflow-hidden rounded-2xl bg-[#0a2640] shadow-xl transition-[transform,box-shadow] duration-300 hover:-translate-y-1 hover:shadow-orange-500/10 cursor-pointer active:scale-[0.98]">
+                        <div key={i} className={`group relative h-[280px] overflow-hidden rounded-2xl bg-[#0a2640] shadow-xl transition-[transform,box-shadow] duration-300 hover:-translate-y-1 hover:shadow-orange-500/10 cursor-pointer active:scale-[0.98] ${i >= 4 ? 'md:col-span-2 lg:col-start-3 lg:col-span-2' : 'lg:col-span-2'}`}>
                             {/* Bg Image */}
                             <Image src={sector.image} alt={sector.title} fill className="object-cover opacity-40 group-hover:scale-105 transition-transform duration-300 ease-out group-hover:opacity-30" />
 
